@@ -54,7 +54,7 @@
           </div>
         </li>
         <li class="four">
-          <div class="title" data-i18n="Thematic units"></div>
+          <div class="title" data-i18n="Themes"></div>
           <ul>
             <li>
               <a href="/sport-in-multiethnic-city/">

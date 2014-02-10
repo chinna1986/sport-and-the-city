@@ -5,7 +5,7 @@ App.i18n.add_dictionary('ua', {
 	'about-exhibition': 'ПРО ВИСТАВКУ',
 	'SPORT AND CITY'  : 'СПОРТ І МІСТО',
 	'PEOPLE. SOCIETY. IDEOLOGY' : 'ЛЮДИНА. СУСПІЛЬСТВО. ІДЕОЛОГІЯ',
-    'Thematic units':'Тематичні блоки',
+    'Themes':'Тематичні блоки',
     'About Exhibition':'Про Виставку',
 	'Partners':'Партнери',
 	'Authors':'Автори',

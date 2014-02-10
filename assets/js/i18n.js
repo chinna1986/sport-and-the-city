@@ -4,6 +4,7 @@ App.i18n = new function(){
 	var _this = this;
 	var _current;
 	var _dictionaries = {};
+	_this.dictionary = _dictionaries;
 	var _default_lang = 'ua';
 	var _true_lang = ['en', 'ua'];
 
@@ -46,7 +47,7 @@ App.i18n = new function(){
 			if (i18n_src) {
 				$this.html(i18n_src.html());
 			} else if ($this.is('div.title')) {
-				i18n = $('<p></p>').text(i18n);
+				i18n = $('<p></p>').text( $.i18n._(i18n, i18n_params) );
 				$this.html( i18n );
 			} else {
 				var _t = $.i18n._(i18n, i18n_params);
