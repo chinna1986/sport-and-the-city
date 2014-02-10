@@ -4,10 +4,8 @@ App.i18n = new function(){
 	var _this = this;
 	var _current;
 	var _dictionaries = {};
-	_this.dictionary = _dictionaries;
 	var _default_lang = 'ua';
 	var _true_lang = ['en', 'ua'];
-
 
 	_this.init = function () 
 	{
@@ -83,7 +81,7 @@ App.i18n = new function(){
 			language = $.cookie('language');
 		}
 
-		return  language ? language : default_lang;
+		return  language ? language : _default_lang;
 	}
 
 
