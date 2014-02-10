@@ -10,13 +10,15 @@
     <meta name="viewport" content="width=device-width">
     <?php _style(); ?>
   </head>
-  <body data-background="url(/assets/background.jpg)" data-start="-75" data-end="0">
+  <body class="theme-main">
+    <!-- data-background="url(/assets/background.jpg)" data-start="-75" data-end="0" -->
+    
     <?php _header(); ?>
     <div id="content" class="content">
       <ul id="wrapper" class="wrapper">
         <li class="one">
           <div class="title"></div>
-          <!-- <p class="big-title">СПОРТ І МІСТО:<br>ЛЮДИНА. СУСПІЛЬСТВО.<br/> ІДЕОЛОГІЯ.</p> -->
+          
           <div id="index-carousel" class="carousel slide">
           
             <div class="carousel-inner">
@@ -51,25 +53,6 @@
             <a class="carousel-control right" href="#index-carousel" data-slide="next">&rsaquo;</a>
           </div>
         </li>
-        
-<!--        <li class="two">
-          <div class="title"><p>Hello world</p></div>
-          <ul>
-            <li>
-              <a href="/sport-in-multiethnic-city/">
-                <img src="assets/thumbs/thumb-1.jpg">
-                <span data-i18n="Sport in Multiethnic City">Sport in Multiethnic City</span>
-              </a>
-            </li>
-            <li>
-              <a href="/sport-and-of-total-war/">
-                <img src="assets/thumbs/thumb-2.jpg">
-                <span data-i18n="Sport and Total War">Sport and Total War</span>
-              </a>
-            </li>            
-          </ul>
-        </li>
--->
         <li class="four">
           <div class="title" data-i18n="Thematic units"></div>
           <ul>
@@ -99,37 +82,7 @@
             </li>
           </ul>
         </li>
-<!--
-        <li class="four-about">
-          <div class="title"><p>About</p></div>
-          <ul>
-            <li>
-              <a href="/sport-and-the-city-people-society-ideology/">
-                <img src="">
-                <span data-i18n="About Exhibition"></span>
-              </a>
-            </li>
-            <li>
-              <a href="/partners/">
-                <img src="">
-                <span data-i18n="Partners"></span>
-              </a>
-            </li>
-            <li>
-              <a href="/the-exhibition-created-by/">
-                <img src="">
-                <span data-i18n="Authors"></span>
-              </a>
-            </li>
-            <li>
-              <a href="/sport-and-the-city-people-society-ideology/">
-                <img src="">
-                <span data-i18n="Educational Programs"></span>
-              </a>
-            </li>
-           </ul>
-        </li>
--->
+
         <li class="three-about">
           <div class="title"><p>About</p></div>
           <ul>

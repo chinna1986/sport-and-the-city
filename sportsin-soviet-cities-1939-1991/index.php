@@ -28,7 +28,8 @@
 
 
     </head>
-    <body class="bg-red" data-background="url(/assets/background.jpg)" data-start="-75" data-end="0">
+    <body class="bg-red">
+    <!-- <body class="bg-red" data-background="url(/assets/background.jpg)" data-start="-75" data-end="0"> -->
 
     <?php _header(); ?>
       

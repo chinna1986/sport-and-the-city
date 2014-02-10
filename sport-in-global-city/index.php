@@ -13,7 +13,8 @@
     
     <?php _style(); ?>
   </head>
-  <body class="bg-global" data-background="url(/assets/background.jpg)" data-start="-75" data-end="0">
+  <body class="bg-global">
+  <!-- <body class="bg-global" data-background="url(/assets/background.jpg)" data-start="-75" data-end="0"> -->
 
     <?php _header(); ?>
       

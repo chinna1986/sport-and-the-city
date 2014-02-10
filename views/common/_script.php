@@ -10,6 +10,7 @@
 
 <script src="/assets/js/Scroller.js"></script>
 <script src="/assets/js/Playlist.js"></script>
+<script src="/assets/js/Resizer.js"></script>
 <script src="/assets/js/Modal.js"></script>
 <script src="/assets/js/i18n.js"></script>
 <script src="/assets/js/i18n-ua.js"></script>

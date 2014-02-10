@@ -28,8 +28,8 @@
 
 
     </head>
-    <body class="bg-total" data-background="url(/assets/background.jpg)" data-start="-75" data-end="0">
-
+    <body class="bg-total">
+    <!-- <body class="bg-total" data-background="url(/assets/background.jpg)" data-start="-75" data-end="0"> -->
     <?php _header(); ?>
 
     <div id="content" class="content">

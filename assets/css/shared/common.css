@@ -13,7 +13,7 @@ html, body {
   overflow: hidden;
 }
 
-ul,menu,dir,body,div,p {
+ul, menu, dir, body, div, p {
   padding: 0;
   margin: 0;
 }
@@ -26,7 +26,22 @@ a {
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
-  /* No support for these yet, use at own risk */
   -o-user-select: none;
   user-select: none;
 }
+
+.background
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #000 center left;
+}
+
+.h320   .background { background-image: url('/assets/img/main-bg/h320.png');  }
+.h480   .background { background-image: url('/assets/img/main-bg/h480.png');  }
+.h768   .background { background-image: url('/assets/img/main-bg/h768.png');  }
+.h1080  .background { background-image: url('/assets/img/main-bg/h1080.png'); }
+.h1600  .background { background-image: url('/assets/img/main-bg/h1600.png'); }
