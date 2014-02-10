@@ -42,12 +42,14 @@
 #wrapper p.big-title {
 	position: absolute;
 	bottom: 5%;
-	min-width: 40%;
-	padding: 25px;
+	padding: 20px;
+	z-index: 10;
 	background: #11768B;
+	min-width: 10%;
 	font-size: 16px;
+	white-space: nowrap;
 	text-transform: uppercase;
-	z-index: 10
+
 }
 
 /** Common elements in content  **/

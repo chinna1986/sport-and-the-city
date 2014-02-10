@@ -4,8 +4,8 @@ App.i18n = new function(){
 	var _this = this;
 	var _current;
 	var _dictionaries = {};
-	var _default_lang = 'ru';
-	var _true_lang = ['ru', 'en', 'ua'];
+	var _default_lang = 'ua';
+	var _true_lang = ['en', 'ua'];
 
 
 	_this.init = function () 
@@ -49,7 +49,11 @@ App.i18n = new function(){
 				i18n = $('<p></p>').text(i18n);
 				$this.html( i18n );
 			} else {
-				$this._t( i18n, i18n_params );
+				var _t = $.i18n._(i18n, i18n_params);
+				var el = $this.get(0);
+
+				if (el && _t) el.innerText = _t
+				// $this._t( i18n, i18n_params );
 			}
 		});
 	};
