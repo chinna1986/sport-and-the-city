@@ -1,0 +1,98 @@
+<?php if(isset($_GET['lang']) AND $_GET['lang'] == 'en') { ?>
+<h3>Global Sports for a Globalized World</h3>
+
+<div class='colomns'>
+				<div class="text_carousel slide">
+		            <div class="carousel-inner">
+		             	<div class="active item">
+							<img src="/sport-in-global-city/global-sports-for-a-globalized-world/global-sports-for-a-globalized-world/img-1.jpg" alt="img" title=""/>
+				        <p class="big-title"></p>
+		              </div>            
+		            </div>
+				</div>
+	<p>Globalization is a lengthy historical process connected with trade, empires, and colonial systems. Now the globalized world is associated primarily with transnational corporations, easy transfer of capital, use of cheap labor, mass cultural consumption, and the global circulation of products and information.</p>
+	<p>What place does sport occupy in this process? Sport, or, more precisely, everything connected with it — the broadcast of sports tournaments, tickets to international sports events, advertising of sports clubs, sporting goods — is a part of the global entertainment industry.</p>
+	<p>The global market unites the local and the transnational. Sports clubs, who have local attachment to a certain city or country, can become the property of foreign business. For example, Abu Dhabi United Group is the owner of the football (soccer) team «Manchester City,» the Japanese businessman Hiroshi Yamauchi is the owner of the baseball team «Seattle Мariners,» Russian businessman Roman Abramovich owns the football team «Chelsea».</p>
+	
+	<h4>Global Organizers</h4>
+				<div class="text_carousel slide">
+		            <div class="carousel-inner">
+		             	<div class="active item">
+							<img src="/sport-in-global-city/global-sports-for-a-globalized-world/global-sports-for-a-globalized-world/img-2.jpg" alt="img" title=""/>
+				        <p class="big-title"></p>
+		              </div>            
+		            </div>
+				</div>
+	<p>Global sports associations, such as the International Olympic Committee, the Union of European Football Associations (UEFA) and the Fédération Internationale de Football Association (), are registered in Switzerland as nonprofit organizations. But in reality, they can be considered international corporations. These three organizations alone possess a monopoly on the organization of international competitions. They divide profits from advertising and tournament broadcasts. They hold competitions between countries striving to secure the chance to host international sports events. It is precisely these international sports organizations that outline the infrastructural demands for providing stadiums, housing, and transport. And meeting these demands is made possible by investments, or lies squarely on the state budget of the competition’s host country.</p>
+
+	<h4>Athletic patriotism and cosmopolitanism</h4>
+		<div id="index-carousel" class="text_carousel slide">
+            <div class="carousel-inner">
+	              <div class="active item">
+	                <img src="/sport-in-global-city/global-sports-for-a-globalized-world/global-sports-for-a-globalized-world/img-3.jpg" alt="img" title=""/>
+	                <p class="big-title"></p>           
+	              </div>         
+	              <div class="item">
+	              <img src="/sport-in-global-city/global-sports-for-a-globalized-world/global-sports-for-a-globalized-world/img-4.jpg" alt="img" title=""/>
+	                <p class="big-title"></p>
+	              </div>            
+            </div>
+            <a class="carousel-control left" href="#index-carousel" data-slide="prev">&lsaquo;</a>
+            <a class="carousel-control right" href="#index-carousel" data-slide="next">&rsaquo;</a>
+          </div>
+	<p>Despite globalization, football fans root for their favorite team or group, and patriotism is connected with local or national-- and not global--ties. However the transnational and transethnic composition of teams and clubs has become common. Transnationality and transethnicity can join with local attachment to a city or country.</p>
+	<p>Lionel Messi—Argentine football player, forward and symbol of Barcelona’s team. This Catholic team manifests a clear regional attachment, which is in competition with the capital’s Spanish ream «Real Madrid.» Each of the disparate fan communities—Argentine, Catholic, Spanish—considers Messi «their own.»</p>
+
+	
+</div>
+
+
+<?php } else { ?>
+<h3>Глобальний спорт для глобального світу</h3>
+
+<div class='colomns'>
+				<div class="text_carousel slide">
+		            <div class="carousel-inner">
+		             	<div class="active item">
+							<img src="/sport-in-global-city/global-sports-for-a-globalized-world/global-sports-for-a-globalized-world/img-1.jpg" alt="img" title=""/>
+				        <p class="big-title"></p>
+		              </div>            
+		            </div>
+				</div>
+	<p>Глобалізація – тривалий історичний процес, пов’язаний з торгівлею, існуванням імперій та творенням колоніальних систем. Зараз глобальний світ асоціюється насамперед з транснаціональними корпораціями, легким переправлянням капіталу, використанням дешевої робочої сили, масовою культурою споживання, глобальним обігом продукції та інформації.</p>
+	<p>Яке місце в цьому процесі займає спорт? Спорт, а точніше все, що з ним пов’язано: трансляція спортивних турнірів, квитки на міжнародні спортивні зустрічі, рекламна продукція спортивних клубів, спортивні товари – є частиною глобальної розважальної індустрії.</p>
+	<p>Глобальний ринок поєднує локальне і транснаціональне. Спортивні клуби, які мають локальне прив’язання до певного міста чи країни, можуть стати власністю іноземного бізнесу. Наприклад, Abu Dhabi United Group є власником футбольного клубу «Манчестер Сіті» («Manchester City»), японський бізнесмен Хіроші Ямаучі є власником бейсбольної команди «Сієтл Марінерс» («Seattle Мariners»), російський бізнесмен Роман Абрамович володіє «Челсі» («Chelsea»).</p>
+
+		
+	<h4>Глобальні організатори</h4>
+				<div class="text_carousel slide">
+		            <div class="carousel-inner">
+		             	<div class="active item">
+							<img src="/sport-in-global-city/global-sports-for-a-globalized-world/global-sports-for-a-globalized-world/img-2.jpg" alt="img" title=""/>
+				        <p class="big-title"></p>
+		              </div>            
+		            </div>
+				</div>
+	<p>Глобальні спортивні асоціації: Міжнародний олімпійський комітет, Союз європейських футбольних асоціацій (УЄФА) та Міжнародна федерація футболу (ФІФА), зареєстровані у Швейцарії як неприбуткові організації. По суті, їх можна вважати міжнародними корпораціями. Лише цим трьом організаціям належить монополія на організацію міжнародних змагань. Вони розподіляють прибутки від реклами й трансляції турнірів між клубами й національними асоціаціями. Ці організації проводять конкурс між країнами на отримання шансу приймати спортивні турніри. Саме ці міжнародні спортивні організації окреслюють інфраструктурні вимоги щодо забезпечення стадіонів, помешкання, транспортних комунікацій. А їх реалізація може здійснюватися коштом інвестицій чи лягати на державний бюджет країн–господарів турнірів.</p>
+
+	<h4>Спортивний патріотизм та космополітизм</h4>
+			<div id="index-carousel" class="text_carousel slide">
+            <div class="carousel-inner">
+	              <div class="active item">
+	                <img src="/sport-in-global-city/global-sports-for-a-globalized-world/global-sports-for-a-globalized-world/img-3.jpg" alt="img" title=""/>
+	                <p class="big-title"></p>           
+	              </div>         
+	              <div class="item">
+	              <img src="/sport-in-global-city/global-sports-for-a-globalized-world/global-sports-for-a-globalized-world/img-4.jpg" alt="img" title=""/>
+	                <p class="big-title"></p>
+	              </div>            
+            </div>
+            <a class="carousel-control left" href="#index-carousel" data-slide="prev">&lsaquo;</a>
+            <a class="carousel-control right" href="#index-carousel" data-slide="next">&rsaquo;</a>
+          </div>
+	<p>Попри глобалізацію, футбольні фанати вболівають за улюблені клуби чи збірні, а патріотизм прив’язаний до локального та національного, а не глобального. Проте транснаціональний склад клубів і трансетнічні збірні стають звичною справою. У клубах та збірних транснаціональність і трансетнічність поєднуються з локальними прив’язаннями до міста чи країни.</p>
+	<p>Ліонель Мессі – аргентинець, бомбардир і символ ФК «Барселона». Ця каталонська команда виявляє чітке регіональне прив’язання, що конкурує зі столичним іспанським клубом «Реал Мадрид». Кожна із вболівальницьких спільнот – аргентинська, іспанська та каталонська – однаково вважає Мессі за «свого».</p>
+	
+	
+</div>
+<?php } ?>

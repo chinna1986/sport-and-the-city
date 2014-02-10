@@ -1,0 +1,296 @@
+
+{
+    "timeline":
+    {
+        "headline":"Відеогалерея <br> Радянського періоду",
+        "type":"default",
+		"startDate":"1946,1",
+		"text":"Videogallery of the soviet period",
+        "asset":
+                {
+                    "media":"",
+                    "credit":"<div id='1' class='sic_replace_video'></data>",
+                    "caption":""
+        },
+        "date": [
+            {
+                "startDate":"1946,1",
+                "headline":"Відкритий басейн “Динамо”",
+                "text":"Outdoor pool “Dynamo”",
+                "asset":
+                {
+                    "media":"files/1946_1/1946_1-128.jpg",
+                    "credit":"<div id='2' class='sic_replace_video'></data>",
+                    "caption":"",
+                    "alt": ""
+                }
+            },
+
+            {
+                "startDate":"1946,4",
+                "headline":"Майбутні рекордсмени”",
+                "text":"Future champions",
+                "asset":
+                {
+                    "media":"files/1946_4/1946_4-128.jpg",
+                    "credit":"<div id='3' class='sic_replace_video'></data>",
+                    "caption":"",
+                    "alt": ""
+                }
+            },
+            {
+                "startDate":"1947,5",
+                "headline":"Змагання плавців",
+                "text":"Competitions swimmers",
+                "asset":
+                {
+                    "media":"files/1947_5/1947_5-128.jpg",
+                    "credit":"<div id='4' class='sic_replace_video'></data>",
+                    "caption":"",
+                    "alt": ""
+                }
+            },
+            {
+                "startDate":"1947,7",
+                "headline":"Плавці на старті",
+                "text":"Swimmers at the start",
+                "asset":
+                {
+                    "media":"files/1947_7/1947_7-128.jpg",
+                    "credit":"<div id='5' class='sic_replace_video'></data>",
+                    "caption":"",
+                    "alt": ""
+                }
+            },
+            {
+                "startDate":"1951,4",
+                "headline":"На першість союзу",
+                "text":"Championship Union",
+                "asset":
+                {
+                    "media":"files/1951_4/1951_4-128.jpg",
+                    "credit":"<div id='6' class='sic_replace_video'></data>",
+                    "caption":"",
+                    "alt": ""
+                }
+            },
+            {
+                "startDate":"1953,3",
+                "headline":"Республіканські змагання з фехтування",
+                "text":"Republican competitions in fencing",
+                "asset":
+                {
+                    "media":"files/1953_3/1953_3-128.jpg",
+                    "credit":"<div id='7' class='sic_replace_video'></data>",
+                    "caption":"",
+                    "alt": ""
+                }
+            },
+
+            {
+                "startDate":"1953,5",
+                "headline":"Гонка сільських велосипедистів",
+                "text":"Race rural cyclists",
+                "asset":
+                {
+                    "media":"files/1953_5/1953_5-128.jpg",
+                    "credit":"<div id='8' class='sic_replace_video'></data>",
+                    "caption":"",
+                    "alt": ""
+                }
+            },
+            {
+                "startDate":"1953,12",
+                "headline":"На лабораторних заняттях з фізіології спорту",
+                "text":"In laboratory studies of the physiology",
+                "asset":
+                {
+                    "media":"files/1953_12/1953_12-128.jpg",
+                    "credit":"<div id='9' class='sic_replace_video'></data>",
+                    "caption":"",
+                    "alt": ""
+                }
+            },
+            {
+                "startDate":"1956,6",
+                "headline":"Дитячі велоперегони",
+                "text":"Race rural cyclists",
+                "asset":
+                {
+                    "media":"files/1956_6/1956_6-128.jpg",
+                    "credit":"<div id='10' class='sic_replace_video'></data>",
+                    "caption":"",
+                    "alt": ""
+                }
+            },
+            {
+                "startDate":"1959,5",
+                "headline":"В. Чукарін. Старший викладач Львівського інституту фізичної культури",
+                "text":"V. Chukarin. Senior Lecturer at Lviv Institute of Physical Culture",
+                "asset":
+                {
+                    "media":"files/1959_5/1959_5-128.jpg",
+                    "credit":"<div id='11' class='sic_replace_video'></data>",
+                    "caption":"",
+                    "alt": ""
+                }
+            },
+            {
+                "startDate":"1962,2",
+                "headline":"Сюжет про зачинателя лучного спорту в Україні",
+                "text":"The plot of the initiator meadow sports in Ukraine",
+                "asset":
+                {
+                    "media":"files/1962_2/1962_2-128.jpg",
+                    "credit":"<div id='12' class='sic_replace_video'></data>",
+                    "caption":"",
+                    "alt": ""
+                }
+            },
+            {
+                "startDate":"1964,6",
+                "headline":"Чемпіонат світу з мотоспорту",
+                "text":"World Cup of Motorsport",
+                "asset":
+                {
+                    "media":"files/1964_6/1964_6-128.jpg",
+                    "credit":"<div id='13' class='sic_replace_video'></data>",
+                    "caption":"",
+                    "alt": ""
+                }
+            },   
+            {
+                "startDate":"1965,6",
+                "headline":"Заслужений майстер мотоспорту",
+                "text":"Honored Master of Motorcycling",
+                "asset":
+                {
+                    "media":"files/1965_6/1965_6-128.jpg",
+                    "credit":"<div id='14' class='sic_replace_video'></data>",
+                    "caption":"",
+                    "alt": ""
+                }
+            },    
+            {
+                "startDate":"1968,2",
+                "headline":"Відкритий басейн середньої школи №14",
+                "text":"Outdoor pool secondary school № 14",
+                "asset":
+                {
+                    "media":"files/1968_2/1968_2-128.jpg",
+                    "credit":"<div id='15' class='sic_replace_video'></data>",
+                    "caption":"",
+                    "alt": ""
+                }
+            }, 
+            {
+                "startDate":"1968,9",
+                "headline":"Доцент Львівського інституту фізкультури В. Келлер",
+                "text":"Lviv Institute of Physical Education Professor W. Keller",
+                "asset":
+                {
+                    "media":"files/1968_9/1968_9-128.jpg",
+                    "credit":"<div id='16' class='sic_replace_video'></data>",
+                    "caption":"",
+                    "alt": ""
+                }
+            },
+            {
+                "startDate":"1968,12",
+                "headline":"Він ще маленький. Про робота",
+                "text":"It is still small. About robot",
+                "asset":
+                {
+                    "media":"files/1968_12/1968_12-128.jpg",
+                    "credit":"<div id='17' class='sic_replace_video'></data>",
+                    "caption":"",
+                    "alt": ""
+                }
+            },
+            {
+                "startDate":"1969,5",
+                "headline":"Змагання автомобілістів",
+                "text":"Driver competitions",
+                "asset":
+                {
+                    "media":"files/1969_5/1969_5-128.jpg",
+                    "credit":"<div id='18' class='sic_replace_video'></data>",
+                    "caption":"",
+                    "alt": ""
+                }
+            },
+            {
+                "startDate":"1970,6",
+                "headline":"Чемпіонат СРСР з плавання",
+                "text":"USSR Championship in swimming",
+                "asset":
+                {
+                    "media":"files/1970_6/1970_6-128.jpg",
+                    "credit":"<div id='19' class='sic_replace_video'></data>",
+                    "caption":"",
+                    "alt": ""
+                }
+            },
+            {
+                "startDate":"1970,7",
+                "headline":"VІ етап чемпіонату світу з мотокросу",
+                "text":"VI stage of the world motocross championship",
+                "asset":
+                {
+                    "media":"files/1970_7/1970_7-128.jpg",
+                    "credit":"<div id='20' class='sic_replace_video'></data>",
+                    "caption":"",
+                    "alt": ""
+                }
+            },
+            {
+                "startDate":"1973,4",
+                "headline":"Випад, як блискавка",
+                "text":"Lunge like lightning",
+                "asset":
+                {
+                    "media":"files/1973_4/1973_4-128.jpg",
+                    "credit":"<div id='21' class='sic_replace_video'></data>",
+                    "caption":"",
+                    "alt": ""
+                }
+            },
+            {
+                "startDate":"1974,4",
+                "headline":"Тренер",
+                "text":"Trainer",
+                "asset":
+                {
+                    "media":"files/1974_4/1974_4-128.jpg",
+                    "credit":"<div id='22' class='sic_replace_video'></data>",
+                    "caption":"",
+                    "alt": ""
+                }
+            },
+            {
+                "startDate":"1974,7",
+                "headline":"Перші старти",
+                "text":"The first starts",
+                "asset":
+                {
+                    "media":"files/1974_7/1974_7-128.jpg",
+                    "credit":"<div id='23' class='sic_replace_video'></data>",
+                    "caption":"",
+                    "alt": ""
+                }
+            },
+            {
+                "startDate":"1975,4",
+                "headline":"Львівський бокс",
+                "text":"Lviv box",
+                "asset":
+                {
+                    "media":"files/1975_4/1975_4-128.jpg",
+                    "credit":"<div id='24' class='sic_replace_video'></data>",
+                    "caption":"",
+                    "alt": ""
+                }
+            }
+        ]
+    }
+}

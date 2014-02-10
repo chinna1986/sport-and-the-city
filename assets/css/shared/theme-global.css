@@ -1,0 +1,30 @@
+.bg-global #header-languages li {
+	background: #60C2A2;
+}
+
+.bg-global #header-languages li.active, 
+  .bg-global #header-languages li:hover, 
+  .bg-global #header-languages li:active {
+  	background: #2A9471;
+}
+
+.bg-global #content {
+	border-top: 2px solid #60C2A2;
+}
+
+.bg-global #wrapper p.big-title {
+	background: #60C2A2;
+}
+
+.bg-global #wrapper > li li span {
+	background: #60C2A2;
+}
+
+.bg-global #wrapper > li li {
+	background: #60C2A2;
+}
+
+.bg-global #nav-prev,
+  .bg-global #nav-next {
+	background-image: url(/assets/img/global-arrow.png);
+}
