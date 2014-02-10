@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Sub-Main | Sport and city</title>
+        <title>Sub-Main | Sport and the City</title>
         <meta name="description" content="">
         <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -44,70 +44,70 @@
                 <img src="/assets/exhibition-photos/1.jpg" alt="img" title="img"/> 
               </div>
               <div class="item">
-                <img src="/assets/exhibition-photos/2.jpg" alt="img" title="Sport and City"/>
+                <img src="/assets/exhibition-photos/2.jpg" alt="img" title="Sport and the City"/>
               </div>   
               <div class="item">
-                <img src="/assets/exhibition-photos/3.jpg" alt="img" title="Sport and City"/>
+                <img src="/assets/exhibition-photos/3.jpg" alt="img" title="Sport and the City"/>
               </div>   
               <div class="item">
-                <img src="/assets/exhibition-photos/4.jpg" alt="img" title="Sport and City"/>
+                <img src="/assets/exhibition-photos/4.jpg" alt="img" title="Sport and the City"/>
               </div>   
               <div class="item">
-                <img src="/assets/exhibition-photos/5.jpg" alt="img" title="Sport and City"/>
+                <img src="/assets/exhibition-photos/5.jpg" alt="img" title="Sport and the City"/>
               </div>   
               <div class="item">
-                <img src="/assets/exhibition-photos/6.jpg" alt="img" title="Sport and City"/>
+                <img src="/assets/exhibition-photos/6.jpg" alt="img" title="Sport and the City"/>
               </div>   
               <div class="item">
-                <img src="/assets/exhibition-photos/7.jpg" alt="img" title="Sport and City"/>
+                <img src="/assets/exhibition-photos/7.jpg" alt="img" title="Sport and the City"/>
               </div>   
               <div class="item">
-                <img src="/assets/exhibition-photos/8.jpg" alt="img" title="Sport and City"/>
+                <img src="/assets/exhibition-photos/8.jpg" alt="img" title="Sport and the City"/>
               </div>                 
               <div class="item">
-                <img src="/assets/exhibition-photos/9.jpg" alt="img" title="Sport and City"/>
+                <img src="/assets/exhibition-photos/9.jpg" alt="img" title="Sport and the City"/>
               </div>               
               <div class="item">
-                <img src="/assets/exhibition-photos/10.jpg" alt="img" title="Sport and City"/>
+                <img src="/assets/exhibition-photos/10.jpg" alt="img" title="Sport and the City"/>
               </div>   
 
               <div class="item">
-                <img src="/assets/exhibition-photos/11.jpg" alt="img" title="Sport and City"/>
+                <img src="/assets/exhibition-photos/11.jpg" alt="img" title="Sport and the City"/>
               </div>   
 
               <div class="item">
-                <img src="/assets/exhibition-photos/12.jpg" alt="img" title="Sport and City"/>
+                <img src="/assets/exhibition-photos/12.jpg" alt="img" title="Sport and the City"/>
               </div>   
               <div class="item">
-                <img src="/assets/exhibition-photos/13.jpg" alt="img" title="Sport and City"/>
-              </div>   
-
-              <div class="item">
-                <img src="/assets/exhibition-photos/14.jpg" alt="img" title="Sport and City"/>
-              </div>   
-              <div class="item">
-                <img src="/assets/exhibition-photos/15.jpg" alt="img" title="Sport and City"/>
+                <img src="/assets/exhibition-photos/13.jpg" alt="img" title="Sport and the City"/>
               </div>   
 
               <div class="item">
-                <img src="/assets/exhibition-photos/15.jpg" alt="img" title="Sport and City"/>
+                <img src="/assets/exhibition-photos/14.jpg" alt="img" title="Sport and the City"/>
               </div>   
               <div class="item">
-                <img src="/assets/exhibition-photos/16.jpg" alt="img" title="Sport and City"/>
-              </div>   
-
-              <div class="item">
-                <img src="/assets/exhibition-photos/17.jpg" alt="img" title="Sport and City"/>
-              </div>   
-              <div class="item">
-                <img src="/assets/exhibition-photos/18.jpg" alt="img" title="Sport and City"/>
+                <img src="/assets/exhibition-photos/15.jpg" alt="img" title="Sport and the City"/>
               </div>   
 
               <div class="item">
-                <img src="/assets/exhibition-photos/19.jpg" alt="img" title="Sport and City"/>
+                <img src="/assets/exhibition-photos/15.jpg" alt="img" title="Sport and the City"/>
               </div>   
               <div class="item">
-                <img src="/assets/exhibition-photos/20.jpg" alt="img" title="Sport and City"/>
+                <img src="/assets/exhibition-photos/16.jpg" alt="img" title="Sport and the City"/>
+              </div>   
+
+              <div class="item">
+                <img src="/assets/exhibition-photos/17.jpg" alt="img" title="Sport and the City"/>
+              </div>   
+              <div class="item">
+                <img src="/assets/exhibition-photos/18.jpg" alt="img" title="Sport and the City"/>
+              </div>   
+
+              <div class="item">
+                <img src="/assets/exhibition-photos/19.jpg" alt="img" title="Sport and the City"/>
+              </div>   
+              <div class="item">
+                <img src="/assets/exhibition-photos/20.jpg" alt="img" title="Sport and the City"/>
               </div>   
 
 
