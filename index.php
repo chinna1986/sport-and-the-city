@@ -2,12 +2,8 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-  <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Sub-Main | Sport and the City</title>
     <meta name="description" content="">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="viewport" content="width=device-width">
     <?php _style(); ?>
   </head>
   <body class="theme-main">
@@ -122,9 +118,7 @@
       </ul>
     </div>
 
-    <div id="scroller" class="scroller">
-      <div id="scroller-bar"></div>
-    </div>
+    <?php include 'views/common/_scroll.php'; ?>
 
     <?php include 'views/common/_footer.php'; ?>
 
