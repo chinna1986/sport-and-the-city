@@ -1,0 +1,21 @@
+{
+  "name": "lvivcenter-expo.org",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://afedyk@bitbucket.org/afedyk/lvivcenter-expo.git"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "docpad": "~6.63.3",
+    "docpad-plugin-eco": "~2.0.3",
+    "docpad-plugin-php": "~2.0.2",
+    "docpad-plugin-handlebars": "~2.3.0"
+  }
+}
