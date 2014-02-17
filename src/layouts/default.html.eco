@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="<%= @document.language %>">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <title><%= @getPreparedTitle() %></title>
+
+    <!-- Shims: IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]><script async src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+    <%- @getBlock('styles').add(@site.styles).toHTML() %>
+  </head>
+  <body class="theme-main">
+
+    <!-- Background -->
+    <div class="background"></div>
+
+    <!-- Header -->
+    <div id="header" class="header">
+      <ul id="header-languages" data-language="<%=@document.language%>">
+        <li class="<%= 'active' if @document.language is 'en' %>"><a href="<%= @normalizeURL(@document.url, 'en') %>">EN</a>
+        <li class="<%= 'active' if @document.language is 'ua' %>"><a href="<%= @normalizeURL(@document.url, 'ua') %>">UA</a>
+      </ul>
+      <a id="header-title" href="<%= @normalizeURL() %>"><%= @document.SPORT_AND_THE_CITY %></a>
+      <p id="header-subtitle"><%= @document.PEOPLE_SOCIETY_IDEOLOGY %></p>
+    </div>
+
+    <!-- Grid -->
+    <div id="grid-wrapper" class="grid-wrapper">
+      <ul id="grid" class="grid"><%- @content %></ul>
+    </div>
+
+    <!-- Footer -->
+    <div id="footer" class="footer"></div>
+
+    <!-- Nav button -->
+    <div id="nav-prev"></div>
+    <div id="nav-next"></div>
+
+    <!-- Scroller -->
+    <div id="scroller" class="scroller"><div id="scroller-bar"></div></div>
+
+    <!-- Scripts -->
+    <%- @getBlock('scripts').add(['/js/vendor/jquery-2.0.0.js', '/js/vendor/jquery.nicescroll.js']).toHTML() %>
+  </body>
+</html>

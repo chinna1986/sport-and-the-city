@@ -1,9 +1,9 @@
 ---
 title: "Welcome!"
-layout: index
+layout: default
 language: en
 SPORT_AND_THE_CITY: SPORT AND THE CITY
 PEOPLE_SOCIETY_IDEOLOGY: PEOPLE. SOCIETY. IDEOLOGY.
 ---
 
-<p>Welcome to My Website!</p>
+<%- @partial('index') %>

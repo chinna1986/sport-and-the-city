@@ -15,6 +15,6 @@
   "dependencies": {
     "docpad": "~6.63.3",
     "docpad-plugin-eco": "~2.0.3",
-    "docpad-plugin-handlebars": "~2.3.0"
+    "docpad-plugin-partials": "~2.8.1"
   }
 }

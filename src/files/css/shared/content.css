@@ -1,0 +1,221 @@
+#content
+{
+  position: fixed;
+  overflow: hidden;
+  left: 30px;
+  right: 0px;
+  top: 105px;
+  border-top: 2px solid #11768B;
+  border-left: 0px;
+  border-right: 0px;
+  height: 393px;
+}
+
+/*.h320   #content {  top: 105px;  left: 30px;  right: 0px;  height: 393px;  }*/
+/*.h480   #content {  top: 105px;  left: 30px;  right: 0px;  height: 393px;  }*/
+/*.h768   #content {  top: 105px;  left: 30px;  right: 0px;  height: 393px;  }*/
+/*.h1080  #content {  top: 105px;  left: 30px;  right: 0px;  height: 393px;  }*/
+/*.h1600  #content {  top: 105px;  left: 30px;  right: 0px;  height: 393px;  }*/
+
+#wrapper{
+  height: 100%;
+  padding: 0;
+}
+
+#wrapper, #wrapper li{
+  list-style-image: none;
+  list-style: none;
+  height: 100%;
+}
+
+#wrapper > li {
+  float: left;
+}
+
+#wrapper > li {
+  overflow: hidden;
+  position: relative;
+}
+
+#wrapper div.title {
+  height: 40px;
+}
+
+#wrapper div.title p {
+  padding: 12px 0 0 0px; 
+  text-transform: uppercase;
+}
+
+#wrapper p.big-title {
+  position: absolute;
+  bottom: 5%;
+  padding: 20px;
+  z-index: 10;
+  background: #11768B;
+  min-width: 10%;
+  font-size: 16px;
+  white-space: nowrap;
+  text-transform: uppercase;
+
+}
+
+/** Common elements in content  **/
+#wrapper > li li {
+  float: left;
+  overflow: hidden;
+  background: #11768B;
+  position: relative;
+}
+#wrapper > li li span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 7px;
+  background: #11768B;
+  text-transform: uppercase;
+}
+/** End common element in content  **/
+
+#wrapper > li.one {
+  /*width: 560px;*/
+  width: 576px;
+  margin-right: 115px;
+}
+
+#wrapper > li.simple-one {
+  width: 283px;
+  margin-right: 26px; /* 63 - 37 */
+}
+
+#wrapper > li.simple-one li {
+  width: 246px;
+  height: 158px;
+  margin-right: 37px;
+  margin-bottom: 37px;
+}
+
+#wrapper > li.two {
+  width: 283px;
+  margin-right: 26px; /* 63 - 37 */
+}
+
+#wrapper > li.two li {
+  width: 246px;
+  height: 158px;
+  margin-right: 37px;
+  margin-bottom: 37px;
+}
+
+#wrapper > li.three {
+  width: 566px;
+  margin-right: 26px; /* 63 - 37 */
+}
+
+#wrapper > li.three li {
+  width: 246px;
+  height: 158px;
+  margin-right: 37px;
+  margin-bottom: 37px;
+}
+
+#wrapper > li.four {
+  width: 566px;
+  margin-right: 26px; /* 63 - 37 */
+}
+
+#wrapper > li.four li {
+  width: 246px;
+  height: 158px;
+  margin-right: 37px;
+  margin-bottom: 37px;
+}
+
+/*new test bloks About */
+
+#wrapper > li.four-about {
+  width: 527px;
+  margin-right: 26px; /* 63 - 37 */
+  margin-left: 60px;
+
+}
+
+#wrapper > li.four-about li {
+  width: 200px;
+  height: 102px;
+  margin-right: 37px;
+  margin-bottom: 23px;
+  float: left;
+}
+
+
+#wrapper > li.three-about {
+  width: 227px;
+  margin-right: 26px; /* 63 - 37 */
+  margin-left: 60px;
+}
+
+#wrapper > li.three-about li {
+  width: 200px;
+  height: 102px;
+  margin-right: 37px;
+  margin-bottom: 23px;
+}
+
+#wrapper > li.one-about {
+  width: 227px;
+  margin-right: 26px; /* 63 - 37 */
+  margin-left: 60px;
+}
+
+#wrapper > li.one-about li {
+  width: 200px;
+  height: 102px;
+  margin-right: 37px;
+  margin-bottom: 23px;
+}
+
+/* end test about block */
+.keeptogether {
+    display: inline-block;
+    width: 100%;
+ }
+
+.multicol {
+  columns: auto 200px;
+  -moz-columns:200px; /* Firefox */
+  -webkit-columns:200px; /* Safari and Chrome */
+  column-gap:25px;
+  -moz-column-gap:25px; /* Firefox */
+  -webkit-column-gap:25px; /* Safari and Chrome */
+  height: 357px;
+  column-rule: 1px dotted #999999;
+  -moz-column-rule:1px dotted #999999; /* Firefox */
+  -webkit-column-rule:1px dotted #999999; /* Safari and Chrome */
+}
+
+.multicol h3{
+    /*padding-top: 21%;*/
+    font-size: 1.8em;
+    margin-top: 0;
+    margin-bottom: 10px;
+    /* break-after: column;
+   break-before: column; 
+    break-inside: avoid-column; 
+    break-after: avoid-column;*/
+/*    -moz-column-span: 2;*/
+}
+
+.multicol p{
+  line-height: 1.49em;
+/*  break-after: column;*/
+}
+
+.multicol h4 { 
+/*  break-before: column;*/
+  margin-top: 1,8em;
+  margin-bottom: 0;
+/*  -moz-column-span: all;*/
+}
+
+.multicol img { break-after: column;}

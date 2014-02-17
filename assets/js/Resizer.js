@@ -1,8 +1,8 @@
 !function ($) {
   var index;
   var current_class = false;
-  var size_map  = [  320,    480,    768,    1080,    1600];
-  var class_map = ['h320', 'h480', 'h768', 'h1080', 'h1600'];
+  var height_map = [   320,    480,    768,    1080,    1600];
+  var class_map  = ['sh-320', 'sh-480', 'sh-768', 'sh-1080', 'sh-1600'];
 
   function on_resize(event) {
     var height = $( window ).height();
@@ -24,8 +24,8 @@
   function get_class_by_height(height) {
     var new_class = '';
 
-    for (index = size_map.length - 1; index >= 0; index--) {
-      if (height <= size_map[index]) 
+    for (index = height_map.length - 1; index >= 0; index--) {
+      if (height <= height_map[index]) 
         new_class = class_map[index];
     };
 

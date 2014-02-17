@@ -1,0 +1,31 @@
+<li class="gr-box">
+  remove this text please
+</li>
+
+<li class="gr-box">
+
+  <div class="gr-item half">
+    <img src="/img/thumbs/thumb-1.jpg" alt="Thumb 1" />
+    <div class="desc">Sport in Multiethnic City</div>
+    <a href="#"></a>
+  </div>
+
+  <div class="gr-item half">
+    <img src="/img/thumbs/thumb-2.jpg" alt="Thumb 2" />
+    <div class="desc">Sport and Total War</div>
+    <a href="#"></a>
+  </div>
+
+  <div class="gr-item half eol">
+    <img src="/img/thumbs/thumb-3.jpg" alt="Thumb 3" />
+    <div class="desc">Sport in Soviet City</div>
+    <a href="#"></a>
+  </div>
+
+  <div class="gr-item half">
+    <img src="/img/thumbs/thumb-4.jpg" alt="Thumb 4" />
+    <div class="desc">Sport in Global City</div>
+    <a href="#"></a>
+  </div>
+
+</li>
