@@ -10,6 +10,15 @@ var docpadInstanceConfiguration = {
         'http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,cyrillic',
         '/css/default.css',
         '/css/magnific-popup.css',
+      ],
+
+      scripts: [
+        '/js/vendor/jquery-2.0.0.js',
+        '/js/vendor/jquery.nicescroll.js',
+        '/js/lib/util.js',
+        '/js/lib/resizer.js',
+        '/js/lib/scroller.js',
+        '/js/app.js'
       ]
     },
 

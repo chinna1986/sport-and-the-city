@@ -6,6 +6,13 @@
   padding: 0 40px 20px;
 }
 
+.grid-scroll-wrapper
+{
+  overflow: hidden;
+  display: block;
+  padding-bottom: 15px;
+}
+
 /* Custom value to supporting resizing */
 .sh-320  .grid-wrapper {}
 .sh-480  .grid-wrapper {}
@@ -22,7 +29,10 @@
 
 .gr-box
 {
-  display: inline-block;
+  display: block;
+  float: left;
+  padding: 0px;
+  padding-top: 40px;
 }
 
 .gr-item
@@ -59,12 +69,16 @@
   text-transform: uppercase;
 }
 
+.gr-item.large
+{
+  width: 651px;
+  height: 400px;
+}
+
 .gr-item.half
 {
   width: 250px;
   height: 200px;
-  margin-bottom: 10px;
-  margin-right: 10px;
 }
 
 .gr-item.eol

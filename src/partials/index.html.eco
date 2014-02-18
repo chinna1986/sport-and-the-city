@@ -1,6 +1,34 @@
 <li class="gr-box">
-  remove this text please
+  <div class="gr-item large">
+    <img src="/img/titles/title.jpg" />
+  </div>
 </li>
+
+<li class="gr-box">
+  <div class="gr-item large">
+    <img src="/img/titles/title.jpg" />
+  </div>
+</li>
+
+<li class="gr-box">
+  <div class="gr-item large">
+    <img src="/img/titles/title.jpg" />
+  </div>
+</li>
+
+<li class="gr-box">
+  <div class="gr-item large">
+    <img src="/img/titles/title.jpg" />
+  </div>
+</li>
+
+<li class="gr-box">
+  <div class="gr-item large">
+    <img src="/img/titles/title.jpg" />
+  </div>
+</li>
+
+
 
 <li class="gr-box">
 

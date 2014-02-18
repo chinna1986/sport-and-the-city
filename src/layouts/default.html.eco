@@ -29,20 +29,16 @@
 
     <!-- Grid -->
     <div id="grid-wrapper" class="grid-wrapper">
-      <ul id="grid" class="grid"><%- @content %></ul>
+      <div id="grid-scroll-wrapper" class="grid-scroll-wrapper">
+        <ul id="grid" class="grid"><%- @content %></ul>
+      </div>
     </div>
-
-    <!-- Footer -->
-    <div id="footer" class="footer"></div>
 
     <!-- Nav button -->
     <div id="nav-prev"></div>
     <div id="nav-next"></div>
 
-    <!-- Scroller -->
-    <div id="scroller" class="scroller"><div id="scroller-bar"></div></div>
-
     <!-- Scripts -->
-    <%- @getBlock('scripts').add(['/js/vendor/jquery-2.0.0.js', '/js/vendor/jquery.nicescroll.js']).toHTML() %>
+    <%- @getBlock('scripts').add(@site.scripts).toHTML() %>
   </body>
 </html>

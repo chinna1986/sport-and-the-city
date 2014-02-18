@@ -1,3 +1,8 @@
+/*!
+ * Horizontal media resizer
+ * 
+ */
+
 !function ($) {
   var index;
   var current_class = false;
