@@ -14,7 +14,7 @@
 }
 
 /* Custom value to supporting resizing */
-.sh-320  .grid-wrapper {}
+.sh-320  .grid-wrapper { top: 50px; padding-left: 15px; padding-right: 15px; }
 .sh-480  .grid-wrapper {}
 .sh-768  .grid-wrapper {}
 .sh-1080 .grid-wrapper {}

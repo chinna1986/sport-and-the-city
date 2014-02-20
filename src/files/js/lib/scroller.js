@@ -1,9 +1,14 @@
+"use strict";
+
 function updateGridWidth () {
   var $grid = jQuery(Util.ge('grid'));
   var $gridItems = $grid.children();
   var gridWidth = 0;
 
-  $gridItems.each(function (index, el) { gridWidth += Util.width(el) });
+  $gridItems.each(function (index, el) { 
+    gridWidth += Util.width(el);
+    console.log(el);
+  });
 
   $grid.css({ 'width' : ''+gridWidth+'px' });
 }
