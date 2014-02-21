@@ -4,6 +4,15 @@ layout: default
 language: ua
 SPORT_AND_THE_CITY: SPORT AND THE CITY
 PEOPLE_SOCIETY_IDEOLOGY: ЛЮДИНА. СУСПІЛЬСТВО. ІДЕОЛОГІЯ.
+Sport_In_Multiethnic_City: Спорт у багатоетнічному місті
+Sport_and_Total_War: Спорт і тотальна війна
+Sport_in_Soviet_City: Спорт у рядянському місті
+Sport_in_Global_City: Спорт у глобальному місті
+Themes: Тематичні блоки
+About_Exhibition: Про виставку
+Partners: Партнери
+Authors: Автори
+Educational_Programs: Освітні програми
 ---
 
 <%- @partial('index') %>

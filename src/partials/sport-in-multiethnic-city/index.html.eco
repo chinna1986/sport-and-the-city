@@ -1,0 +1,100 @@
+<!-- Big slider -->
+<li class="gr-box">
+  <div class="rg-label"><%= @document.Sport_In_Multiethnic_City or 'SPORT IN MULTIETHNIC CITY' %></div>
+
+  <div class="gr-item large">
+    <img src="/img/multiethnic-city/title.jpg" />
+  </div>
+</li>
+<!-- END Big slider -->
+
+<!-- Main menu blocks -->
+<li class="gr-box">
+  <div class="gr-title"><%= @document.Origins_of_Modern_Sport or 'Origins of Modern Sport' %></div>
+
+  <div class="gr-item half">
+    <img src="/img/multiethnic-city/thumb-1.jpg" alt="Thumb 1" />
+    <div class="desc"><%= @document.Industrialization_and_Modernization or "Industrialization and Modernization" %></div>
+    <a href="<%= @normalizeURL('/sport-in-multiethnic-city/') %>"></a>
+  </div>
+
+  <div class="gr-item half">
+    <img src="/img/multiethnic-city/thumb-2.jpg" alt="Thumb 2" />
+    <div class="desc"><%= @document['«British Beginnings» of Sports'] or '«British Beginnings» of Sports' %></div>
+    <a href="<%= @normalizeURL('/sport-and-of-total-war/') %>"></a>
+  </div>
+
+  <div class="gr-item half eol">
+    <img src="/img/multiethnic-city/thumb-3.jpg" alt="Thumb 3" />
+    <div class="desc"><%= @document['In Search of Moral, Physical, Political and Social Health for the Community'] or 'In Search of Moral, Physical, Political and Social Health for the Community' %></div>
+    <a href="<%= @normalizeURL('/sport-in-soviet-cities-1939-1991/') %>"></a>
+  </div>
+
+</li>
+<!-- END Main menu blocks -->
+
+<!-- Sokil Movement blocks -->
+<li class="gr-box">
+  <div class="gr-title"><%= @document.Sokil_Movement or 'Sokil Movement' %></div>
+
+  <div class="gr-item half">
+    <img src="/img/multiethnic-city/thumb-4.jpg" alt="<%= @document.The_Sokol_Societies or "The Sokol Societies" %>" />
+    <div class="desc"><%= @document.The_Sokol_Societies or "The Sokol Societies" %></div>
+    <a href="<%= @normalizeURL('/sport-in-multiethnic-city/') %>"></a>
+  </div>
+
+  <div class="gr-item half">
+    <img src="/img/multiethnic-city/thumb-5.jpg" alt="<%= @document['«Zdvyh and Zlot: Mass Rituals in Urban Public Space'] or '«Zdvyh and Zlot: Mass Rituals in Urban Public Space' %>" />
+    <div class="desc"><%= @document['«Zdvyh and Zlot: Mass Rituals in Urban Public Space'] or '«Zdvyh and Zlot: Mass Rituals in Urban Public Space' %></div>
+    <a href="<%= @normalizeURL('/sport-and-of-total-war/') %>"></a>
+  </div>
+
+  <div class="gr-item half eol">
+    <img src="/img/multiethnic-city/thumb-6.jpg" alt="<%= @document.Ivan_Boberskyi or 'Ivan Boberskyi' %>" />
+    <div class="desc"><%= @document.Ivan_Boberskyi or 'Ivan Boberskyi' %></div>
+    <a href="<%= @normalizeURL('/sport-in-soviet-cities-1939-1991/') %>"></a>
+  </div>
+
+</li>
+<!-- END Sokil Movement blocks -->
+
+
+<!-- Football blocks -->
+<li class="gr-box">
+  <div class="gr-title"><%= @document.Football or 'Football' %></div>
+
+  <div class="gr-item half">
+    <img src="/img/multiethnic-city/thumb-7.jpg" alt="<%= @document.The_Sokol_Societies or "The Sokol Societies" %>" />
+    <div class="desc"><%= @document['Lviv Football: Between the Local and the National'] or "Lviv Football: Between the Local and the National" %></div>
+    <a href="<%= @normalizeURL('/sport-in-multiethnic-city/') %>"></a>
+  </div>
+
+  <div class="gr-item half eol">
+    <img src="/img/multiethnic-city/thumb-8.jpg" alt="<%= @document['«Zdvyh and Zlot: Mass Rituals in Urban Public Space'] or '«Zdvyh and Zlot: Mass Rituals in Urban Public Space' %>" />
+    <div class="desc"><%= @document['The Universal Athlete'] or 'The Universal Athlete' %></div>
+    <a href="<%= @normalizeURL('/sport-and-of-total-war/') %>"></a>
+  </div>
+
+</li>
+<!-- END Football blocks -->
+
+
+<!-- Mass Audience blocks -->
+<li class="gr-box">
+  <div class="gr-title"><%= @document.Mass_Audience or 'Mass Audience' %></div>
+
+  <div class="gr-item half">
+    <img src="/img/multiethnic-city/thumb-9.jpg" alt="<%= @document.The_Sokol_Societies or "The Sokol Societies" %>" />
+    <div class="desc"><%= @document['Sports and the Mass Audience'] or "Sports and the Mass Audience" %></div>
+    <a href="<%= '#' %>"></a>
+  </div>
+
+  <div class="gr-item half eol">
+    <img src="/img/multiethnic-city/thumb-10.jpg" alt="<%= @document['«Zdvyh and Zlot: Mass Rituals in Urban Public Space'] or '«Zdvyh and Zlot: Mass Rituals in Urban Public Space' %>" />
+    <div class="desc"><%= @document['The Sports and media complex'] or 'The Sports and media complex' %></div>
+    <a href="<%= '#' %>"></a>
+  </div>
+
+</li>
+<!-- END Mass Audience blocks -->
+

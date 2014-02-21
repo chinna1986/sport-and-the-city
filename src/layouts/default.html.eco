@@ -23,7 +23,7 @@
         <li class="<%= 'active' if @document.language is 'en' %>"><a href="<%= @normalizeURL(@document.url, 'en') %>">EN</a>
         <li class="<%= 'active' if @document.language is 'ua' %>"><a href="<%= @normalizeURL(@document.url, 'ua') %>">UA</a>
       </ul>
-      <a id="header-title" href="<%= @normalizeURL() %>"><%= @document.SPORT_AND_THE_CITY %></a>
+      <a id="header-title" href="<%= @normalizeURL('/index.html') %>"><%= @document.SPORT_AND_THE_CITY %></a>
       <p id="header-subtitle"><%= @document.PEOPLE_SOCIETY_IDEOLOGY %></p>
     </div>
 

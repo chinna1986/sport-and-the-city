@@ -29,10 +29,30 @@
 
 .gr-box
 {
+  position: relative;
   display: block;
   float: left;
   padding: 0px;
   padding-top: 40px;
+}
+
+.gr-title
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  padding: 10px 0px 0px 0px;
+}
+
+.rg-label
+{
+  position: absolute;
+  bottom: 50px;
+  left: 0px;
+  display: block;
+  padding: 10px 0px 0px 0px;
+  z-index: 11;
 }
 
 .gr-item
@@ -67,6 +87,7 @@
   padding: 7px;
   background: #11768B;
   text-transform: uppercase;
+  white-space: normal;
 }
 
 .gr-item.large
@@ -79,6 +100,12 @@
 {
   width: 250px;
   height: 200px;
+}
+
+.gr-item.third
+{
+  width: 216px;
+  height: 133px;
 }
 
 .gr-item.eol

@@ -1,0 +1,7 @@
+---
+title: "СПОРТ У БАГАТОЕТНІЧНОМУ МІСТІ"
+layout: defaul
+language: ua
+---
+
+<%- @partial('sport-in-multiethnic-city/index') %>

@@ -12,6 +12,7 @@
     <?php _header(); ?>
     <div id="content" class="content">
       <ul id="wrapper" class="wrapper">
+        
         <li class="one">
           <div class="title"></div>
           
@@ -49,6 +50,8 @@
             <a class="carousel-control right" href="#index-carousel" data-slide="next">&rsaquo;</a>
           </div>
         </li>
+        
+        
         <li class="four">
           <div class="title" data-i18n="Themes"></div>
           <ul>
