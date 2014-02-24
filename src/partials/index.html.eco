@@ -12,19 +12,19 @@
 <li class="gr-box">
   <div class="gr-title"><%= @document.Themes or 'Themes' %></div>
 
-  <div class="gr-item half">
+  <div class="gr-item half space-right space-bottom no-space-bottom-320">
     <img src="/img/thumbs/thumb-1.jpg" alt="Thumb 1" />
     <div class="desc"><%= @document.Sport_In_Multiethnic_City or "Sport in Multiethnic City" %></div>
     <a href="<%= @normalizeURL('/sport-in-multiethnic-city/') %>"></a>
   </div>
 
-  <div class="gr-item half">
+  <div class="gr-item half space-bottom space-right-320 no-space-bottom-320">
     <img src="/img/thumbs/thumb-2.jpg" alt="Thumb 2" />
     <div class="desc"><%= @document.Sport_and_Total_War or 'Sport and Total War' %></div>
     <a href="<%= @normalizeURL('/sport-and-of-total-war/') %>"></a>
   </div>
 
-  <div class="gr-item half eol">
+  <div class="gr-item half eol no-eol-320 space-right">
     <img src="/img/thumbs/thumb-3.jpg" alt="Thumb 3" />
     <div class="desc"><%= @document.Sport_in_Soviet_City or 'Sport in Soviet City' %></div>
     <a href="<%= @normalizeURL('/sport-in-soviet-cities-1939-1991/') %>"></a>
@@ -43,22 +43,22 @@
 <li class="gr-box">
   <div class="gr-title"><%= @document.About or 'About' %></div>
 
-  <div class="gr-item third">
+  <div class="gr-item third space-right">
     <div class="desc"><%= @document.About_Exhibition or 'About Exhibition' %></div>
     <img src="/img/titles/title.jpg" />
   </div>
 
-  <div class="gr-item third">
+  <div class="gr-item third space-bottom no-space-bottom-320 space-right-320">
     <div class="desc"><%= @document.Educational_Programs or 'Educational Programs' %></div>
     <img src="/img/titles/title.jpg" />
   </div>
 
-  <div class="gr-item third eol">
+  <div class="gr-item third eol no-eol-320 space-bottom space-right-320">
     <div class="desc"><%= @document.Partners or 'Partners' %></div>
     <img src="/img/titles/title.jpg" />
   </div>
 
-  <div class="gr-item third eol">
+  <div class="gr-item third eol no-eol-320">
     <div class="desc"><%= @document.Authors or 'Authors' %></div>
     <img src="/img/titles/title.jpg" />
   </div>

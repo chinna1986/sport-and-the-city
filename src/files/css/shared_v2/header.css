@@ -38,6 +38,7 @@
   font-size: 12px;
   font-weight: 700;
   color: #fff;
+  text-decoration: none;
 }
 
 .sh-320   #header-subtitle {  font-size: 12px; display: inline-block; }

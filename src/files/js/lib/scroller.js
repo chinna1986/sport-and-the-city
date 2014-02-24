@@ -1,19 +1,22 @@
-"use strict";
-
-function updateGridWidth () {
-  var $grid = jQuery(Util.ge('grid'));
-  var $gridItems = $grid.children();
+function updateGridWidth() {
+  var $$grid = Util.ge('grid');
+  var $$gridChildren = $$grid.children;
   var gridWidth = 0;
 
-  $gridItems.each(function (index, el) { 
-    gridWidth += Util.width(el);
-    console.log(el);
+  Util.each($$gridChildren, function (index, el) { 
+    gridWidth += $(el).outerWidth(); 
+    // console.log('document.documentElement.className', document.documentElement.className);
+    // console.log('$(el).outerWidth()',  $(el).get(0), $(el).outerWidth());
+    // if (index == 1) {
+      // Util.each(el.children, function (i, vv) {
+        // console.log(vv, $(vv).outerWidth() );
+      // })
+    // }
   });
-
-  $grid.css({ 'width' : ''+gridWidth+'px' });
+  $$grid.style.width = gridWidth+'px';
 }
 
-function updateGridScroll() {
+function initNiceScroll () {
   jQuery( Util.ge('grid-scroll-wrapper') ).niceScroll({
     cursorcolor: '#aaaaaa',
     cursorborder: '0px',
@@ -24,7 +27,14 @@ function updateGridScroll() {
   });
 }
 
+function handleGridWidth () {
+  if (window.gridWidthTimeoutId) clearTimeout(window.gridWidthTimeoutId);
+  gridWidthTimeoutId = setTimeout(updateGridWidth, 40);
+  return ;
+}
+
 $.fn.scroller = function () {
   updateGridWidth();
-  updateGridScroll();
+  initNiceScroll();
+  jQuery(window).on('resize', handleGridWidth).trigger('resize');
 };

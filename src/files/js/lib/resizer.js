@@ -7,9 +7,16 @@
 var heightMap = [320, 480, 768, 1080, 1600];
 var classMap = jQuery.map(heightMap, function (value) { return "sh-" + value; });
 var currentClass = false;
+var timeOutId = false;
 var index;
 
 function onResizeHandler(event) {
+  if (timeOutId) clearTimeout(timeOutId);
+  setTimeout(onResize, 30);
+  jQuery( document.documentElement ).addClass(appConfig.resizeStateClass);
+}
+
+function onResize(event) {
   var windowHeight = $( window ).height(),
       newClass = getClassByHeight(windowHeight);
 
@@ -21,6 +28,8 @@ function onResizeHandler(event) {
     currentClass = newClass;
     $(document.documentElement).addClass(newClass);
   }
+
+  jQuery( document.documentElement ).removeClass(appConfig.resizeStateClass);
 
   return true;
 }
@@ -39,7 +48,9 @@ function getClassByHeight(height) {
 }
 
 jQuery.fn.resizer = function () {
-  return $(window).on('resize', onResizeHandler).trigger('resize');
+  onResize();
+  $(window).on('resize', onResizeHandler);
+  return ;
 }
 
 } (jQuery);
