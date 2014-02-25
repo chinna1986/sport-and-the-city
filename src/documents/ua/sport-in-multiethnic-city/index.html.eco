@@ -1,7 +1,27 @@
 ---
 title: "СПОРТ У БАГАТОЕТНІЧНОМУ МІСТІ"
 layout: defaul
+theme: khaki-theme
 language: ua
+SPORT_AND_THE_CITY: SPORT AND THE CITY
+PEOPLE_SOCIETY_IDEOLOGY: ЛЮДИНА. СУСПІЛЬСТВО. ІДЕОЛОГІЯ.
+Sport_In_Multiethnic_City: СПОРТ У  БАГАТОЕТНІЧНОМУ МІСТІ
+header_title_text: 'Дім: Століття змін'
+Origins_of_Modern_Sport: 'ПІДВАЛИНИ МОДЕРНОГО СПОРТУ'
+Industrialization_and_Modernization: 'Індустріалізація і модернізація'
+'«British Beginnings» of Sports': '«Британські початки» спорту'
+'In Search of Moral, Physical, Political and Social Health for the Community': 'Гімнастичний рух'
+Sokil_Movement: '«CОКОЛИ»'
+The_Sokol_Societies: '«Cоколи»'
+'«Zdvyh and Zlot: Mass Rituals in Urban Public Space': 'Здвиги і злети: масові ритуали у публічному просторі міста'
+Ivan_Boberskyi: 'Іван Боберський'
+Football: 'ФУТБОЛ'
+The_Sokol_Societies: 'The Sokol Societies'
+'Lviv Football: Between the Local and the National': 'Львівський футбол: між локальним і національним'
+'The Universal Athlete': 'Універсальний спортсмен'
+Mass_Audience: 'МАСОВА АУДИТОРІЯ'
+'Sports and the Mass Audience': 'Спорт та масова аудиторія'
+'The Sports and media complex': 'Спортивно-медійний комплекс'
 ---
 
 <%- @partial('sport-in-multiethnic-city/index') %>

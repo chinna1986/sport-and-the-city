@@ -1,9 +1,27 @@
 ---
-title: "Welcome!"
+title: "SPORT IN MULTIETHNIC CITY"
 layout: defaul
+theme: khaki-theme
 language: en
-SPORT_AND_THE_CITY: SPORT AND THE CITY
-PEOPLE_SOCIETY_IDEOLOGY: PEOPLE. SOCIETY. IDEOLOGY.
+SPORT_AND_THE_CITY: 'SPORT AND THE CITY'
+PEOPLE_SOCIETY_IDEOLOGY: 'PEOPLE. SOCIETY. IDEOLOGY.'
+header_title_text: 'This part of the exhibition focuses on how modern sports was born in Europe, made its way to Galicia and Lviv, and how the first Ukrainian, Polish and Jewish sports societies and clubs arose. It tells of the emergence of a mass sports audience, and the onstruction of new sports objects in the cityscape.'
+Sport_In_Multiethnic_City: 'SPORT IN MULTIETHNIC CITY'
+Origins_of_Modern_Sport: 'Origins of Modern Sport'
+Industrialization_and_Modernization: 'Industrialization and Modernization'
+'«British Beginnings» of Sports': '«British Beginnings» of Sports'
+'In Search of Moral, Physical, Political and Social Health for the Community': 'In Search of Moral, Physical, Political and Social Health for the Community'
+Sokil_Movement: 'Sokil Movement'
+The_Sokol_Societies: 'The Sokol Societies'
+'«Zdvyh and Zlot: Mass Rituals in Urban Public Space': '«Zdvyh and Zlot: Mass Rituals in Urban Public Space'
+Ivan_Boberskyi: 'Ivan Boberskyi'
+Football: 'Football'
+The_Sokol_Societies: 'The Sokol Societies'
+'Lviv Football: Between the Local and the National': 'Lviv Football: Between the Local and the National'
+'The Universal Athlete': 'The Universal Athlete'
+Mass_Audience: 'Mass Audience'
+'Sports and the Mass Audience': 'Sports and the Mass Audience'
+'The Sports and media complex': 'The Sports and media complex'
 ---
 
 <%- @partial('sport-in-multiethnic-city/index') %>

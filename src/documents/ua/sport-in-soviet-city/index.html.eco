@@ -1,0 +1,29 @@
+---
+title: "Спорт у рядянському місті. 1939-1991"
+layout: defaul
+theme: red-theme
+language: ua
+SPORT_AND_THE_CITY: SPORT AND THE CITY
+PEOPLE_SOCIETY_IDEOLOGY: 'ЛЮДИНА. СУСПІЛЬСТВО. ІДЕОЛОГІЯ.'
+
+SPORT_IN_SOVIET_CITY: 'СПОРТ У РЯДЯНСЬКОМУ МІСТІ. 1939-1991'
+'FITNESS, OR PHYSICAL CULTURE': 'ФІЗКУЛЬТУРА'	
+'Fitness, or Physical Culture: Sport for Everyone, and for Society': 'Фізкультура: спорт для кожного і для суспільства'
+'Fitness, or Physical Culture': 'Фізкультура: спорт для кожного і для суспільства'
+'Sport as Decoration': 'Спорт як декорація'
+'Constructing the Urban Sport Infrastructure': 'Облаштування міської спортивної інфраструктури'
+'WHO’S WHO IN SOVIET SPORTS': 'ХТО Є ХТО В РАДЯНСЬКОМУ СПОРТІ'
+'Who’s Who in Soviet Sports: The System of Sports Associations': 'Хто є хто в радянському спорті: система спортивних товариств'
+'«Dynamo» (Kyiv) – «Spartak» (Moscow): Rivalry and Fans': '«Динамо» (Київ) – «Спартак» (Москва): суперництво та вболівальники'
+'«Karpaty» and the USSR Cup': '«Карпати» і Кубок СРСР'
+'SOCIAL STATUS OF THE SOVIET ATHLETE': 'СОЦІАЛЬНИЙ СТАТУС РАДЯНСЬКОГО СПОРТСМЕНА'
+'Social Status of the Soviet Athlete': 'СОЦІАЛЬНИЙ СТАТУС РАДЯНСЬКОГО СПОРТСМЕНА'
+'Sport in the Camps: Escape from War': 'Sport in the Camps: Escape from War'
+'«Viktor Chukarin: The Image Concealing Reality': 'Віктор Чукарін: образ, що затінює реальність'
+'COLD WAR: POLARIZATION AND GLOBALIZATION': 'ХОЛОДНА ВІЙНА: ПОЛЯРИЗАЦІЯ І ГЛОБАЛІЗАЦІЯ'
+'Cold War: Polarization and Globalization': 'ХОЛОДНА ВІЙНА: ПОЛЯРИЗАЦІЯ І ГЛОБАЛІЗАЦІЯ'
+'USSR: «Begins and Wins»': 'СРСР: «починає і виграє...» '
+'VIDEO GALLERY': 'ВІДЕО ГАЛЕРЕЯ'
+---
+
+<%- @partial('sport-in-soviet-city/index') %>

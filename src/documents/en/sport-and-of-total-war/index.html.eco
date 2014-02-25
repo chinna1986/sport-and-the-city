@@ -1,9 +1,17 @@
 ---
-title: "Welcome!"
+title: "Sport and total war"
 layout: defaul
+theme: greey-theme
 language: en
 SPORT_AND_THE_CITY: SPORT AND THE CITY
 PEOPLE_SOCIETY_IDEOLOGY: PEOPLE. SOCIETY. IDEOLOGY.
+
+SPORT_AND_TOTAL_WAR: SPORT AND TOTAL WAR
+'Great War: 1914-1918': 'Great War: 1914-1918'
+'Sport and the Great War': 'Sport and the Great War'
+'SECOND WORLD WAR': 'SECOND WORLD WAR'
+'Sport and the Second World War': 'Sport and the Second World War'
+'Sport in the Camps: Escape from War': 'Sport in the Camps: Escape from War'
 ---
 
 <%- @partial('sport-and-of-total-war/index') %>

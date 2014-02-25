@@ -40,8 +40,6 @@ var docpadInstanceConfiguration = {
 
       _url = '/' + _language + _path;
 
-      console.log('[normalizeURL]', _url);
-
       return _url;
     }
   },

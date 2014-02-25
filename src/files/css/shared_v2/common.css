@@ -42,9 +42,9 @@ a {
   left: 0;
   height: 100%;
   width: 100%;
-  background: #000 center left;
+  background-color: #000;
   background-repeat: repeat-x;
-  background-position: center right;
+  background-position: top right;
 }
 
 .sh-320   .background { background-image: url('/img/main-bg/h320.png');  }

@@ -1,0 +1,28 @@
+---
+title: "Sport in soviet city 1939-1991"
+layout: defaul
+theme: red-theme
+language: en
+SPORT_AND_THE_CITY: 1SPORT AND THE CITY
+PEOPLE_SOCIETY_IDEOLOGY: PEOPLE. SOCIETY. IDEOLOGY.
+
+SPORT_IN_SOVIET_CITY: SPORT IN SOVIET CITY 1939-1991
+'FITNESS, OR PHYSICAL CULTURE': 'FITNESS, OR PHYSICAL CULTURE'
+'Fitness, or Physical Culture: Sport for Everyone, and for Society': 'Fitness, or Physical Culture: Sport for Everyone, and for Society'
+'Sport as Decoration': 'Sport as Decoration'
+'Constructing the Urban Sport Infrastructure': 'Constructing the Urban Sport Infrastructure'
+'WHO’S WHO IN SOVIET SPORTS': 'WHO’S WHO IN SOVIET SPORTS'
+'Who’s Who in Soviet Sports: The System of Sports Associations': 'Who’s Who in Soviet Sports: The System of Sports Associations'
+'«Dynamo» (Kyiv) – «Spartak» (Moscow): Rivalry and Fans': '«Dynamo» (Kyiv) – «Spartak» (Moscow): Rivalry and Fans'
+'«Karpaty» and the USSR Cup': '«Karpaty» and the USSR Cup'
+'SOCIAL STATUS OF THE SOVIET ATHLETE': 'SOCIAL STATUS OF THE SOVIET ATHLETE'
+'Social Status of the Soviet Athlete': 'Social Status of the Soviet Athlete'
+'Sport in the Camps: Escape from War': 'Sport in the Camps: Escape from War'
+'«Viktor Chukarin: The Image Concealing Reality': '«Viktor Chukarin: The Image Concealing Reality'
+'COLD WAR: POLARIZATION AND GLOBALIZATION': 'COLD WAR: POLARIZATION AND GLOBALIZATION'
+'Cold War: Polarization and Globalization': 'Cold War: Polarization and Globalization'
+'USSR: «Begins and Wins»': 'USSR: «Begins and Wins»'
+'VIDEO GALLERY': 'VIDEO GALLERY'
+---
+
+<%- @partial('sport-in-soviet-city/index') %>

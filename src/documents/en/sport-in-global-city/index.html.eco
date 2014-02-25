@@ -1,9 +1,23 @@
 ---
 title: "Welcome!"
 layout: defaul
+theme: green-theme
 language: en
 SPORT_AND_THE_CITY: SPORT AND THE CITY
 PEOPLE_SOCIETY_IDEOLOGY: PEOPLE. SOCIETY. IDEOLOGY.
+
+'SPORT IN GLOBAL CITY': 'SPORT IN GLOBAL CITY'
+'GLOBAL SPORTS FOR A GLOBALIZED WORLD': 'GLOBAL SPORTS FOR A GLOBALIZED WORLD'
+'Global Sports for a Globalized World': 'Global Sports for a Globalized World'
+'Hopes and Achievements: Can Sport Change the World?': 'Hopes and Achievements: Can Sport Change the World?'
+'Sports Mega-event': 'Sports Mega-event'
+'Lviv – London: Infrastructure Decisions': 'Lviv – London: Infrastructure Decisions'
+'Cycling: Sport or Transport': 'Cycling: Sport or Transport'
+'Scandal and Sensation': 'Scandal and Sensation'
+'Sport as a commodity': 'Sport as a commodity'
+'“Ultras” and “football hooliganism”': '“Ultras” and “football hooliganism”'
+'Women’s Sports': 'Women’s Sports'
+'Cyber Sports': 'Cyber Sports'
 ---
 
 <%- @partial('sport-in-global-city/index') %>

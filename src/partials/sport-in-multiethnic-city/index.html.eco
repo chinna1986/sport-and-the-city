@@ -1,33 +1,44 @@
 <!-- Big slider -->
 <li class="gr-box">
-  <div class="rg-label"><%= @document.Sport_In_Multiethnic_City or 'SPORT IN MULTIETHNIC CITY' %></div>
-
+  <div class="rg-label">
+    <%= @document.Sport_In_Multiethnic_City %>
+  </div>
   <div class="gr-item large">
     <img src="/img/multiethnic-city/title.jpg" />
   </div>
 </li>
 <!-- END Big slider -->
 
+<!-- Text block -->
+<li class="gr-box">
+  <div class="gr-item text-wrapper">
+    <p><%= @document.header_title_text %></p>
+  </div>
+</li>
+<!-- END Text block -->
+
 <!-- Main menu blocks -->
 <li class="gr-box">
-  <div class="gr-title"><%= @document.Origins_of_Modern_Sport or 'Origins of Modern Sport' %></div>
+  <div class="gr-title">
+    <%= @document.Origins_of_Modern_Sport %>
+  </div>
 
-  <div class="gr-item half">
+  <div class="gr-item half space-right space-bottom no-space-bottom-320">
     <img src="/img/multiethnic-city/thumb-1.jpg" alt="Thumb 1" />
-    <div class="desc"><%= @document.Industrialization_and_Modernization or "Industrialization and Modernization" %></div>
+    <div class="desc"><%= @document.Industrialization_and_Modernization %></div>
     <a href="<%= @normalizeURL('/sport-in-multiethnic-city/') %>"></a>
   </div>
 
-  <div class="gr-item half">
+  <div class="gr-item half space-right-320">
     <img src="/img/multiethnic-city/thumb-2.jpg" alt="Thumb 2" />
-    <div class="desc"><%= @document['«British Beginnings» of Sports'] or '«British Beginnings» of Sports' %></div>
+    <div class="desc"><%= @document['«British Beginnings» of Sports'] %></div>
     <a href="<%= @normalizeURL('/sport-and-of-total-war/') %>"></a>
   </div>
 
-  <div class="gr-item half eol">
+  <div class="gr-item half eol no-eol-320">
     <img src="/img/multiethnic-city/thumb-3.jpg" alt="Thumb 3" />
-    <div class="desc"><%= @document['In Search of Moral, Physical, Political and Social Health for the Community'] or 'In Search of Moral, Physical, Political and Social Health for the Community' %></div>
-    <a href="<%= @normalizeURL('/sport-in-soviet-cities-1939-1991/') %>"></a>
+    <div class="desc"><%= @document['In Search of Moral, Physical, Political and Social Health for the Community'] %></div>
+    <a href="<%= @normalizeURL('/sport-in-soviet-city/') %>"></a>
   </div>
 
 </li>
@@ -35,43 +46,42 @@
 
 <!-- Sokil Movement blocks -->
 <li class="gr-box">
-  <div class="gr-title"><%= @document.Sokil_Movement or 'Sokil Movement' %></div>
+  <div class="gr-title"><%= @document.Sokil_Movement %></div>
 
-  <div class="gr-item half">
-    <img src="/img/multiethnic-city/thumb-4.jpg" alt="<%= @document.The_Sokol_Societies or "The Sokol Societies" %>" />
-    <div class="desc"><%= @document.The_Sokol_Societies or "The Sokol Societies" %></div>
+  <div class="gr-item half space-right space-bottom no-space-bottom-320">
+    <img src="/img/multiethnic-city/thumb-4.jpg" alt="<%= @document.The_Sokol_Societies %>" />
+    <div class="desc"><%= @document.The_Sokol_Societies %></div>
     <a href="<%= @normalizeURL('/sport-in-multiethnic-city/') %>"></a>
   </div>
 
-  <div class="gr-item half">
-    <img src="/img/multiethnic-city/thumb-5.jpg" alt="<%= @document['«Zdvyh and Zlot: Mass Rituals in Urban Public Space'] or '«Zdvyh and Zlot: Mass Rituals in Urban Public Space' %>" />
-    <div class="desc"><%= @document['«Zdvyh and Zlot: Mass Rituals in Urban Public Space'] or '«Zdvyh and Zlot: Mass Rituals in Urban Public Space' %></div>
+  <div class="gr-item half space-right-320">
+    <img src="/img/multiethnic-city/thumb-5.jpg" alt="<%= @document['«Zdvyh and Zlot: Mass Rituals in Urban Public Space'] %>" />
+    <div class="desc"><%= @document['«Zdvyh and Zlot: Mass Rituals in Urban Public Space'] %></div>
     <a href="<%= @normalizeURL('/sport-and-of-total-war/') %>"></a>
   </div>
 
-  <div class="gr-item half eol">
-    <img src="/img/multiethnic-city/thumb-6.jpg" alt="<%= @document.Ivan_Boberskyi or 'Ivan Boberskyi' %>" />
-    <div class="desc"><%= @document.Ivan_Boberskyi or 'Ivan Boberskyi' %></div>
-    <a href="<%= @normalizeURL('/sport-in-soviet-cities-1939-1991/') %>"></a>
+  <div class="gr-item half eol no-eol-320">
+    <img src="/img/multiethnic-city/thumb-6.jpg" alt="<%= @document.Ivan_Boberskyi %>" />
+    <div class="desc"><%= @document.Ivan_Boberskyi %></div>
+    <a href="<%= @normalizeURL('/sport-in-soviet-city/') %>"></a>
   </div>
 
 </li>
 <!-- END Sokil Movement blocks -->
 
-
 <!-- Football blocks -->
 <li class="gr-box">
-  <div class="gr-title"><%= @document.Football or 'Football' %></div>
+  <div class="gr-title"><%= @document.Football %></div>
 
-  <div class="gr-item half">
-    <img src="/img/multiethnic-city/thumb-7.jpg" alt="<%= @document.The_Sokol_Societies or "The Sokol Societies" %>" />
-    <div class="desc"><%= @document['Lviv Football: Between the Local and the National'] or "Lviv Football: Between the Local and the National" %></div>
+  <div class="gr-item half space-right-320 space-bottom no-space-bottom-320">
+    <img src="/img/multiethnic-city/thumb-7.jpg" alt="<%= @document.The_Sokol_Societies %>" />
+    <div class="desc"><%= @document['Lviv Football: Between the Local and the National'] %></div>
     <a href="<%= @normalizeURL('/sport-in-multiethnic-city/') %>"></a>
   </div>
 
-  <div class="gr-item half eol">
-    <img src="/img/multiethnic-city/thumb-8.jpg" alt="<%= @document['«Zdvyh and Zlot: Mass Rituals in Urban Public Space'] or '«Zdvyh and Zlot: Mass Rituals in Urban Public Space' %>" />
-    <div class="desc"><%= @document['The Universal Athlete'] or 'The Universal Athlete' %></div>
+  <div class="gr-item half eol no-eol-320">
+    <img src="/img/multiethnic-city/thumb-8.jpg" alt="<%= @document['The Universal Athlete'] %>" />
+    <div class="desc"><%= @document['The Universal Athlete'] %></div>
     <a href="<%= @normalizeURL('/sport-and-of-total-war/') %>"></a>
   </div>
 
@@ -81,18 +91,18 @@
 
 <!-- Mass Audience blocks -->
 <li class="gr-box">
-  <div class="gr-title"><%= @document.Mass_Audience or 'Mass Audience' %></div>
+  <div class="gr-title"><%= @document.Mass_Audience %></div>
 
-  <div class="gr-item half">
-    <img src="/img/multiethnic-city/thumb-9.jpg" alt="<%= @document.The_Sokol_Societies or "The Sokol Societies" %>" />
-    <div class="desc"><%= @document['Sports and the Mass Audience'] or "Sports and the Mass Audience" %></div>
-    <a href="<%= '#' %>"></a>
+  <div class="gr-item half space-bottom space-right-320 no-space-bottom-320">
+    <img src="/img/multiethnic-city/thumb-9.jpg" alt="<%= @document['Sports and the Mass Audience'] %>" />
+    <div class="desc"><%= @document['Sports and the Mass Audience'] %></div>
+    <a href="<%= @normalizeURL('/sport-and-of-total-war/') %>"></a>
   </div>
 
-  <div class="gr-item half eol">
-    <img src="/img/multiethnic-city/thumb-10.jpg" alt="<%= @document['«Zdvyh and Zlot: Mass Rituals in Urban Public Space'] or '«Zdvyh and Zlot: Mass Rituals in Urban Public Space' %>" />
-    <div class="desc"><%= @document['The Sports and media complex'] or 'The Sports and media complex' %></div>
-    <a href="<%= '#' %>"></a>
+  <div class="gr-item half eol no-eol-320">
+    <img src="/img/multiethnic-city/thumb-10.jpg" alt="<%= @document['The Sports and media complex'] %>" />
+    <div class="desc"><%= @document['The Sports and media complex'] %></div>
+    <a href="<%= @normalizeURL('/sport-and-of-total-war/') %>"></a>
   </div>
 
 </li>

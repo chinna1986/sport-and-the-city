@@ -1,9 +1,23 @@
 ---
 title: "Welcome!"
 layout: defaul
-language: en
+theme: green-theme
+language: ua
 SPORT_AND_THE_CITY: SPORT AND THE CITY
 PEOPLE_SOCIETY_IDEOLOGY: PEOPLE. SOCIETY. IDEOLOGY.
+
+'SPORT IN GLOBAL CITY': 'СПОРТ У ГЛОБАЛЬНОМУ МІСТІ'
+'GLOBAL SPORTS FOR A GLOBALIZED WORLD': 'ГЛОБАЛЬНИЙ СПОРТ ДЛЯ ГЛОБАЛЬНОГО СВІТУ'
+'Global Sports for a Globalized World': 'ГЛОБАЛЬНИЙ СПОРТ ДЛЯ ГЛОБАЛЬНОГО СВІТУ'
+'Hopes and Achievements: Can Sport Change the World?': 'Надії і досягнення: чи може спорт змінити світ?'
+'Sports Mega-event': 'Спортивна мегаподія'
+'Lviv – London: Infrastructure Decisions': 'Львів – Лондон: інфраструктурні рішення'
+'Cycling: Sport or Transport': 'Велосипед: вид спорту чи транспорту'
+'Scandal and Sensation': 'Скандал і сенсація'
+'Sport as a commodity': 'Спорт як продукт'
+'“Ultras” and “football hooliganism”': '«Ультрас» і «футбольне хуліганство»'
+'Women’s Sports': 'Жіночий спорт'
+'Cyber Sports': 'Кіберспорт'
 ---
 
-<%- @partial('index') %>
+<%- @partial('sport-in-global-city/index') %>

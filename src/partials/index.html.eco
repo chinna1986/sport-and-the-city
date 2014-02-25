@@ -1,6 +1,6 @@
 <!-- Big slider -->
 <li class="gr-box">
-  <div class="rg-label"><%= @document['Sport in Soviet City 1939-1991'] or 'Sport in Soviet City 1939-1991' %></div>
+  <div class="rg-label"><%= @document['Sport in Soviet City 1939-1991'] %></div>
 
   <div class="gr-item large">
     <img src="/img/titles/title.jpg" />
@@ -10,29 +10,29 @@
 
 <!-- Main menu blocks -->
 <li class="gr-box">
-  <div class="gr-title"><%= @document.Themes or 'Themes' %></div>
+  <div class="gr-title"><%= @document.Themes %></div>
 
   <div class="gr-item half space-right space-bottom no-space-bottom-320">
     <img src="/img/thumbs/thumb-1.jpg" alt="Thumb 1" />
-    <div class="desc"><%= @document.Sport_In_Multiethnic_City or "Sport in Multiethnic City" %></div>
+    <div class="desc"><%= @document.Sport_In_Multiethnic_City %></div>
     <a href="<%= @normalizeURL('/sport-in-multiethnic-city/') %>"></a>
   </div>
 
   <div class="gr-item half space-bottom space-right-320 no-space-bottom-320">
     <img src="/img/thumbs/thumb-2.jpg" alt="Thumb 2" />
-    <div class="desc"><%= @document.Sport_and_Total_War or 'Sport and Total War' %></div>
+    <div class="desc"><%= @document.Sport_and_Total_War %></div>
     <a href="<%= @normalizeURL('/sport-and-of-total-war/') %>"></a>
   </div>
 
   <div class="gr-item half eol no-eol-320 space-right">
     <img src="/img/thumbs/thumb-3.jpg" alt="Thumb 3" />
-    <div class="desc"><%= @document.Sport_in_Soviet_City or 'Sport in Soviet City' %></div>
-    <a href="<%= @normalizeURL('/sport-in-soviet-cities-1939-1991/') %>"></a>
+    <div class="desc"><%= @document.Sport_in_Soviet_City %></div>
+    <a href="<%= @normalizeURL('/sport-in-soviet-city/') %>"></a>
   </div>
 
   <div class="gr-item half">
     <img src="/img/thumbs/thumb-4.jpg" alt="Thumb 4" />
-    <div class="desc"><%= @document.Sport_in_Global_City or 'Sport in Global City' %></div>
+    <div class="desc"><%= @document.Sport_in_Global_City %></div>
     <a href="<%= @normalizeURL('/sport-in-global-city/') %>"></a>
   </div>
 
@@ -41,25 +41,25 @@
 
 <!-- About block -->
 <li class="gr-box">
-  <div class="gr-title"><%= @document.About or 'About' %></div>
+  <div class="gr-title"><%= @document.About %></div>
 
   <div class="gr-item third space-right">
-    <div class="desc"><%= @document.About_Exhibition or 'About Exhibition' %></div>
+    <div class="desc"><%= @document.About_Exhibition %></div>
     <img src="/img/titles/title.jpg" />
   </div>
 
   <div class="gr-item third space-bottom no-space-bottom-320 space-right-320">
-    <div class="desc"><%= @document.Educational_Programs or 'Educational Programs' %></div>
+    <div class="desc"><%= @document.Educational_Programs %></div>
     <img src="/img/titles/title.jpg" />
   </div>
 
   <div class="gr-item third eol no-eol-320 space-bottom space-right-320">
-    <div class="desc"><%= @document.Partners or 'Partners' %></div>
+    <div class="desc"><%= @document.Partners %></div>
     <img src="/img/titles/title.jpg" />
   </div>
 
   <div class="gr-item third eol no-eol-320">
-    <div class="desc"><%= @document.Authors or 'Authors' %></div>
+    <div class="desc"><%= @document.Authors %></div>
     <img src="/img/titles/title.jpg" />
   </div>
 

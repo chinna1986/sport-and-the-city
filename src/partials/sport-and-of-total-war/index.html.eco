@@ -1,0 +1,42 @@
+<!-- Big slider -->
+<li class="gr-box">
+  <div class="rg-label">
+    <%= @document.SPORT_AND_TOTAL_WAR %>
+  </div>
+  <div class="gr-item large">
+    <img src="/img/total-war/title.jpg" />
+  </div>
+</li>
+<!-- END Big slider -->
+
+<!-- GREAT WAR: 1914-1918 block -->
+<li class="gr-box">
+  <div class="gr-title"><%= @document['Great War: 1914-1918'] %></div>
+
+  <div class="gr-item half">
+    <img src="/img/total-war/thumbs/thumb-1.jpg" alt="<%= @document['Sport and the Great War'] %>" />
+    <div class="desc"><%= @document['Sport and the Great War'] %></div>
+    <a href="<%= @normalizeURL('/sport-in-multiethnic-city/') %>"></a>
+  </div>
+
+</li>
+<!-- END GREAT WAR: 1914-1918 block -->
+
+<!-- Football blocks -->
+<li class="gr-box">
+  <div class="gr-title"><%= @document['SECOND WORLD WAR'] %></div>
+
+  <div class="gr-item half space-right-320 space-bottom no-space-bottom-320">
+    <img src="/img/total-war/thumbs/thumb-2.jpg" alt="<%= @document['Sport and the Second World War'] %>" />
+    <div class="desc"><%= @document['Sport and the Second World War'] %></div>
+    <a href="<%= @normalizeURL('/sport-in-multiethnic-city/') %>"></a>
+  </div>
+
+  <div class="gr-item half eol no-eol-320">
+    <img src="/img/total-war/thumbs/thumb-3.jpg" alt="<%= @document['Sport in the Camps: Escape from War'] %>" />
+    <div class="desc"><%= @document['Sport in the Camps: Escape from War'] %></div>
+    <a href="<%= @normalizeURL('/sport-and-of-total-war/') %>"></a>
+  </div>
+
+</li>
+<!-- END Football blocks -->

@@ -1,5 +1,6 @@
+var $$grid = Util.ge('grid');
+
 function updateGridWidth() {
-  var $$grid = Util.ge('grid');
   var $$gridChildren = $$grid.children;
   var gridWidth = 0;
 
@@ -28,8 +29,14 @@ function initNiceScroll () {
 }
 
 function handleGridWidth () {
-  if (window.gridWidthTimeoutId) clearTimeout(window.gridWidthTimeoutId);
+  if (window.gridWidthTimeoutId) {
+    clearTimeout(window.gridWidthTimeoutId);
+  }
+
   gridWidthTimeoutId = setTimeout(updateGridWidth, 40);
+
+  $$grid.style.width = null;
+
   return ;
 }
 

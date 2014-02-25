@@ -1,0 +1,108 @@
+<!-- Big slider -->
+<li class="gr-box">
+
+  <div class="rg-label"><%= @document.SPORT_IN_SOVIET_CITY %></div>
+  <div class="gr-item large">
+    <img src="/img/soviet-city/title.jpg" alt="<%= @document.SPORT_IN_SOVIET_CITY %>" />
+  </div>
+
+</li>
+<!-- END Big slider -->
+
+<!-- FITNESS, OR PHYSICAL CULTURE block -->
+<li class="gr-box">
+  <div class="gr-title"><%= @document['FITNESS, OR PHYSICAL CULTURE'] %></div>
+
+  <div class="gr-item half space-right space-bottom no-space-bottom-320">
+    <img src="/img/soviet-city/thumbs/thumb-1.jpg" alt="Thumb 1" />
+    <div class="desc"><%= @document['Fitness, or Physical Culture: Sport for Everyone, and for Society'] %></div>
+    <a href="<%= @normalizeURL('/sport-in-multiethnic-city/') %>"></a>
+  </div>
+
+  <div class="gr-item half space-right-320">
+    <img src="/img/soviet-city/thumbs/thumb-2.jpg" alt="Thumb 2" />
+    <div class="desc"><%= @document['Sport as Decoration'] %></div>
+    <a href="<%= @normalizeURL('/sport-and-of-total-war/') %>"></a>
+  </div>
+
+  <div class="gr-item half eol no-eol-320">
+    <img src="/img/soviet-city/thumbs/thumb-3.jpg" alt="Thumb 3" />
+    <div class="desc"><%= @document['Constructing the Urban Sport Infrastructure'] %></div>
+    <a href="<%= @normalizeURL('/sport-in-soviet-cities-1939-1991/') %>"></a>
+  </div>
+</li>
+<!-- END FITNESS, OR PHYSICAL CULTURE block -->
+
+<!-- WHO’S WHO IN SOVIET SPORTS block -->
+<li class="gr-box">
+  <div class="gr-title"><%= @document['WHO’S WHO IN SOVIET SPORTS'] %></div>
+
+  <div class="gr-item half space-right space-bottom no-space-bottom-320">
+    <img src="/img/soviet-city/thumbs/thumb-4.jpg" alt="Thumb 1" />
+    <div class="desc"><%= @document['Who’s Who in Soviet Sports: The System of Sports Associations'] %></div>
+    <a href="<%= @normalizeURL('/sport-in-multiethnic-city/') %>"></a>
+  </div>
+
+  <div class="gr-item half space-right-320">
+    <img src="/img/soviet-city/thumbs/thumb-5.jpg" alt="Thumb 2" />
+    <div class="desc"><%= @document['«Dynamo» (Kyiv) – «Spartak» (Moscow): Rivalry and Fans'] %></div>
+    <a href="<%= @normalizeURL('/sport-and-of-total-war/') %>"></a>
+  </div>
+
+  <div class="gr-item half eol no-eol-320">
+    <img src="/img/soviet-city/thumbs/thumb-6.jpg" alt="Thumb 3" />
+    <div class="desc"><%= @document['«Karpaty» and the USSR Cup'] %></div>
+    <a href="<%= @normalizeURL('/sport-in-soviet-cities-1939-1991/') %>"></a>
+  </div>
+</li>
+<!-- END WHO’S WHO IN SOVIET SPORTS block -->
+
+<!-- SOCIAL STATUS OF THE SOVIET ATHLETE blocks -->
+<li class="gr-box">
+  <div class="gr-title"><%= @document['SOCIAL STATUS OF THE SOVIET ATHLETE'] %></div>
+
+  <div class="gr-item half space-right-320 space-bottom no-space-bottom-320">
+    <img src="/img/soviet-city/thumbs/thumb-7.jpg" alt="<%= @document['Sport and the Second World War'] %>" />
+    <div class="desc"><%= @document['Social Status of the Soviet Athlete'] %></div>
+    <a href="<%= @normalizeURL('/sport-in-multiethnic-city/') %>"></a>
+  </div>
+
+  <div class="gr-item half eol no-eol-320">
+    <img src="/img/soviet-city/thumbs/thumb-8.jpg" alt="<%= @document['Sport in the Camps: Escape from War'] %>" />
+    <div class="desc"><%= @document['«Viktor Chukarin: The Image Concealing Reality'] %></div>
+    <a href="<%= @normalizeURL('/sport-and-of-total-war/') %>"></a>
+  </div>
+
+</li>
+<!-- END SOCIAL STATUS OF THE SOVIET ATHLETE blocks -->
+
+<!-- COLD WAR: POLARIZATION AND GLOBALIZATION blocks -->
+<li class="gr-box">
+  <div class="gr-title"><%= @document['COLD WAR: POLARIZATION AND GLOBALIZATION'] %></div>
+
+  <div class="gr-item half space-right-320 space-bottom no-space-bottom-320">
+    <img src="/img/soviet-city/thumbs/thumb-9.jpg" alt="<%= @document['Sport and the Second World War'] %>" />
+    <div class="desc"><%= @document['Cold War: Polarization and Globalization'] %></div>
+    <a href="<%= @normalizeURL('/sport-in-multiethnic-city/') %>"></a>
+  </div>
+
+  <div class="gr-item half eol no-eol-320">
+    <img src="/img/soviet-city/thumbs/thumb-10.jpg" alt="<%= @document['Sport in the Camps: Escape from War'] %>" />
+    <div class="desc"><%= @document['USSR: «Begins and Wins»'] %></div>
+    <a href="<%= @normalizeURL('/sport-and-of-total-war/') %>"></a>
+  </div>
+
+</li>
+<!-- END COLD WAR: POLARIZATION AND GLOBALIZATION blocks -->
+
+<!-- VIDEO GALLERY block -->
+<li class="gr-box">
+  <div class="gr-title"><%= @document['VIDEO GALLERY'] %></div>
+
+  <div class="gr-item half">
+    <div class="desc"><%= @document['VIDEO GALLERY'] %></div>
+    <a href="<%= @normalizeURL('/sport-in-multiethnic-city/') %>"></a>
+  </div>
+
+</li>
+<!-- END VIDEO GALLERY block -->

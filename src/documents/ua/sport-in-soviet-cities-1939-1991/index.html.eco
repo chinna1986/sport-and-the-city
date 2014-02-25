@@ -1,9 +1,0 @@
----
-title: "Welcome!"
-layout: defaul
-language: en
-SPORT_AND_THE_CITY: SPORT AND THE CITY
-PEOPLE_SOCIETY_IDEOLOGY: PEOPLE. SOCIETY. IDEOLOGY.
----
-
-<%- @partial('index') %>

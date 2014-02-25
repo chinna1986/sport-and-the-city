@@ -1,9 +1,17 @@
 ---
-title: "Welcome!"
+title: "Спорт і тотальна війна"
 layout: defaul
-language: en
+theme: greey-theme
+language: ua
 SPORT_AND_THE_CITY: SPORT AND THE CITY
-PEOPLE_SOCIETY_IDEOLOGY: PEOPLE. SOCIETY. IDEOLOGY.
+PEOPLE_SOCIETY_IDEOLOGY: 'ЛЮДИНА. СУСПІЛЬСТВО. ІДЕОЛОГІЯ.'
+
+SPORT_AND_TOTAL_WAR: СПОРТ І ТОТАЛЬНА ВІЙНА
+'Great War: 1914-1918': '«ВЕЛИКА ВІЙНА»: 1914–1918'
+'Sport and the Great War': 'Спорт і «велика війна»'
+'SECOND WORLD WAR': 'ДРУГА СВІТОВА ВІЙНА'
+'Sport and the Second World War': 'Спорт і Друга світова війна'
+'Sport in the Camps: Escape from War': 'Спорт у таборах: втеча від війни'
 ---
 
-<%- @partial('index') %>
+<%- @partial('sport-and-of-total-war/index') %>

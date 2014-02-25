@@ -25,6 +25,7 @@
   display: block;
   white-space: nowrap;
   overflow: hidden;
+  width: 9999px;
 }
 
 .gr-box
@@ -77,7 +78,7 @@
   bottom: 50px;
   left: 0px;
   display: block;
-  padding: 10px 0px 0px 0px;
+  padding: 10px 10px 10px 10px;
   z-index: 11;
 }
 
@@ -191,8 +192,21 @@
   clear: both;
 }
 
-.sh-320   .gr-item.no-eol-320  { clear: none; }
-.sh-480   .gr-item.no-eol-480  { clear: none; }
-.sh-768   .gr-item.no-eol-768  { clear: none; }
-.sh-1080  .gr-item.no-eol-1080 { clear: none; }
-.sh-1600  .gr-item.no-eol-1600 { clear: none; }
+.sh-320  .gr-item.no-eol-320  { clear: none; }
+.sh-480  .gr-item.no-eol-480  { clear: none; }
+.sh-768  .gr-item.no-eol-768  { clear: none; }
+.sh-1080 .gr-item.no-eol-1080 { clear: none; }
+.sh-1600 .gr-item.no-eol-1600 { clear: none; }
+
+
+.gr-item.text-wrapper
+{
+  max-width: 350px;
+  white-space: normal; /* Break text in paragraph */
+}
+
+.sh-320  .gr-item.text-wrapper {  }
+.sh-480  .gr-item.text-wrapper {  }
+.sh-768  .gr-item.text-wrapper {  }
+.sh-1080 .gr-item.text-wrapper {  }
+.sh-1600 .gr-item.text-wrapper {  }
