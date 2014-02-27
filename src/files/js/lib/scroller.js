@@ -21,6 +21,7 @@ function initNiceScroll () {
   jQuery( Util.ge('grid-scroll-wrapper') ).niceScroll({
     cursorcolor: '#aaaaaa',
     cursorborder: '0px',
+    cursorwidth: 8,
     cursoropacitymin: 0.6,
     cursoropacitymax: 1,
     cursordragontouch: true,
@@ -40,8 +41,24 @@ function handleGridWidth () {
   return ;
 }
 
+function animateGrid() {
+  var animateClass = 'showGridItem animated';
+  var delayTime = 0;
+  $('#grid').children().removeClass(animateClass).each(function () {
+    jQuery(this).delay(delayTime).addClass(animateClass);
+    delayTime += 100;
+  })
+}
+
+function animateLanguageControl() {
+  var className = 'showLanguageControl animated';
+  jQuery('#header-languages').removeClass(className).addClass(className);
+}
+
 $.fn.scroller = function () {
   updateGridWidth();
   initNiceScroll();
+  animateGrid();
+  animateLanguageControl();
   jQuery(window).on('resize', handleGridWidth).trigger('resize');
 };

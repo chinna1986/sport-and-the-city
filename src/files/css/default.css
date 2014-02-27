@@ -1,20 +1,8 @@
-/*
-  @import 'shared/common.css';
-  @import 'shared/header.css';
-  @import 'shared/content.css';
-  @import 'shared/carousel.css';
-  @import 'shared/scroll.css';
-  @import 'shared/nav_btn.css';
-  @import 'shared/content-responsive.css';
-  @import 'shared/header-responsive.css';
-  @import 'shared/theme-multy.css';
-  @import 'shared/theme-total.css';
-  @import 'shared/theme-red.css';
-  @import 'shared/theme-global.css';
-*/
-
 @import 'shared_v2/font-face.css';
 @import 'shared_v2/common.css';
 @import 'shared_v2/header.css';
 @import 'shared_v2/grid.css';
-@import 'shared_v2/themes.css'
+@import 'shared_v2/themes.css';
+@import 'shared_v2/animate.css';
+@import 'shared_v2/animate.css';
+@import 'bootstrap-modal.css';

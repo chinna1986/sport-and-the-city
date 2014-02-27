@@ -1,5 +1,5 @@
 <!-- Big slider -->
-<li class="gr-box">
+<li class="gr-box showGridItem animated">
   <div class="rg-label"><%= @document['Sport in Soviet City 1939-1991'] %></div>
 
   <div class="gr-item large">
@@ -9,7 +9,7 @@
 <!-- END Big slider -->
 
 <!-- Main menu blocks -->
-<li class="gr-box">
+<li class="gr-box showGridItem animated">
   <div class="gr-title"><%= @document.Themes %></div>
 
   <div class="gr-item half space-right space-bottom no-space-bottom-320">
@@ -40,7 +40,7 @@
 <!-- END Main menu blocks -->
 
 <!-- About block -->
-<li class="gr-box">
+<li class="gr-box showGridItem animated">
   <div class="gr-title"><%= @document.About %></div>
 
   <div class="gr-item third space-right">

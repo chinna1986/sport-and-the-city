@@ -7,14 +7,14 @@ var docpadInstanceConfiguration = {
       subtitle : "Sport and the City",
 
       styles : [
-        'http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,cyrillic',
         '/css/default.css',
-        '/css/magnific-popup.css',
       ],
 
       scripts: [
         '/js/vendor/jquery-2.0.0.js',
         '/js/vendor/jquery.nicescroll.js',
+        '/js/vendor/bootstrap-modal.js',
+        '/js/vendor/bootstrap-modalmanager.js',
         '/js/lib/util.js',
         '/js/lib/resizer.js',
         '/js/lib/scroller.js',

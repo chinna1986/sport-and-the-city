@@ -2,6 +2,7 @@
 {
   position: absolute;
   top: 100px;
+  bottom: 0px;
   width: 100%;
   padding: 0 40px 20px;
 }
@@ -11,6 +12,8 @@
   overflow: hidden;
   display: block;
   padding-bottom: 15px;
+  width: 100%;
+  height: 100%;
 }
 
 /* Custom value to supporting resizing */
