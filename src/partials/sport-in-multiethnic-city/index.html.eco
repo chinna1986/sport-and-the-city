@@ -26,19 +26,19 @@
   <div class="gr-item half space-right space-bottom no-space-bottom-320">
     <img src="/img/multiethnic-city/thumb-1.jpg" alt="Thumb 1" />
     <div class="desc"><%= @document.Industrialization_and_Modernization %></div>
-    <a href="<%= @normalizeURL('/sport-in-multiethnic-city/') %>"></a>
+    <a href="<%= @normalizeURL('/part/industrialization-and-modernization.html') %>" onclick="return showArticle('/part/industrialization-and-modernization.html', event+);"></a>
   </div>
 
   <div class="gr-item half space-right-320">
     <img src="/img/multiethnic-city/thumb-2.jpg" alt="Thumb 2" />
     <div class="desc"><%= @document['«British Beginnings» of Sports'] %></div>
-    <a href="<%= @normalizeURL('/sport-and-of-total-war/') %>"></a>
+    <a href="<%= @normalizeURL('/part/british-beginnings-of-sports.html') %>" onclick="return showArticle('/part/british-Beginnings-of-sports.html', event+);"></a>
   </div>
 
   <div class="gr-item half eol no-eol-320">
     <img src="/img/multiethnic-city/thumb-3.jpg" alt="Thumb 3" />
     <div class="desc"><%= @document['In Search of Moral, Physical, Political and Social Health for the Community'] %></div>
-    <a href="<%= @normalizeURL('/sport-in-soviet-city/') %>"></a>
+    <a href="<%= @normalizeURL('/part/in-search-of-moral-physical.html') %>" onclick="return showArticle('/part/in-search-of-moral-physical.html', event+);"></a>
   </div>
 
 </li>

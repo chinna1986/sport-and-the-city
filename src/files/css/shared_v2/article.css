@@ -1,0 +1,85 @@
+.article-container
+{
+    position: relative;
+    margin: 20px 5%; 
+}
+
+article 
+{
+  background: #fff;
+  color: #172029;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+article p
+{
+  padding: 0px 60px;
+}
+
+article a
+{}
+
+article h1
+{
+  padding: 0px 60px;
+}
+
+article h2
+{
+  padding: 0px 60px;
+}
+
+article h3
+{
+  padding: 0px 60px;
+}
+
+article h4
+{
+  padding: 0px 60px;
+}
+
+article h5
+{
+  padding: 0px 60px;
+}
+
+article h6
+{
+  padding: 0px 60px;
+}
+
+
+article figure
+{
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+article figure img
+{
+  width: 100%;
+  display: block;
+}
+
+
+article figure figcaption 
+{
+  position: absolute;
+  left: 0px;
+  bottom: 10px;
+  padding: 10px;
+  background: #000;
+  background: rgba(1, 1, 1, 0.65);
+  color: #FFF;
+  border-radius: 0px 10px 0px 0px;
+  font-size: 18px;
+}
+
+
+
+
+
+

@@ -1,0 +1,21 @@
+---
+title: ""
+layout: default
+language: en
+SPORT_AND_THE_CITY: SPORT AND THE CITY
+PEOPLE_SOCIETY_IDEOLOGY: PEOPLE. SOCIETY. IDEOLOGY.
+
+'Sport in Soviet City 1939-1991': 'Sport in Soviet City 1939-1991'
+Themes: 'Themes'
+Sport_In_Multiethnic_City: "Sport in Multiethnic City"
+Sport_and_Total_War: 'Sport and Total War'
+Sport_in_Soviet_City: 'Sport in Soviet City'
+Sport_in_Global_City: 'Sport in Global City'
+About: 'About'
+About_Exhibition: 'About Exhibition'
+Educational_Programs: 'Educational Programs'
+Partners: 'Partners' 
+Authors: 'Authors'
+---
+
+<%- @partial('index') %>

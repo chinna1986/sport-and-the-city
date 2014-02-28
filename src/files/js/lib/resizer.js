@@ -2,7 +2,7 @@
  * Horizontal media resizer
  * 
  */
-!function ($) {
+!function () {
 
 var heightMap = [320, 480, 768, 1080, 1600];
 var classMap = jQuery.map(heightMap, function (value) { return "sh-" + value; });
@@ -13,23 +13,20 @@ var index;
 function onResizeHandler(event) {
   if (timeOutId) clearTimeout(timeOutId);
   setTimeout(onResize, 30);
-  jQuery( document.documentElement ).addClass(appConfig.resizeStateClass);
 }
 
 function onResize(event) {
-  var windowHeight = $( window ).height(),
+  var windowHeight = jQuery( window ).height(),
       newClass = getClassByHeight(windowHeight);
 
   if (currentClass && currentClass != newClass) {
-    $(document.documentElement).removeClass(currentClass);
+    jQuery(document.documentElement).removeClass(currentClass);
   }
 
   if (currentClass != newClass) {
     currentClass = newClass;
-    $(document.documentElement).addClass(newClass);
+    jQuery(document.documentElement).addClass(newClass);
   }
-
-  jQuery( document.documentElement ).removeClass(appConfig.resizeStateClass);
 
   return true;
 }
@@ -47,10 +44,7 @@ function getClassByHeight(height) {
   return newClass;
 }
 
-jQuery.fn.resizer = function () {
-  onResize();
-  $(window).on('resize', onResizeHandler);
-  return ;
-}
+onResize();
+jQuery(window).on('resize', onResizeHandler);
 
-} (jQuery);
+} ();

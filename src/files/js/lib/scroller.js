@@ -1,8 +1,12 @@
 var $$grid = Util.ge('grid');
 
 function updateGridWidth() {
-  var $$gridChildren = $$grid.children;
   var gridWidth = 0;
+  var $$gridChildren;
+
+  if (!$$grid) return ;
+
+  $$gridChildren = $$grid.children;
 
   Util.each($$gridChildren, function (index, el) { 
     gridWidth += $(el).outerWidth(); 
@@ -55,10 +59,10 @@ function animateLanguageControl() {
   jQuery('#header-languages').removeClass(className).addClass(className);
 }
 
-$.fn.scroller = function () {
-  updateGridWidth();
-  initNiceScroll();
-  animateGrid();
-  animateLanguageControl();
-  jQuery(window).on('resize', handleGridWidth).trigger('resize');
-};
+updateGridWidth();
+initNiceScroll();
+animateGrid();
+animateLanguageControl();
+
+$$grid && jQuery(window).on('resize', handleGridWidth).trigger('resize');
+
