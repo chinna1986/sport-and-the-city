@@ -17,10 +17,12 @@
     <div class="background"></div>
 
     <!-- Main Article content -->
-    <div class="article-container">
-      <article>
-        <%- @content %>
-      </article>
+    <div class="article-scroll">
+      <div class="article-container">
+        <article>
+          <%- @content %>
+        </article>
+      </div>
     </div>
 
     <!-- Scripts -->

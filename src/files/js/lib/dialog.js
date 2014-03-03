@@ -1,0 +1,8 @@
+!function (argument) {
+
+  // Class
+  // 
+
+
+
+}

@@ -1,37 +1,62 @@
-<figure><img src="/img/part/industrialization-and-modernization/img-1.jpg" alt="Industrialization and Modernization" /><figcaption>Industrialization and Modernization</figcaption></figure>
+<% if @document.language == 'en': %>
+  <figure>
+    <img src="/img/part/industrialization-and-modernization/img-1.jpg" alt="Industrialization and Modernization" />
+    <figcaption>Industrialization and Modernization</figcaption>
+  </figure>
 
-<h3>Industrialization and Modernization</h3>
+  <h3>Industrialization and Modernization</h3>
+  <p>The “invention” of contemporary sports is inextricably linked to the industrial revolution and to modernization processes in Europe. Industrialization led to the emergence of a new kind of citizen—the factory worker—and the formation of a middle class. The emergence of large industrial cities necessitated additional housing, improved sanitary conditions, development of urban infrastructure, changes in legal regulation and political administration. The new society faced the needs of organizing and ordering an entirely new sphere of activity: how to spend free time. Public space—parks, gardens, theaters and sports fields—became typical places of relaxation for city dwellers.</p>
+  <h4>New Conception of the Human Body</h4>
+  <p>The ideal person of 19th century industrial society was endowed with Protestant virtues of restraint, equilibrium, organization, orderliness and moderation. These qualities also manifested themselves in a certain physical image: well-built, active, healthy, able and persevering. This ideal became a symbol of the economic and social well-being of a new age.</p>
+  <h4>Nationalism</h4>
+  <p>With the emergence of national governments and nationalist movements in Europe physical strength and citizens’ health was «placed at the service» of the government—whether existing or imagined. Active state policy in the sphere of health and education, as well as a network of associations and clubs, encouraged the mass introduction of athletic practices into everyday life. It was the gymnastics movement that most responded to these ideals of patriotic education. The subordination of the individual person to the whole, as reflected in the practice of various physical exercises performed synchronously, proved an example of an ideal society. Every person, so it was thought, worked for his own and the greater good in harmony and understanding with others. The gymnastics movement acquired especial predominance in Germany, and soon after in Sweden, Italy, France, and Central and Eastern Europe.</p>
+  <h4>Two Models</h4>
+  <p>The British model of sports and the German-Swedish model laid the foundations for contemporary sports and physical education. Essentially, the British model was founded on the principles of competition and team sports, directed at conflict, victory and achievement of the best results—records. The German-Swedish model involved synchronized performances of physical exercises with or without equipment. These exercises were performed collectively according to the directions of the leader.</p>
 
-<p>The “invention” of contemporary sports is inextricably linked to the industrial revolution and to modernization processes in Europe. Industrialization led to the emergence of a new kind of citizen—the factory worker—and the formation of a middle class. The emergence of large industrial cities necessitated additional housing, improved sanitary conditions, development of urban infrastructure, changes in legal regulation and political administration. The new society faced the needs of organizing and ordering an entirely new sphere of activity: how to spend free time. Public space—parks, gardens, theaters and sports fields—became typical places of relaxation for city dwellers.</p>
-<h4>New Conception of the Human Body</h4>
-<p>The ideal person of 19th century industrial society was endowed with Protestant virtues of restraint, equilibrium, organization, orderliness and moderation. These qualities also manifested themselves in a certain physical image: well-built, active, healthy, able and persevering. This ideal became a symbol of the economic and social well-being of a new age.</p>
-<h4>Nationalism</h4>
-<p>With the emergence of national governments and nationalist movements in Europe physical strength and citizens’ health was «placed at the service» of the government—whether existing or imagined. Active state policy in the sphere of health and education, as well as a network of associations and clubs, encouraged the mass introduction of athletic practices into everyday life. It was the gymnastics movement that most responded to these ideals of patriotic education. The subordination of the individual person to the whole, as reflected in the practice of various physical exercises performed synchronously, proved an example of an ideal society. Every person, so it was thought, worked for his own and the greater good in harmony and understanding with others. The gymnastics movement acquired especial predominance in Germany, and soon after in Sweden, Italy, France, and Central and Eastern Europe.</p>
-<h4>Two Models</h4>
-<p>The British model of sports and the German-Swedish model laid the foundations for contemporary sports and physical education. Essentially, the British model was founded on the principles of competition and team sports, directed at conflict, victory and achievement of the best results—records. The German-Swedish model involved synchronized performances of physical exercises with or without equipment. These exercises were performed collectively according to the directions of the leader.</p>
+<% else: %>
+  <figure>
+    <img src="/img/part/industrialization-and-modernization/img-1.jpg" alt="Індустріалізація і модернізація" />
+    <figcaption>Індустріалізація і модернізація</figcaption>
+  </figure>
+  <h3>Індустріалізація і модернізація</h3>
+  <p>«Винайдення» сучасного спорту безпосередньо пов’язане з індустріальною революцією і модернізаційними процесами у Європі. Індустріалізація сприяла появі нового типу громадянина – робітника фабрики чи заводу – та формуванню середнього класу. Виникнення великих промислових міст створювало потребу в додатковому житлі, покращенні санітарних умов, розвитку міської інфраструктури, змін правового регулювання і політичного управління. Нове суспільство зіткнулося з потребою організації і впорядкування цілком нової сфери активності – проведення вільного часу. Публічний простір – парки, сади, театри та спортивні майданчики – стали типовими місцями відпочинку для мешканців міст.</p>
+
+  <h4>Нові уявлення про людське тіло</h4>
+  <p>Ідеалом індустріального суспільства ХІХ ст. стає людина наділена протестантськими чеснотами стриманості, врівноваженості, організованості, впорядкованості і поміркованості. Ці якості також втілювалися у певному фізичному образі – добре збудованої, активної, здорової, вправної і витривалої людини. Така особа була символом економічного і суспільного добробуту нової доби.</p>
+
+  <h4>Націоналізм</h4>
+  <p>З появою національних держав і національних рухів у Європі фізична сила і здоров’я громадян були «поставлені на службу» державі – існуючій чи майбутній. Активна політика держав у сфері освіти та виховання, здійснювана через мережу товариств і клубів, сприяла масовому запровадженню спортивних практик у щоденне життя. Ідеалам патріотичного виховання найбільше відповідав гімнастичний рух. Підпорядкування окремої людини цілому, втілене у практиці синхронного виконання фізичних вправ, було своєрідним прикладом ідеального суспільства. Це відображало ідею, що кожна людина працює заради свого й загального блага у гармонії і порозумінні з іншими. Гімнастичний рух набув особливого поширення у Німеччині, згодом у Швеції, Італії, Франції, Центральній та Східній Європі.</p>
+
+  <h4>Дві моделі</h4>
+  <p>Британська спортивна і німецько-шведська гімнастична моделі заклали підвалини сучасного спорту і фізичного виховання. В основі британської моделі були поставлені принципи змагальництва і командної гри, спрямовані на протистояння, боротьбу, перемогу й досягнення найвищих результатів – рекордів. Німецько-шведська гімнастична модель передбачала синхронне виконання фізичних вправ зі снарядами чи без них. Вправи виконувалися колективно за вказівками лідера.</p>
+
+<% end %>
+
+
+
 
 
 <!-- 
 
 <h3>Industrialization and Modernization</h3>
 <div class='colomns'>
-			<div class="text_carousel slide">
-	            <div class="carousel-inner">
-	             	<div class="active item">
-						<img src="/sport-in-multiethnic-city/origins-of-modern-sport/Industrialization-and-Modernization/img-1.jpg" alt="img" title=""/>
-			        <p class="big-title">Industrialization and Modernization</p>
-	              </div>            
-	            </div>
-			</div>
-	<p>The “invention” of contemporary sports is inextricably linked to the industrial revolution and to modernization processes in Europe. Industrialization led to the emergence of a new kind of citizen—the factory worker—and the formation of a middle class. The emergence of large industrial cities necessitated additional housing, improved sanitary conditions, development of urban infrastructure, changes in legal regulation and political administration. The new society faced the needs of organizing and ordering an entirely new sphere of activity: how to spend free time. Public space—parks, gardens, theaters and sports fields—became typical places of relaxation for city dwellers.</p>
-	<h4>New Conception of the Human Body</h4>
-	<p>The ideal person of 19th century industrial society was endowed with Protestant virtues of restraint, equilibrium, organization, orderliness and moderation. These qualities also manifested themselves in a certain physical image: well-built, active, healthy, able and persevering. This ideal became a symbol of the economic and social well-being of a new age.</p>
+      <div class="text_carousel slide">
+              <div class="carousel-inner">
+                <div class="active item">
+            <img src="/sport-in-multiethnic-city/origins-of-modern-sport/Industrialization-and-Modernization/img-1.jpg" alt="img" title=""/>
+              <p class="big-title">Industrialization and Modernization</p>
+                </div>            
+              </div>
+      </div>
+  <p>The “invention” of contemporary sports is inextricably linked to the industrial revolution and to modernization processes in Europe. Industrialization led to the emergence of a new kind of citizen—the factory worker—and the formation of a middle class. The emergence of large industrial cities necessitated additional housing, improved sanitary conditions, development of urban infrastructure, changes in legal regulation and political administration. The new society faced the needs of organizing and ordering an entirely new sphere of activity: how to spend free time. Public space—parks, gardens, theaters and sports fields—became typical places of relaxation for city dwellers.</p>
+  <h4>New Conception of the Human Body</h4>
+  <p>The ideal person of 19th century industrial society was endowed with Protestant virtues of restraint, equilibrium, organization, orderliness and moderation. These qualities also manifested themselves in a certain physical image: well-built, active, healthy, able and persevering. This ideal became a symbol of the economic and social well-being of a new age.</p>
 
-	<h4>Nationalism</h4>
-	<p>With the emergence of national governments and nationalist movements in Europe physical strength and citizens’ health was «placed at the service» of the government—whether existing or imagined. Active state policy in the sphere of health and education, as well as a network of associations and clubs, encouraged the mass introduction of athletic practices into everyday life. It was the gymnastics movement that most responded to these ideals of patriotic education. The subordination of the individual person to the whole, as reflected in the practice of various physical exercises performed synchronously, proved an example of an ideal society. Every person, so it was thought, worked for his own and the greater good in harmony and understanding with others. The gymnastics movement acquired especial predominance in Germany, and soon after in Sweden, Italy, France, and Central and Eastern Europe.</p>
+  <h4>Nationalism</h4>
+  <p>With the emergence of national governments and nationalist movements in Europe physical strength and citizens’ health was «placed at the service» of the government—whether existing or imagined. Active state policy in the sphere of health and education, as well as a network of associations and clubs, encouraged the mass introduction of athletic practices into everyday life. It was the gymnastics movement that most responded to these ideals of patriotic education. The subordination of the individual person to the whole, as reflected in the practice of various physical exercises performed synchronously, proved an example of an ideal society. Every person, so it was thought, worked for his own and the greater good in harmony and understanding with others. The gymnastics movement acquired especial predominance in Germany, and soon after in Sweden, Italy, France, and Central and Eastern Europe.</p>
 
-	<h4>Two Models</h4>
-	<p>The British model of sports and the German-Swedish model laid the foundations for contemporary sports and physical education. Essentially, the British model was founded on the principles of competition and team sports, directed at conflict, victory and achievement of the best results—records. The German-Swedish model involved synchronized performances of physical exercises with or without equipment. These exercises were performed collectively according to the directions of the leader.</p>
+  <h4>Two Models</h4>
+  <p>The British model of sports and the German-Swedish model laid the foundations for contemporary sports and physical education. Essentially, the British model was founded on the principles of competition and team sports, directed at conflict, victory and achievement of the best results—records. The German-Swedish model involved synchronized performances of physical exercises with or without equipment. These exercises were performed collectively according to the directions of the leader.</p>
 
 </div>
 
@@ -39,24 +64,24 @@
 <?php } else { ?>
 <h3>Індустріалізація і модернізація</h3>
 <div class='colomns'>
-				<div class="text_carousel slide">
-	            <div class="carousel-inner">
-	             	<div class="active item">
-						<img src="/sport-in-multiethnic-city/origins-of-modern-sport/Industrialization-and-Modernization/img-1.jpg" alt="img" title=""/>
-			        <p class="big-title">Індустріалізація і модернізація</p>
-	              </div>            
-	            </div>
-			</div>
-	<p>«Винайдення» сучасного спорту безпосередньо пов’язане з індустріальною революцією і модернізаційними процесами у Європі. Індустріалізація сприяла появі нового типу громадянина – робітника фабрики чи заводу – та формуванню середнього класу. Виникнення великих промислових міст створювало потребу в додатковому житлі, покращенні санітарних умов, розвитку міської інфраструктури, змін правового регулювання і політичного управління. Нове суспільство зіткнулося з потребою організації і впорядкування цілком нової сфери активності – проведення вільного часу. Публічний простір – парки, сади, театри та спортивні майданчики – стали типовими місцями відпочинку для мешканців міст.</p>
+        <div class="text_carousel slide">
+              <div class="carousel-inner">
+                <div class="active item">
+            <img src="/sport-in-multiethnic-city/origins-of-modern-sport/Industrialization-and-Modernization/img-1.jpg" alt="img" title=""/>
+              <p class="big-title">Індустріалізація і модернізація</p>
+                </div>            
+              </div>
+      </div>
+  <p>«Винайдення» сучасного спорту безпосередньо пов’язане з індустріальною революцією і модернізаційними процесами у Європі. Індустріалізація сприяла появі нового типу громадянина – робітника фабрики чи заводу – та формуванню середнього класу. Виникнення великих промислових міст створювало потребу в додатковому житлі, покращенні санітарних умов, розвитку міської інфраструктури, змін правового регулювання і політичного управління. Нове суспільство зіткнулося з потребою організації і впорядкування цілком нової сфери активності – проведення вільного часу. Публічний простір – парки, сади, театри та спортивні майданчики – стали типовими місцями відпочинку для мешканців міст.</p>
 
-	<h4>Нові уявлення про людське тіло</h4>
-	<p>Ідеалом індустріального суспільства ХІХ ст. стає людина наділена протестантськими чеснотами стриманості, врівноваженості, організованості, впорядкованості і поміркованості. Ці якості також втілювалися у певному фізичному образі – добре збудованої, активної, здорової, вправної і витривалої людини. Така особа була символом економічного і суспільного добробуту нової доби.</p>
+  <h4>Нові уявлення про людське тіло</h4>
+  <p>Ідеалом індустріального суспільства ХІХ ст. стає людина наділена протестантськими чеснотами стриманості, врівноваженості, організованості, впорядкованості і поміркованості. Ці якості також втілювалися у певному фізичному образі – добре збудованої, активної, здорової, вправної і витривалої людини. Така особа була символом економічного і суспільного добробуту нової доби.</p>
 
-	<h4>Націоналізм</h4>
-	<p>З появою національних держав і національних рухів у Європі фізична сила і здоров’я громадян були «поставлені на службу» державі – існуючій чи майбутній. Активна політика держав у сфері освіти та виховання, здійснювана через мережу товариств і клубів, сприяла масовому запровадженню спортивних практик у щоденне життя. Ідеалам патріотичного виховання найбільше відповідав гімнастичний рух. Підпорядкування окремої людини цілому, втілене у практиці синхронного виконання фізичних вправ, було своєрідним прикладом ідеального суспільства. Це відображало ідею, що кожна людина працює заради свого й загального блага у гармонії і порозумінні з іншими. Гімнастичний рух набув особливого поширення у Німеччині, згодом у Швеції, Італії, Франції, Центральній та Східній Європі.</p>
+  <h4>Націоналізм</h4>
+  <p>З появою національних держав і національних рухів у Європі фізична сила і здоров’я громадян були «поставлені на службу» державі – існуючій чи майбутній. Активна політика держав у сфері освіти та виховання, здійснювана через мережу товариств і клубів, сприяла масовому запровадженню спортивних практик у щоденне життя. Ідеалам патріотичного виховання найбільше відповідав гімнастичний рух. Підпорядкування окремої людини цілому, втілене у практиці синхронного виконання фізичних вправ, було своєрідним прикладом ідеального суспільства. Це відображало ідею, що кожна людина працює заради свого й загального блага у гармонії і порозумінні з іншими. Гімнастичний рух набув особливого поширення у Німеччині, згодом у Швеції, Італії, Франції, Центральній та Східній Європі.</p>
 
-	<h4>Дві моделі</h4>
-	<p>Британська спортивна і німецько-шведська гімнастична моделі заклали підвалини сучасного спорту і фізичного виховання. В основі британської моделі були поставлені принципи змагальництва і командної гри, спрямовані на протистояння, боротьбу, перемогу й досягнення найвищих результатів – рекордів. Німецько-шведська гімнастична модель передбачала синхронне виконання фізичних вправ зі снарядами чи без них. Вправи виконувалися колективно за вказівками лідера.</p>
+  <h4>Дві моделі</h4>
+  <p>Британська спортивна і німецько-шведська гімнастична моделі заклали підвалини сучасного спорту і фізичного виховання. В основі британської моделі були поставлені принципи змагальництва і командної гри, спрямовані на протистояння, боротьбу, перемогу й досягнення найвищих результатів – рекордів. Німецько-шведська гімнастична модель передбачала синхронне виконання фізичних вправ зі снарядами чи без них. Вправи виконувалися колективно за вказівками лідера.</p>
 
 
 </div>
