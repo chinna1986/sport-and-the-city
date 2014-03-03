@@ -5,6 +5,8 @@
 .default-theme .rg-label { background-color: #11768B; }
 .default-theme .gr-item { background-color: #11768B; }
 .default-theme .gr-item .desc { background-color: #11768B; }
+.default-theme .modal .close { background-color: #11768B; }
+.default-theme .modal .close:hover, .default-theme .modal .close:active { background-color: #04687D; }
 
 
 .khaki-theme {}
@@ -13,6 +15,8 @@
 .khaki-theme .rg-label { background-color: #8F8F63; }
 .khaki-theme .gr-item { background-color: #8F8F63; }
 .khaki-theme .gr-item .desc { background-color: #8F8F63; }
+.khaki-theme .modal .close { background-color: #8F8F63; }
+.khaki-theme .modal .close:hover, .khaki-theme .modal .close:active { background-color: #6D6D45; }
 
 
 .greey-theme {}
@@ -21,6 +25,8 @@
 .greey-theme .rg-label { background-color: #34373B; }
 .greey-theme .gr-item { background-color: #34373B; }
 .greey-theme .gr-item .desc { background-color: #34373B; }
+.greey-theme .modal .close { background-color: #34373B; }
+.greey-theme .modal .close:hover, .greey-theme .modal .close:active { background-color: #0F1113; }
 
 .red-theme {}
 
@@ -29,6 +35,8 @@
 .red-theme .rg-label { background-color: #A92F27; }
 .red-theme .gr-item { background-color: #A92F27; }
 .red-theme .gr-item .desc { background-color: #A92F27; }
+.red-theme .modal .close { background-color: #A92F27; }
+.red-theme .modal .close:hover, .red-theme .modal .close:active { background-color: #8A1A13; }
 
 .green-theme {}
 
@@ -37,3 +45,5 @@
 .green-theme .rg-label { background-color: #60C2A2; }
 .green-theme .gr-item { background-color: #60C2A2; }
 .green-theme .gr-item .desc { background-color: #60C2A2; }
+.green-theme .modal .close { background-color: #60C2A2; }
+.green-theme .modal .close:hover, .green-theme .modal .close:active { background-color: #2A9471; }

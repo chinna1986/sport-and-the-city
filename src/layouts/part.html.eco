@@ -18,7 +18,7 @@
 
     <!-- Main Article content -->
     <div class="article-scroll">
-      <div class="article-container">
+      <div id="#article-container" class="article-container">
         <article>
           <%- @content %>
         </article>

@@ -15,9 +15,11 @@ var docpadInstanceConfiguration = {
         '/js/vendor/jquery.nicescroll.js',
         '/js/vendor/bootstrap-modal.js',
         '/js/vendor/bootstrap-modalmanager.js',
+        '/js/vendor/history.js',
         '/js/lib/util.js',
         '/js/lib/resizer.js',
         '/js/lib/scroller.js',
+        '/js/lib/nav.js',
         '/js/app.js'
       ]
     },

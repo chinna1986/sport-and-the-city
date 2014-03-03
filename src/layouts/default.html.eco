@@ -20,7 +20,7 @@
 
     <!-- Header -->
     <div id="header" class="header">
-      <ul id="header-languages" data-language="<%=@document.language%>">
+      <ul id="header-languages" data-language="<%= @document.language %>">
         <li class="<%= 'active' if @document.language is 'en' %>"><a href="<%= @normalizeURL(@document.url, 'en') %>">EN</a>
         <li class="<%= 'active' if @document.language is 'ua' %>"><a href="<%= @normalizeURL(@document.url, 'ua') %>">UA</a>
       </ul>
@@ -40,18 +40,11 @@
     <div id="nav-next"></div>
 
     <!-- Template for ajax modal -->
-    <div id="ajax-modal" class="modal hide fade" tabindex="-1">
+    <div id="show-modal" class="modal hide fade" tabindex="-1" data-loading="true" data-show="false">
       <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-        <h3>Modal header</h3>
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true" tabindex="1">×</button>
       </div>
-      <div class="modal-body">
-        <p>Test</p>
-      </div>
-      <div class="modal-footer">
-        <a href="#" data-dismiss="modal" class="btn">Close</a>
-        <a href="#" class="btn btn-primary">Save changes</a>
-      </div>
+      <div class="modal-body" id="show-modal-body"><h1>Loading...</h1></div>
     </div>
 
     <!-- Scripts -->

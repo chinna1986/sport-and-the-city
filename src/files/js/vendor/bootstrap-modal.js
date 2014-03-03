@@ -42,7 +42,7 @@
 
 			this.options.remote && this.$element.find('.modal-body').load(this.options.remote, function () {
 				var e = $.Event('loaded');
-				that.$element.trigger(e);
+				that.$element.trigger(e, arguments);
 			});
 
 			var manager = typeof this.options.manager === 'function' ?

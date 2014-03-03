@@ -26,13 +26,13 @@
   <div class="gr-item half space-right space-bottom no-space-bottom-320">
     <img src="/img/multiethnic-city/thumb-1.jpg" alt="Thumb 1" />
     <div class="desc"><%= @document.Industrialization_and_Modernization %></div>
-    <a href="<%= @normalizeURL('/part/industrialization-and-modernization.html') %>" onclick="return showArticle('/part/industrialization-and-modernization.html', event+);"></a>
+    <a href="<%= @normalizeURL('/part/industrialization-and-modernization.html') %>" onclick="nav.modal(this.href, event);"></a>
   </div>
 
   <div class="gr-item half space-right-320">
     <img src="/img/multiethnic-city/thumb-2.jpg" alt="Thumb 2" />
     <div class="desc"><%= @document['«British Beginnings» of Sports'] %></div>
-    <a href="<%= @normalizeURL('/part/british-beginnings-of-sports.html') %>" onclick="return showArticle('/part/british-Beginnings-of-sports.html', event+);"></a>
+    <a href="<%= @normalizeURL('/part/british-beginnings-of-sports.html') %>" onclick="return $.fn.showModal('/part/british-Beginnings-of-sports.html', event+);"></a>
   </div>
 
   <div class="gr-item half eol no-eol-320">
