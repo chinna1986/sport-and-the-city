@@ -72,6 +72,10 @@
 	box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
 }
 
+.modal.hide {
+	display: none;
+}
+
 .modal.fade {
 	top: -100%;
 	-webkit-transition: opacity 0.3s linear, top 0.3s ease-out, bottom 0.3s ease-out, margin-top 0.3s ease-out;	
@@ -126,7 +130,7 @@
 /* Modal Overflow */
 
 .modal-overflow.modal {
-	top: 1%;
+	top: 5%;
 }
 
 .modal-overflow.modal.fade {
@@ -134,7 +138,7 @@
 }
 
 .modal-overflow.modal.fade.in {
-	top: 1%;
+	top: 5%;
 }
 
 .modal-overflow .modal-body {

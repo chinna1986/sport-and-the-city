@@ -40,7 +40,7 @@
     <div id="nav-next"></div>
 
     <!-- Template for ajax modal -->
-    <div id="show-modal" class="modal hide fade" tabindex="-1" data-loading="true" data-show="false">
+    <div id="show-modal" class="modal hide fade" tabindex="-1" data-loading="false" data-show="false">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true" tabindex="1">×</button>
       </div>

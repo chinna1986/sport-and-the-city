@@ -1,158 +1,157 @@
-(function (jQuery, window, History) {
-  var $modal;
-  var oldTitle;
+/*!
+ * Navigator for AJAX serfing between pages)
+ */
+!function (jQuery, History, window) {
 
-
-  var openModal = function (url, event, ignoreHistory) {
-    var remotePath;
-
-    url = Util.parseUrl(url);
-    remotePath = url.pathname + url.search;
-    oldTitle = document.title;
-
-    event && (event.preventDefault ? event.preventDefault() : (event.returnValue = false));
-
-    if ($modal.data('modal')) {
-      $modal.modal('destroy');
-      $modal.data('modal', false);
-    }
-
-    $modal.modal({ remote: remotePath + ' ' + 'article' });
-
-    $modal.on('hidden', onHideModal);
-
-    $modal.on('loaded', function (event, responseText, textStatus, XMLHttpRequest) {
-      var title = Util.getTitle(responseText);      
-      
-      console.log('[loaded]');
-      
-      $modal.modal('show');
-      $modal.modal('removeLoading');
-
-      if (!ignoreHistory) History.pushState(null, title, "?modal=" + encodeURIComponent(remotePath) );
-
-    });
-  };
-
-
-  var onHideModal = function () {
-    var url = Util.parseUrl(location.href);
-    History.pushState(null, oldTitle, url.pathname);
+  function preventEvent(e) {
+    return e && (e.preventDefault ? e.preventDefault() : (e.returnValue = false));
   }
 
+  function getPathname (url) {
+    url = Util.parseUrl(url)
+    return url.pathname + url.search;
+  }
 
-  var changePage = function (url, event) {
-  };
+  function Navigator () {
+    this.$modal = $('#show-modal');
+    this.$grid  = $('#grid');
+    History.Adapter.bind(window,'statechange', jQuery.proxy(this.statechange, this));
+  }
 
+  /*!
+   * Open modal with content form remote url
+   */
+  Navigator.prototype.modal = function(url, e, pushstate) {
+    var pathname = getPathname(url);
 
-  var init = function () {
-    $modal = $('#show-modal');
-    oldTitle = document.title;
-
-    // If in url have path for modal, show they
-    if (location.search.search('modal=') > -1) {
-      openModal(Util.getSearchParam('modal'), null, true);
+    if (pushstate == null) {
+      pushstate = true;
     }
 
-    History.Adapter.bind(window,'statechange', _onStateChange);
+    preventEvent(e || window.event);
+
+    this.$modal.data('modal') && this.$modal.data('modal').destroy() && this.$modal.data('modal', false);
+
+    this.$modal.modal({ remote: pathname + ' article' });
+
+    // this.$modal.modal('loading');
+
+    this.$modal.off('hidden').on('hidden', jQuery.proxy(this.modalHidden, this));
+
+    this.$modal.off('loaded').on('loaded', jQuery.proxy(this.modalLoaded, this));
+
+    // if (!pushstate) {
+    //   History.pushState({oldTitle: document.title}, null, "?modal=" + encodeURIComponent(remotePath) );
+    // }
   };
 
-  var _onStateChange = function () {
+  /*!
+   * Change page content
+   */
+  Navigator.prototype.go = function(url, e, pushstate) {
+
+    if (pushstate == null) {
+      pushstate = true;
+    }
+
+    preventEvent(e || window.event);
+    // body...
+  };
+
+  /*!
+   * Handler of changes HistoryAPI state
+   */
+  Navigator.prototype.statechange = function(event) {
     var state = History.getState();
   };
 
-  window.nav = {
-    modal : openModal,
-    go    : changePage,
-    init  : init
+  /*!
+   * Handle event of hidden modal
+   */
+  Navigator.prototype.modalHidden = function(first_argument) {
+    var state = History.getState();
+    var url = Util.parseUrl(location.href);
+    // History.pushState({action: 'hideModal'}, state.data.oldTitle, url.pathname);
   };
 
-})(jQuery, window, History);
+  /*!
+   * Handler after content loading was finished
+   */
+  Navigator.prototype.modalLoaded = function(event, responseText, textStatus, XMLHttpRequest) {
+    // this.$modal.modal('show');
+    document.title = Util.getTitle(responseText);
+  };
 
-jQuery(nav.init);
+  window.nav = new Navigator();
 
+} (jQuery, History, window)
 
-//     var _modalLoadedHandler = function () {
-//       $modal.modal('show');
-//       $modal.modal('removeLoading');
-//       if (!ignoreHistory) History.pushState(null, null, "?showModal="+url);
-//     }
+// (function (jQuery, window, History) {
+//   var $modal;
 
-//     event.preventDefault ? event.preventDefault() : (event.returnValue = false);
+//   var openModal = function (url, event, ignoreHistory) {
+//     var remotePath;
+
+//     url = Util.parseUrl(url);
+//     remotePath = url.pathname + url.search;
+
+//     event && (event.preventDefault ? event.preventDefault() : (event.returnValue = false));
 
 //     if ($modal.data('modal')) {
-//       $modal.('destroy');
+//       $modal.modal('destroy');
 //       $modal.data('modal', false);
 //     }
 
-//     $modal.modal({ remote: remotePath }).on('loaded', _modalLoadedHandler);
+//     $modal.modal({ remote: remotePath + ' ' + 'article' });
 
-// ;function(window, $) {
+//     $modal.on('hidden', onHideModal);
 
-//   function showRemoteContent(url, event, ignoreHistory) {
-//     var $modal = $('#show-modal');
-//     var remotePath = url + ' ' + '#article';
-//     var _modalLoadedHandler = function () {
+//     $modal.on('loaded', function (event, responseText, textStatus, XMLHttpRequest) {
+//       var title = Util.getTitle(responseText);      
+      
+//       console.log('[loaded]');
+      
 //       $modal.modal('show');
 //       $modal.modal('removeLoading');
-//       if (!ignoreHistory) History.pushState(null, null, "?showModal="+url);
-//     }
 
-//     event.preventDefault ? event.preventDefault() : (event.returnValue = false);
+//       if (!ignoreHistory) History.pushState({oldTitle: document.title}, title, "?modal=" + encodeURIComponent(remotePath) );
 
-//     if ($modal.data('modal')) {
-//       $modal.('destroy');
-//       $modal.data('modal', false);
-//     }
-
-//     $modal.modal({ remote: remotePath }).on('loaded', _modalLoadedHandler);
-//   }
-
-//   History.Adapter.bind(window,'statechange',function() {
-//     var State = History.getState(); // Note: We are using History.getState() instead of event.state
 //     });
-
-//   $.fn.showModal = showRemoteContent;
-//   $.fn.modal.defaults.spinner = $.fn.modalmanager.defaults.spinner = 
-//     '<div class="loading-spinner">' +
-//         '<div class="loader-wrapper">' +
-//             '<div class="loader-image"></div>' +
-//         '</div>' +
-//     '</div>';
-
-// }
+//   };
 
 
-// $.fn.showModal = function (url, event) {
-//   var $modalElement = $('#show-modal');
-//   var modal = $modalElement.data('modal');
-//   var e = event || window.event;
-//   var remote = url + ' article';
-//   var historyApiUrl = '?showModal=' + encodeURIComponent(url);
-
-//   // Prevent 
-//   e.preventDefault ? e.preventDefault() : (e.returnValue = false);
-
-//   // Destroy modal
-//   if (modal && modal.destroy) {
-//     modal.destroy();
-//     $modalElement.data('modal', false);
+//   var onHideModal = function () {
+//     var url = Util.parseUrl(location.href);
+//     History.pushState(null, oldTitle, url.pathname);
 //   }
 
-//   $modalElement.modal({ remote: remote }).on('loaded', function () { 
-//     $modalElement.modal('show');
-//     $modalElement.modal('removeLoading');
-//     // History && History.pushState && History.pushState(null, null, historyApiUrl);
-//   });
-// }
+
+//   var changePage = function (url, event) {
+//   };
 
 
-// // $.fn.
+//   var init = function () {
+//     $modal = $('#show-modal');
+//     oldTitle = document.title;
 
-// $.fn.modal.defaults.spinner = $.fn.modalmanager.defaults.spinner = 
-//     '<div class="loading-spinner">' +
-//         '<div class="loader-wrapper">' +
-//             '<div class="loader-image"></div>' +
-//         '</div>' +
-//     '</div>';
+//     // If in url have path for modal, show they
+//     if (location.search.search('modal=') > -1) {
+//       openModal(Util.getSearchParam('modal'), null, true);
+//     }
 
+//     History.Adapter.bind(window,'statechange', _onStateChange);
+//   };
+
+//   var _onStateChange = function () {
+//     var state = History.getState();
+//   };
+
+//   window.nav = {
+//     modal : openModal,
+//     go    : changePage,
+//     init  : init
+//   };
+
+// })(jQuery, window, History);
+
+// jQuery(nav.init);
