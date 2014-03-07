@@ -548,6 +548,27 @@ if (typeof JSON !== 'object') {
 			})(element,eventName);
 		},
 
+        unbind: function (element,eventName,callback) {
+
+            // Prepare
+            var uid = History.Adapter.uid(element);
+            var index;
+
+            // Apply Listener
+            History.Adapter.handlers[uid] = History.Adapter.handlers[uid] || {};
+            History.Adapter.handlers[uid][eventName] = History.Adapter.handlers[uid][eventName] || [];
+            // History.Adapter.handlers[uid][eventName].push(callback);
+
+            index = History.Adapter.handlers[uid][eventName].indexOf(callback);
+
+            if (index > -1) {
+                History.Adapter.handlers[uid][eventName].splice(index, 1);
+            }
+
+            // Unbind Global Listener
+            element['on'+eventName] = null;
+        },
+
 		/**
 		 * History.Adapter.trigger(el,event)
 		 * @param {Element} element

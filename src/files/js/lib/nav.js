@@ -15,8 +15,16 @@
   function Navigator () {
     this.$modal = $('#show-modal');
     this.$grid  = $('#grid');
-    History.Adapter.bind(window,'statechange', jQuery.proxy(this.statechange, this));
+    this.proxyingMethods();
+    this.startListenHistory();
+    History.Adapter.trigger(window , 'statechange');
   }
+
+  Navigator.prototype.proxyingMethods = function() {
+    this.statechange = jQuery.proxy(this._statechange, this);
+    this.modalHidden = jQuery.proxy(this._modalHidden, this);
+    this.modalLoaded = jQuery.proxy(this._modalLoaded, this);
+  };
 
   /*!
    * Open modal with content form remote url
@@ -30,19 +38,27 @@
 
     preventEvent(e || window.event);
 
-    this.$modal.data('modal') && this.$modal.data('modal').destroy() && this.$modal.data('modal', false);
+    this.$modal.data('modal') 
+      && this.$modal.data('modal').hide() /* Hide modal, if is open */
+      && this.$modal.data('modal').destroy() /* Destroy object */
+      && this.$modal.data('modal', false); /* Remove object instance */
+
+    // url param is require to open modal
+    if (!url) {
+      return false
+    }
 
     this.$modal.modal({ remote: pathname + ' article' });
 
-    // this.$modal.modal('loading');
+    this.$modal.modal('loading');
 
-    this.$modal.off('hidden').on('hidden', jQuery.proxy(this.modalHidden, this));
+    this.$modal.off('hidden', this.modalHidden).on('hidden', this.modalHidden);
 
-    this.$modal.off('loaded').on('loaded', jQuery.proxy(this.modalLoaded, this));
+    this.$modal.off('loaded', this.modalLoaded).on('loaded', this.modalLoaded);
 
-    // if (!pushstate) {
-    //   History.pushState({oldTitle: document.title}, null, "?modal=" + encodeURIComponent(remotePath) );
-    // }
+    if (pushstate) {
+       History.pushState({oldTitle: document.title}, null, "?modal=" + encodeURIComponent(pathname) );
+    }
   };
 
   /*!
@@ -61,25 +77,40 @@
   /*!
    * Handler of changes HistoryAPI state
    */
-  Navigator.prototype.statechange = function(event) {
+  Navigator.prototype._statechange = function(event) {
     var state = History.getState();
+    var modalUrl = Util.getSearchParam('modal', state.cleanUrl);
+
+    this.modal(modalUrl, null, false);
   };
 
   /*!
    * Handle event of hidden modal
    */
-  Navigator.prototype.modalHidden = function(first_argument) {
+  Navigator.prototype._modalHidden = function(first_argument) {
     var state = History.getState();
     var url = Util.parseUrl(location.href);
-    // History.pushState({action: 'hideModal'}, state.data.oldTitle, url.pathname);
+
+    History.pushState({action: 'hideModal'}, state.data.oldTitle, url.pathname);
   };
 
   /*!
    * Handler after content loading was finished
    */
-  Navigator.prototype.modalLoaded = function(event, responseText, textStatus, XMLHttpRequest) {
-    // this.$modal.modal('show');
+  Navigator.prototype._modalLoaded = function(event, responseText, textStatus, XMLHttpRequest) {
+    this.$modal.modal('show');
+    this.$modal.data('modal').isLoading && this.$modal.data('modal').loading();
+
+    // Old school
     document.title = Util.getTitle(responseText);
+  };
+
+  Navigator.prototype.startListenHistory = function(first_argument) {
+    History.Adapter.bind(window, 'statechange', jQuery.proxy(this.statechange, this));
+  };
+
+  Navigator.prototype.stopListenHistory = function(first_argument) {
+    History.Adapter.unbind(window, 'statechange', jQuery.proxy(this.statechange, this));
   };
 
   window.nav = new Navigator();

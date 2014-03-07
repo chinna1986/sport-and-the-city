@@ -9,15 +9,9 @@ function updateGridWidth() {
   $$gridChildren = $$grid.children;
 
   Util.each($$gridChildren, function (index, el) { 
-    gridWidth += $(el).outerWidth(); 
-    // console.log('document.documentElement.className', document.documentElement.className);
-    // console.log('$(el).outerWidth()',  $(el).get(0), $(el).outerWidth());
-    // if (index == 1) {
-      // Util.each(el.children, function (i, vv) {
-        // console.log(vv, $(vv).outerWidth() );
-      // })
-    // }
+    gridWidth += $(el).outerWidth();
   });
+
   $$grid.style.width = gridWidth+'px';
 }
 
@@ -45,7 +39,7 @@ function handleGridWidth () {
   return ;
 }
 
-function animateGrid() {
+function showAnimateGrid() {
   var animateClass = 'showGridItem animated';
   var delayTime = 0;
   $('#grid').children().removeClass(animateClass).each(function () {
@@ -54,15 +48,15 @@ function animateGrid() {
   })
 }
 
-function animateLanguageControl() {
+function showAnimateLanguageControl() {
   var className = 'showLanguageControl animated';
   jQuery('#header-languages').removeClass(className).addClass(className);
 }
 
 updateGridWidth();
 initNiceScroll();
-animateGrid();
-animateLanguageControl();
+showAnimateGrid();
+showAnimateLanguageControl();
 
 $$grid && jQuery(window).on('resize', handleGridWidth).trigger('resize');
 
