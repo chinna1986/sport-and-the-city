@@ -26,19 +26,19 @@
   <div class="gr-item half space-right space-bottom no-space-bottom-320">
     <img src="/img/multiethnic-city/thumb-1.jpg" alt="Thumb 1" />
     <div class="desc"><%= @document.Industrialization_and_Modernization %></div>
-    <a href="<%= @normalizeURL('/part/industrialization-and-modernization.html') %>" onclick="nav.modal(this.href, event);"></a>
+    <a class="gr-link" href="<%= @normalizeURL('/part/industrialization-and-modernization.html') %>" onclick="nav.modal(this.href, event);"></a>
   </div>
 
   <div class="gr-item half space-right-320">
     <img src="/img/multiethnic-city/thumb-2.jpg" alt="Thumb 2" />
     <div class="desc"><%= @document['«British Beginnings» of Sports'] %></div>
-    <a href="<%= @normalizeURL('/part/british-beginnings-of-sports.html') %>" onclick="return nav.modal('/part/british-Beginnings-of-sports.html', event+);"></a>
+    <a class="gr-link" href="<%= @normalizeURL('/part/british-beginnings-of-sports.html') %>" onclick="return nav.modal('/part/british-Beginnings-of-sports.html', event+);"></a>
   </div>
 
   <div class="gr-item half eol no-eol-320">
     <img src="/img/multiethnic-city/thumb-3.jpg" alt="Thumb 3" />
     <div class="desc"><%= @document['In Search of Moral, Physical, Political and Social Health for the Community'] %></div>
-    <a href="<%= @normalizeURL('/part/in-search-of-moral-physical.html') %>" onclick="return showArticle('/part/in-search-of-moral-physical.html', event+);"></a>
+    <a class="gr-link" href="<%= @normalizeURL('/part/in-search-of-moral-physical.html') %>" onclick="return showArticle('/part/in-search-of-moral-physical.html', event+);"></a>
   </div>
 
 </li>
@@ -51,19 +51,19 @@
   <div class="gr-item half space-right space-bottom no-space-bottom-320">
     <img src="/img/multiethnic-city/thumb-4.jpg" alt="<%= @document.The_Sokol_Societies %>" />
     <div class="desc"><%= @document.The_Sokol_Societies %></div>
-    <a href="<%= @normalizeURL('/sport-in-multiethnic-city/') %>"></a>
+    <a class="gr-link" href="<%= @normalizeURL('/sport-in-multiethnic-city/') %>"></a>
   </div>
 
   <div class="gr-item half space-right-320">
     <img src="/img/multiethnic-city/thumb-5.jpg" alt="<%= @document['«Zdvyh and Zlot: Mass Rituals in Urban Public Space'] %>" />
     <div class="desc"><%= @document['«Zdvyh and Zlot: Mass Rituals in Urban Public Space'] %></div>
-    <a href="<%= @normalizeURL('/sport-and-of-total-war/') %>"></a>
+    <a class="gr-link" href="<%= @normalizeURL('/sport-and-of-total-war/') %>"></a>
   </div>
 
   <div class="gr-item half eol no-eol-320">
     <img src="/img/multiethnic-city/thumb-6.jpg" alt="<%= @document.Ivan_Boberskyi %>" />
     <div class="desc"><%= @document.Ivan_Boberskyi %></div>
-    <a href="<%= @normalizeURL('/sport-in-soviet-city/') %>"></a>
+    <a class="gr-link" href="<%= @normalizeURL('/sport-in-soviet-city/') %>"></a>
   </div>
 
 </li>
@@ -76,13 +76,13 @@
   <div class="gr-item half space-right-320 space-bottom no-space-bottom-320">
     <img src="/img/multiethnic-city/thumb-7.jpg" alt="<%= @document.The_Sokol_Societies %>" />
     <div class="desc"><%= @document['Lviv Football: Between the Local and the National'] %></div>
-    <a href="<%= @normalizeURL('/sport-in-multiethnic-city/') %>"></a>
+    <a class="gr-link" href="<%= @normalizeURL('/sport-in-multiethnic-city/') %>"></a>
   </div>
 
   <div class="gr-item half eol no-eol-320">
     <img src="/img/multiethnic-city/thumb-8.jpg" alt="<%= @document['The Universal Athlete'] %>" />
     <div class="desc"><%= @document['The Universal Athlete'] %></div>
-    <a href="<%= @normalizeURL('/sport-and-of-total-war/') %>"></a>
+    <a class="gr-link" href="<%= @normalizeURL('/sport-and-of-total-war/') %>"></a>
   </div>
 
 </li>
@@ -96,13 +96,13 @@
   <div class="gr-item half space-bottom space-right-320 no-space-bottom-320">
     <img src="/img/multiethnic-city/thumb-9.jpg" alt="<%= @document['Sports and the Mass Audience'] %>" />
     <div class="desc"><%= @document['Sports and the Mass Audience'] %></div>
-    <a href="<%= @normalizeURL('/sport-and-of-total-war/') %>"></a>
+    <a class="gr-link" href="<%= @normalizeURL('/sport-and-of-total-war/') %>"></a>
   </div>
 
   <div class="gr-item half eol no-eol-320">
     <img src="/img/multiethnic-city/thumb-10.jpg" alt="<%= @document['The Sports and media complex'] %>" />
     <div class="desc"><%= @document['The Sports and media complex'] %></div>
-    <a href="<%= @normalizeURL('/sport-and-of-total-war/') %>"></a>
+    <a class="gr-link" href="<%= @normalizeURL('/sport-and-of-total-war/') %>"></a>
   </div>
 
 </li>

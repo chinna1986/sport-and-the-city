@@ -75,10 +75,10 @@
 .sh-1080 .gr-title { padding: 10px 0px 0px 0px; }
 .sh-1600 .gr-title { padding: 10px 0px 0px 0px; }
 
-.rg-label
+.gr-label
 {
   position: absolute;
-  bottom: 50px;
+  bottom: 8%;
   left: 0px;
   display: block;
   padding: 10px 10px 10px 10px;
@@ -100,7 +100,7 @@
   height: auto;
 }
 
-.gr-item a
+.gr-link
 {
   position: absolute;
   display: block;
