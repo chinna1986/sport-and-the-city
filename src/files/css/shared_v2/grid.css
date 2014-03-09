@@ -162,7 +162,7 @@
 
 .sh-320  .gr-item.large { width: 339px; height: 208px; }
 .sh-480  .gr-item.large { width: 472px; height: 290px; }
-.sh-768  .gr-item.large { width: 893px; height: 548px; }
+.sh-768  .gr-item.large { width: 499px; height: 305px; }
 .sh-1080 .gr-item.large { width: 893px; height: 548px; }
 .sh-1600 .gr-item.large { width: 893px; height: 548px; }
 
@@ -174,7 +174,7 @@
 
 .sh-320  .gr-item.half { width: 324px; height: 208px; }
 .sh-480  .gr-item.half { width: 218px; height: 140px; }
-.sh-768  .gr-item.half { width: 411px; height: 264px; }
+.sh-768  .gr-item.half { width: 223px; height: 143px; }
 .sh-1080 .gr-item.half { width: 411px; height: 264px; }
 .sh-1600 .gr-item.half { width: 411px; height: 264px; }
 
@@ -186,7 +186,7 @@
 
 .sh-320  .gr-item.third { width: 339px; height: 208px; }
 .sh-480  .gr-item.third { width: 147px; height: 90px;  }
-.sh-768  .gr-item.third { width: 276px; height: 169px; }
+.sh-768  .gr-item.third { width: 145px; height: 89px;  }
 .sh-1080 .gr-item.third { width: 276px; height: 169px; }
 .sh-1600 .gr-item.third { width: 276px; height: 169px; }
 

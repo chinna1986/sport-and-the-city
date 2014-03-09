@@ -1,0 +1,49 @@
+<% if @document.language == 'en': %>
+  <figure>
+    <img src="/img/part/created-by/created-by.jpg" alt="The exhibition created by" />
+    <figcaption>The exhibition created by</figcaption>
+  </figure>
+
+<h4>Curator:</h4>
+<p>Andriy Linik</p>
+<h4>Authors:</h4>
+<p>Andriy Bondarenko, Oksana Dudko, Khrystyna Semanyuk</p>
+<h4>Editing and translation:</h4>
+<p>Mayhill Fowler, Natalka Rymska</p>
+<h4>Design:</h4>
+<p>Lavrin Shymin, Viktoria Fedynets</p>
+<h4>Technical support and programming:</h4>
+<p>Ivan Solsky, Yuriy Sushko, Mykhailo Bobusky, Oleksandr Paziuk, Yuriy Bishko, Dariy Solsky, Yuriy Baturynsky, Andriy Fedyk</p>
+<h4>Special exhibition programs:</h4>
+<p>Mariana Kuzemska, Khrystyna Boyko, Andriy Linik, Bohdan Shumylovych, Andriy Bondarenko</p>
+<h4>Acknowledgments for visual materials:</h4>
+<p>Lesia Krypyakevych (collection of Professor Stepan Hayduchok), Ivan Yaremko, Olga Linkiewicz, Arnold Prokhorov, Borys Yasinovsky, Vyacheslav Afonin, Yuriy Nazarkevych, Yevhen Kravs, Andrij Bojarov, Iryna Kotlobulatova, Ihor Kotlobulatov, Nikolay Smirnov and Sport Club «Eurosport», State Archive of Lviv Region, Library of the Institute of Ethnography of the National Academy of Sciences of Ukraine, Vasyl Stefanyk National Scientific Library of Ukraine in Lviv, H. S. Pshenychnyi Central State Cinema, Photo Archive of Ukraine in Kyiv</p>
+<h4>Acknowledgments:</h4>
+<p>Oksana Hrechanyuk, Myroslav Hertsyk, Ihor Kulchytsky, Olena Turianska, Ihor Dobriansky, Roman Lozynsky, Bohdan Shumylovych, Iryna Matsevko, Nadia Drozhzhyna, Zoriana Slyusarchuk</p>
+
+<% else: %>
+
+  <figure>
+    <img src="/img/part/created-by/created-by.jpg" alt="Над виставкою працювали" />
+    <figcaption>Над виставкою працювали</figcaption>
+  </figure>
+
+<h4>Куратор:</h4>
+<p>Андрій Лінік</p>
+<h4>Автори:</h4>
+<p>Андрій Бондаренко, Оксана Дудко, Христина Семанюк</p>
+<h4>Редагування і переклад:</h4>
+<p>Наталка Римська, Мейгіл Фовлер</p>
+<h4>Дизайн:</h4>
+<p>Лаврін Шимін, Вікторія Фединець</p>
+<h4>Технічна підтримка та програмне забезпечення:</h4>
+<p>Іван Сольський, Юрій Сушко, Михайло Бобуський, Олександр Пазюк, Юрій Бішко, Дарій Сольський, Юрій Батуринський, Андрій Федик</p>
+<h4>Супровідна програма виставки:</h4>
+<p>Мар’яна Куземська, Христина Бойко, Андрій Лінік, Богдан Шумилович, Андрій Бондаренко</p>
+<h4>Подяка за візуальні матеріали:</h4>
+<p>Лесі Крип’якевич (колекція проф. Степана Гайдучка), Івану Яремко, Арнольду Прохорову, Борису Ясіновському, В’ячеславу Афоніну, Юрію Назаркевичу, Олі Лінкевич, Євгену Кравсу, Андрію Боярову, Ірині Котлобулатовій, Ігору Котлобулатову, Миколі Смірнову та СК «Євроспорт», Державному архіву Львівської області, Бібліотеці Інституту народознавства Академії наук України, Львівській науковій бібліотеці ім. В.Стефаника НАН України, Центральному державному кінофотофоно архіву України імені Г.С. Пшеничного у Києві</p>
+<h4>Подяка за допомогу у створенні виставки:</h4>
+<p>Оксані Гречанюк, Мирославу Герцику, Ігору Кульчицькому, Олені Турянській, Ігору Добрянському, Роману Лозинському, Богдану Шумиловичу, Ірині Мацевко, Надії Дрожжиній, Зоряні Слюсарчук</p>
+
+
+<% end %>

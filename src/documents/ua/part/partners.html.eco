@@ -1,0 +1,10 @@
+---
+title: "Дякуємо нашим партнерам"
+layout: part
+language: en
+SPORT_AND_THE_CITY: SPORT AND THE CITY
+PEOPLE_SOCIETY_IDEOLOGY: ЛЮДИНА. СУСПІЛЬСТВО. ІДЕОЛОГІЯ.
+thanks: Дякуємо нашим партнерам
+---
+
+<%- @partial('part/partners') %>

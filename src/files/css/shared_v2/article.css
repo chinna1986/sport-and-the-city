@@ -17,7 +17,7 @@ article
   background: #fff;
   color: #172029;
   line-height: 150%;
-  padding: 0 0 4% 0;
+  padding: 0 0 5% 0;
 }
 
 article p
@@ -26,8 +26,10 @@ article p
   padding: 0% 10%;
 }
 
-article a
-{}
+article a {
+  color: #15C;
+  text-decoration: underline;
+}
 
 article h1
 {
@@ -93,6 +95,7 @@ article figure figcaption
   color: #FFF;
   font-size: 1.7em;
   font-weight: 300;
+  z-index: 28;
 }
 
 

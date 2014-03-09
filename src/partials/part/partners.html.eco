@@ -1,0 +1,4 @@
+<figure>
+  <img src="/img/part/partners/eng.jpg" alt="<%- @document.thanks %>" />
+  <figcaption><%= @document.thanks %></figcaption>
+</figure>

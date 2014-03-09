@@ -22,8 +22,8 @@ jQuery.fn.modal.defaults.spinner = $.fn.modalmanager.defaults.spinner =
     '</div>' +
   '</div>';
 
-function init_rslides () {
-	jQuery('.rslides').responsiveSlides({
+function init_rslides ($element) {
+  ( $element || jQuery('.rslides') ).responsiveSlides({
       "auto": true,             // Boolean: Animate automatically, true or false
       "speed": 500,             // Integer: Speed of the transition, in milliseconds
       "timeout": 4000,          // Integer: Time between slide transitions, in milliseconds

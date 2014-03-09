@@ -1,6 +1,6 @@
 <!-- Big slider -->
 <li class="gr-box">
-  <div class="rg-label"><%= @document['SPORT IN GLOBAL CITY'] %></div>
+  <div class="gr-label"><%= @document['SPORT IN GLOBAL CITY'] %></div>
 
   <div class="gr-item large">
     <img src="/img/global-city/title.jpg" />

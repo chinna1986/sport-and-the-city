@@ -63,26 +63,25 @@
 
 <!-- About block -->
 <li class="gr-box showGridItem animated">
-  <div class="gr-title"><%= @document.About %></div>
+  <!-- <div class="gr-title"><%= @document.About %></div> -->
 
   <div class="gr-item third space-right">
     <div class="desc"><%= @document.About_Exhibition %></div>
-    <img src="/img/titles/title.jpg" />
+    <a class="gr-link" href="<%= @normalizeURL('/part/about.html') %>" onclick="nav.modal(this.href, event);"></a>
   </div>
 
   <div class="gr-item third space-bottom no-space-bottom-320 space-right-320">
     <div class="desc"><%= @document.Educational_Programs %></div>
-    <img src="/img/titles/title.jpg" />
   </div>
 
   <div class="gr-item third eol no-eol-320 space-bottom space-right-320">
     <div class="desc"><%= @document.Partners %></div>
-    <img src="/img/titles/title.jpg" />
+    <a class="gr-link" href="<%= @normalizeURL('/part/partners.html') %>" onclick="nav.modal(this.href, event);"></a>
   </div>
 
   <div class="gr-item third eol no-eol-320">
     <div class="desc"><%= @document.Authors %></div>
-    <img src="/img/titles/title.jpg" />
+    <a class="gr-link" href="<%= @normalizeURL('/part/created-by.html') %>" onclick="nav.modal(this.href, event);"></a>
   </div>
 
 </li>

@@ -4,26 +4,30 @@
 !function (jQuery, window) {
 
   function Resizer (heights) {
-    this.heights = heights || [];
+    this.heights = heights;
     this.currentClass = null;
     this.timeOutId = null;
-    this.classes = jQuery.map(this.heights, function (value) { 
+    this.classes = jQuery.map(this.heights, function (value) {
       return "sh-" + value; // sh -> Screen Height
     });
     this.proxyingMethods();
     this.bindEvent();
+    this.detectHeight();
   }
 
 
   Resizer.prototype.proxyingMethods = function() {
     this.resize = jQuery.proxy(this._resize, this)
     this.detectHeight = jQuery.proxy(this._detectHeight, this)
+
+    return;
   };
 
 
   Resizer.prototype.bindEvent = function() {
     jQuery(window).on('resize', this.resize);
-    this.resize();
+
+    return;
   };
 
 
@@ -33,31 +37,34 @@
     }
 
     this.timeOutId = setTimeout(this.detectHeight, 30);
+
+    return;
   };
 
 
   Resizer.prototype._detectHeight = function() {
-    var windowHeight = jQuery( window ).height(),
-      newClass = getClassByHeight(windowHeight);
+    var windowHeight = jQuery(window).height();
+    var newClass = this.getClassByHeight(windowHeight);
 
-    if (currentClass && currentClass != newClass) {
-      jQuery(document.documentElement).removeClass(currentClass);
+    if (this.currentClass && this.currentClass != newClass) {
+      jQuery(document.documentElement).removeClass(this.currentClass);
     }
 
-    if (currentClass != newClass) {
-      currentClass = newClass;
+    if (this.currentClass != newClass) {
       jQuery(document.documentElement).addClass(newClass);
+      this.currentClass = newClass;
     }
 
-    return true;
+    return;
   };
 
   Resizer.prototype.getClassByHeight = function(height) {
-    var newClass = '';
+    var newClass = null;
+    var index = this.heights.length;
 
-    for (var index = heightMap.length - 1; index >= 0; index--) {
-      if (height <= heightMap[index]) {
-        newClass = classMap[index];
+    for (; index >= 0; index--) {
+      if (height <= this.heights[index]) {
+        newClass = this.classes[index];
       }
     };
 
@@ -65,50 +72,5 @@
   };
 
   window.resizer = new Resizer([320, 480, 768, 1080, 1600]);
-
-
-
-// var heightMap = [320, 480, 768, 1080, 1600];
-// var classMap = jQuery.map(heightMap, function (value) { return "sh-" + value; });
-// var currentClass = false;
-// var timeOutId = false;
-// var index;
-
-// function onResizeHandler(event) {
-//   if (timeOutId) clearTimeout(timeOutId);
-//   setTimeout(onResize, 30);
-// }
-
-// function onResize(event) {
-//   var windowHeight = jQuery( window ).height(),
-//       newClass = getClassByHeight(windowHeight);
-
-//   if (currentClass && currentClass != newClass) {
-//     jQuery(document.documentElement).removeClass(currentClass);
-//   }
-
-//   if (currentClass != newClass) {
-//     currentClass = newClass;
-//     jQuery(document.documentElement).addClass(newClass);
-//   }
-
-//   return true;
-// }
-
-
-// function getClassByHeight(height) {
-//   var newClass = '';
-
-//   for (var index = heightMap.length - 1; index >= 0; index--) {
-//     if (height <= heightMap[index]) {
-//       newClass = classMap[index];
-//     }
-//   };
-
-//   return newClass;
-// }
-
-// onResize();
-// jQuery(window).on('resize', onResizeHandler);
 
 } (jQuery, window);

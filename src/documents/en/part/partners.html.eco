@@ -1,0 +1,10 @@
+---
+title: "Thanks to our partners"
+layout: part
+language: en
+SPORT_AND_THE_CITY: SPORT AND THE CITY
+PEOPLE_SOCIETY_IDEOLOGY: PEOPLE. SOCIETY. IDEOLOGY.
+thanks: Thanks to our partners
+---
+
+<%- @partial('part/partners') %>

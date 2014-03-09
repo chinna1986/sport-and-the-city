@@ -1,6 +1,6 @@
 <!-- Big slider -->
 <li class="gr-box">
-  <div class="rg-label">
+  <div class="gr-label">
     <%= @document.Sport_In_Multiethnic_City %>
   </div>
   <div class="gr-item large">
