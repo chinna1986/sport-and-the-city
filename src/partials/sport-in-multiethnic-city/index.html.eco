@@ -32,7 +32,7 @@
   <div class="gr-item half space-right-320">
     <img src="/img/multiethnic-city/thumb-2.jpg" alt="Thumb 2" />
     <div class="desc"><%= @document['«British Beginnings» of Sports'] %></div>
-    <a class="gr-link" href="<%= @normalizeURL('/part/british-beginnings-of-sports.html') %>" onclick="return nav.modal('/part/british-Beginnings-of-sports.html', event+);"></a>
+    <a class="gr-link" href="<%= @normalizeURL('/part/british-beginnings.html') %>" onclick="return nav.modal(this.href, event);"></a>
   </div>
 
   <div class="gr-item half eol no-eol-320">

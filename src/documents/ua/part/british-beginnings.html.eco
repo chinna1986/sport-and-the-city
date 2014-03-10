@@ -1,0 +1,9 @@
+---
+title: «Британські початки» спорту
+layout: part
+language: ua
+SPORT_AND_THE_CITY: SPORT AND THE CITY
+PEOPLE_SOCIETY_IDEOLOGY: ЛЮДИНА. СУСПІЛЬСТВО. ІДЕОЛОГІЯ.
+---
+
+<%- @partial('part/british-beginnings') %>

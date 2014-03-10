@@ -65,14 +65,14 @@
 <li class="gr-box showGridItem animated">
   <!-- <div class="gr-title"><%= @document.About %></div> -->
 
-  <div class="gr-item third space-right">
+  <div class="gr-item third space-bottom no-space-bottom-320">
     <div class="desc"><%= @document.About_Exhibition %></div>
     <a class="gr-link" href="<%= @normalizeURL('/part/about.html') %>" onclick="nav.modal(this.href, event);"></a>
   </div>
 
-  <div class="gr-item third space-bottom no-space-bottom-320 space-right-320">
+  <!-- <div class="gr-item third space-bottom no-space-bottom-320 space-right-320">
     <div class="desc"><%= @document.Educational_Programs %></div>
-  </div>
+  </div> -->
 
   <div class="gr-item third eol no-eol-320 space-bottom space-right-320">
     <div class="desc"><%= @document.Partners %></div>

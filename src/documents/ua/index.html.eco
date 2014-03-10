@@ -17,4 +17,4 @@ Authors: Автори
 Educational_Programs: Освітні програми
 ---
 
-<%- @partial('index') %>
+<%- @partial('main') %>

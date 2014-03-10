@@ -69,7 +69,6 @@ article h6
   padding: 0% 10%;
 }
 
-
 article figure
 {
   position: relative;
@@ -82,7 +81,6 @@ article figure img
   width: 100%;
   display: block;
 }
-
 
 article figure figcaption 
 {
@@ -98,8 +96,9 @@ article figure figcaption
   z-index: 28;
 }
 
-
-
-
-
-
+article figure.second
+{
+  position: relative;
+  margin: 2% 0 0;
+  padding: 0 10%;
+}
