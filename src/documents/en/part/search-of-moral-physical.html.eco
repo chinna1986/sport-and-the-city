@@ -1,0 +1,9 @@
+---
+title: In Search of Moral, Physical, Political and Social Health for the Community
+layout: part
+language: en
+SPORT_AND_THE_CITY: SPORT AND THE CITY
+PEOPLE_SOCIETY_IDEOLOGY: PEOPLE. SOCIETY. IDEOLOGY.
+---
+
+<%- @partial('part/search-of-moral-physical') %>

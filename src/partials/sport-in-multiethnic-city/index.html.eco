@@ -32,13 +32,13 @@
   <div class="gr-item half space-right-320">
     <img src="/img/multiethnic-city/thumb-2.jpg" alt="Thumb 2" />
     <div class="desc"><%= @document['«British Beginnings» of Sports'] %></div>
-    <a class="gr-link" href="<%= @normalizeURL('/part/british-beginnings.html') %>" onclick="return nav.modal(this.href, event);"></a>
+    <a class="gr-link" href="<%= @normalizeURL('/part/british-beginnings.html') %>" onclick="nav.modal(this.href, event);"></a>
   </div>
 
   <div class="gr-item half eol no-eol-320">
     <img src="/img/multiethnic-city/thumb-3.jpg" alt="Thumb 3" />
     <div class="desc"><%= @document['In Search of Moral, Physical, Political and Social Health for the Community'] %></div>
-    <a class="gr-link" href="<%= @normalizeURL('/part/in-search-of-moral-physical.html') %>" onclick="return showArticle('/part/in-search-of-moral-physical.html', event+);"></a>
+    <a class="gr-link" href="<%= @normalizeURL('/part/search-of-moral-physical.html') %>" onclick="nav.modal(this.href, event);"></a>
   </div>
 
 </li>

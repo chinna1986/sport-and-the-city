@@ -101,6 +101,9 @@
     this.$modal.modal('show');
     this.$modal.data('modal').isLoading && this.$modal.data('modal').loading();
 
+    // Global refresh
+    jQuery(window).trigger('app-refresh');
+
     // Old school
     document.title = Util.getTitle(responseText);
   };

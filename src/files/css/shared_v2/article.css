@@ -99,6 +99,6 @@ article figure figcaption
 article figure.second
 {
   position: relative;
-  margin: 2% 0 0;
-  padding: 0 10%;
+  margin: 2% 10% 0;
+  padding: 0 0%;
 }

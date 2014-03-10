@@ -11,7 +11,7 @@ jQuery(document.documentElement).addClass('loading-state');
 
 jQuery( document ).ready( function () {
   jQuery(document.documentElement).removeClass('loading-state').addClass('ready-state');
-
+  jQuery(window).on('app-refresh', reinit_slider);
   init_rslides();
 });
 
@@ -23,7 +23,7 @@ jQuery.fn.modal.defaults.spinner = $.fn.modalmanager.defaults.spinner =
   '</div>';
 
 function init_rslides ($element) {
-  ( $element || jQuery('.rslides') ).responsiveSlides({
+  return ( $element || jQuery('.rslides') ).responsiveSlides({
       "auto": true,             // Boolean: Animate automatically, true or false
       "speed": 500,             // Integer: Speed of the transition, in milliseconds
       "timeout": 4000,          // Integer: Time between slide transitions, in milliseconds
@@ -40,5 +40,10 @@ function init_rslides ($element) {
       "namespace": "rslides",   // String: change the default namespace used
       "before": $.noop,         // Function: Before callback
       "after": $.noop           // Function: After callback
-    })
+    });
+}
+
+function reinit_slider() {
+  console.log('init_rslides');
+  return init_rslides( jQuery('.todo-init-rslides') ).removeClass('todo-init-rslides');
 }
