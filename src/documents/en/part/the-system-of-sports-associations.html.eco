@@ -6,4 +6,4 @@ SPORT_AND_THE_CITY: SPORT AND THE CITY
 PEOPLE_SOCIETY_IDEOLOGY: PEOPLE. SOCIETY. IDEOLOGY.
 ---
 
-<%- @partial('part/about') %>
+<%- @partial('part/the-system-of-sports-associations') %>

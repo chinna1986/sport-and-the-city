@@ -6,4 +6,4 @@ SPORT_AND_THE_CITY: SPORT AND THE CITY
 PEOPLE_SOCIETY_IDEOLOGY: ЛЮДИНА. СУСПІЛЬСТВО. ІДЕОЛОГІЯ.
 ---
 
-<%- @partial('part/about') %>
+<%- @partial('part/constructing-the-urban-sport-infrastructure') %>
