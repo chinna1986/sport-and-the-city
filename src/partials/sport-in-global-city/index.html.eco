@@ -15,61 +15,61 @@
   <div class="gr-item half space-right space-bottom">
     <img src="/img/global-city/thumbs/thumb-1.jpg" alt="Thumb 1" />
     <div class="desc"><%= @document['Global Sports for a Globalized World'] %></div>
-    <a class="gr-link" href="<%= @normalizeURL('/sport-in-multiethnic-city/') %>"></a>
+    <a class="gr-link" href="<%= @normalizeURL('/part/global-sports-for-a-globalized-world.html') %>" onclick="nav.modal(this.href, event);"></a>
   </div>
 
   <div class="gr-item half space-right space-bottom">
     <img src="/img/global-city/thumbs/thumb-2.jpg" alt="Thumb 2" />
     <div class="desc"><%= @document['Hopes and Achievements: Can Sport Change the World?'] %></div>
-    <a class="gr-link" href="<%= @normalizeURL('/sport-and-of-total-war/') %>"></a>
+    <a class="gr-link" href="<%= @normalizeURL('/part/can-sport-change-the-world.html') %>" onclick="nav.modal(this.href, event);"></a>
   </div>
 
   <div class="gr-item half space-right space-bottom">
     <img src="/img/global-city/thumbs/thumb-5.jpg" alt="Thumb 1" />
     <div class="desc"><%= @document['Sports Mega-event'] %></div>
-    <a class="gr-link" href="<%= @normalizeURL('/sport-in-multiethnic-city/') %>"></a>
+    <a class="gr-link" href="<%= @normalizeURL('/part/sports-mega-event.html') %>" onclick="nav.modal(this.href, event);"></a>
   </div>
 
   <div class="gr-item half space-right space-bottom">
     <img src="/img/global-city/thumbs/thumb-6.jpg" alt="Thumb 2" />
     <div class="desc"><%= @document['Lviv – London: Infrastructure Decisions'] %></div>
-    <a class="gr-link" href="<%= @normalizeURL('/sport-and-of-total-war/') %>"></a>
+    <a class="gr-link" href="<%= @normalizeURL('/part/lviv-london-infrastructure-decisions.html') %>" onclick="nav.modal(this.href, event);"></a>
   </div>
 
   <div class="gr-item half space-right space-bottom">
     <img src="/img/global-city/thumbs/thumb-9.jpg" alt="Thumb 4" />
     <div class="desc"><%= @document['Cycling: Sport or Transport'] %></div>
-    <a class="gr-link" href="<%= @normalizeURL('/sport-in-global-city/') %>"></a>
+    <a class="gr-link" href="<%= @normalizeURL('/part/cycling-sport-or-transport.html') %>" onclick="nav.modal(this.href, event);"></a>
   </div>
 
   <div class="gr-item half eol no-eol-320 space-right">
     <img src="/img/global-city/thumbs/thumb-3.jpg" alt="Thumb 3" />
     <div class="desc"><%= @document['Scandal and Sensation'] %></div>
-    <a class="gr-link" href="<%= @normalizeURL('/sport-in-soviet-city/') %>"></a>
+    <a class="gr-link" href="<%= @normalizeURL('/part/scandal-and-sensation.html') %>" onclick="nav.modal(this.href, event);"></a>
   </div>
 
   <div class="gr-item half space-right">
     <img src="/img/global-city/thumbs/thumb-4.jpg" alt="Thumb 4" />
     <div class="desc"><%= @document['Sport as a commodity'] %></div>
-    <a class="gr-link" href="<%= @normalizeURL('/sport-in-global-city/') %>"></a>
+    <a class="gr-link" href="<%= @normalizeURL('/part/sport-as-a-commodity.html') %>" onclick="nav.modal(this.href, event);"></a>
   </div>
 
   <div class="gr-item half space-right">
     <img src="/img/global-city/thumbs/thumb-7.jpg" alt="Thumb 3" />
     <div class="desc"><%= @document['“Ultras” and “football hooliganism”'] %></div>
-    <a class="gr-link" href="<%= @normalizeURL('/sport-in-soviet-city/') %>"></a>
+    <a class="gr-link" href="<%= @normalizeURL('/part/ultras-and-football-hooliganism.html') %>" onclick="nav.modal(this.href, event);"></a>
   </div>
 
   <div class="gr-item half space-right">
     <img src="/img/global-city/thumbs/thumb-8.jpg" alt="Thumb 4" />
     <div class="desc"><%= @document['Women’s Sports'] %></div>
-    <a class="gr-link" href="<%= @normalizeURL('/sport-in-global-city/') %>"></a>
+    <a class="gr-link" href="<%= @normalizeURL('/part/women_s-sports.html') %>" onclick="nav.modal(this.href, event);"></a>
   </div>
 
   <div class="gr-item half">
     <img src="/img/global-city/thumbs/thumb-10.jpg" alt="Thumb 4" />
     <div class="desc"><%= @document['Cyber Sports'] %></div>
-    <a class="gr-link" href="<%= @normalizeURL('/sport-in-global-city/') %>"></a>
+    <a class="gr-link" href="<%= @normalizeURL('/part/cyber-sports.html') %>" onclick="nav.modal(this.href, event);"></a>
   </div>
 
 </li>
