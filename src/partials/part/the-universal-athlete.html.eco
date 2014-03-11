@@ -47,3 +47,64 @@
 <script type="text/javascript">
   init_rslides( jQuery('#about-slide') );
 </script>
+
+
+<?php if(isset($_GET['lang']) AND $_GET['lang'] == 'en') { ?>
+<h3>«The Heroes of Athletic Lviv»</h3>
+
+<div class='colomns'>
+    <div class="text_carousel slide">
+            <div class="carousel-inner">
+              <div class="active item">
+              <img src="football/the-heroes-of-athletic-lviv/img-1.jpg" alt="img" title="Wacław Kuchar"/>
+              <p class="big-title">Wacław Kuchar</p>
+              </div>            
+            </div>
+    </div>
+  <h4>The Universal Athlete</h4>
+    <p>Wacław Kuchar (1897–1981) personified the idea of the universal athlete. He practiced around 10 kinds of sports, and in the majority of them he reigned as champion throughout the 1920s in Poland. His football career brought him the greatest popularity. He played on the Lviv team «Pogoń» from 1912-1934. Besides that, Kuchar not once won the title of champion of Poland in skating, hockey, and track and field. He was actively engaged in figure skating, skiing, tennis and archery. In 1926 the Polish newspaper Sports Overview (Przegląd Sportowy) named him athlete of the year. No other Lwów athlete of the time achieved such high results. From 1939, after the end of his athletic career, he became a referee, trainer, and sports official. In interwar Lwów Kuchar was a role model of a person successfully combining qualities of exceptional physical skill and moral strength. Maintaining the rules of fair play strengthened the popularity of this champion and record-breaker.</p>
+  <h4>Patriot-Footballer</h4>
+    <div class="text_carousel slide">
+            <div class="carousel-inner">
+              <div class="active item">
+              <img src="football/the-heroes-of-athletic-lviv/img-2.jpg" alt="img" title="Oleksandr «Lenia» Skotsen"/>
+              <p class="big-title">Oleksandr «Lenia» Skotsen</p>
+              </div>            
+            </div>
+    </div>
+    <p>The athletic biography of the footballer Oleksandr «Lenia» Skotsen (1918–2003) offers an example of the continual life decisions that an athlete had to make in an era of wars and radical changes of government and political systems. In interwar Lviv, where Poles constituted more than half of the population, Jews--almost 32%, and Ukrainians--close to 16%, it was not possible to avoid the political subtext of sports. Playing for «Trident» (1934–1935), and then for «Ukraine» (1935–1939), Skotsen was not only the best Ukrainian striker, but for Ukrainians he became an example of a patriot who did not avoid his national feelings during his football career in the most decorated of Polish clubs, Pogon. </p>
+    <p>Skotsen even played football during the war. With the arrival of Soviet power in 1939 he moved to Kyiv and played for Dynamo. After arrest and accusation of «unreliability» Skotsen returned to Lviv, where he trained the football team of the Opera Theater. His sports career continued under German occupation and after the war in the D.P. (displaced persons’) camps in Austria. The team «Ukraine» that he formed played against Austrian clubs and also vanquished the Munich team «Bavaria» with a score of 5:0. This victory soon was considered in the Ukrainian diaspora press and literature as not only an athletic victory, but also, most of all, a national victory. The height of his career fell in the time of his playing for the French team «Nice» (1948–1950). He ended his football career in Canada.</p>
+
+</div>
+
+
+<?php } else { ?>
+<h3>«Герої спортивного Львова»</h3>
+<div class='colomns'>
+    <div class="text_carousel slide">
+            <div class="carousel-inner">
+              <div class="active item">
+              <img src="football/the-heroes-of-athletic-lviv/img-1.jpg" alt="img" title="Вацлав Кухар"/>
+              <p class="big-title">Вацлав Кухар</p>
+              </div>            
+            </div>
+    </div>
+
+<h4>Універсальний спортсмен</h4>
+    <p>Вацлав Кухар / Wacław Kuchar (1897–1981) служив утіленням ідеї універсального спортсмена. Він спортсмен Кухар практикував близько десяти різних видів спорту й у більшості з них упродовж 1920-х років ставав чемпіоном Польщі. Найбільшу популярність йому принесла футбольна кар’єра у львівському футбольному клубі «Поґонь» (Pogoń), за який він грав у 1912–1934 роках. Окрім цього, Кухар неодноразово здобував титул чемпіона Польщі з ковзанярства, хокею і легкої атлетики. Він активно займався фігурним катанням, лижним спортом, тенісом і стрільбою з лука. У 1926 році його було визнано спортсменом року за версією польської газети «Спортивний огляд» (Przegląd Sportowy). Жоден з львівських спортсменів того часу не досягнув таких високих результатів. З 1939 року, після закінчення спортивної кар’єри, він виступав суддею, тренером і спортивним функціонером. У міжвоєнному Львові Кухар став взірцем для наслідуванням як людина, у якій однаково успішно поєднувалися виключна фізична вправність і моральні якості. Дотримання правил чесної гри підсилювало його популярність чемпіона і рекордсмена. </p>
+
+  <h4>Футболіст-патріот</h4>
+      <div class="text_carousel slide">
+            <div class="carousel-inner">
+              <div class="active item">
+                  <img src="football/the-heroes-of-athletic-lviv/img-2.jpg" alt="img" title="Олександр «Ле́нь» Скоцень"/>
+              <p class="big-title">Олександр «Ле́нь» Скоцень</p>
+              </div>            
+            </div>
+    </div>
+    <p>Спортивна біографія футболіста Олександра «Леня» Скоценя (1918–2003) є прикладом постійних життєвих виборів, які спортсмену доводилось робити в епоху воєн, радикальних змін держав і політичних систем. У міжвоєнному Львові, де понад половину мешканців становили поляки, майже 32% – євреї і близько 16% – українці, годі було оминути політичні підтексти у спорті. Граючи за «Тризуб» (1934–1935), а потім за «Україну» (1935–1939), Скоцень був не лише найкращим українським бомбардиром – для українців він становив приклад патріота, який не проміняв національні почуття на футбольну кар’єру у найтитулованішому польському клубі «Поґонь» (Pogoń). </p>
+    <p>Скоцень займався футболом і під час війни. З приходом радянської влади у 1939 році він переїжджає до Києва і виступає за «Динамо». Після арешту та звинувачень у «ненадійності», Скоцень повертається до Львова і тренує футбольну команду Львівського оперного театру. Він займається спортивною кар’єрою під час німецької окупації і після війни – у таборах для переміщених осіб (Ді-Пі – Displaced Persons, DP) на території Австрії. Створена ним команда «Україна» грала з австрійськими клубами, а також завдала поразки мюнхенській «Баварії» з нищівним рахунком 5:0. Ця перемога згодом трактувалася у діаспорній пресі та літературі не стільки як спортивна, але насамперед як національна перемога. Пік його кар’єри припав на час гри у французькій «Ніцці» (1948–1950). Завершив футбольну кар’єру в Канаді.</p>
+
+
+</div>
+<?php } ?>

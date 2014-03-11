@@ -47,3 +47,83 @@
 <script type="text/javascript">
   init_rslides( jQuery('#about-slide') );
 </script>
+
+<?php if(isset($_GET['lang']) AND $_GET['lang'] == 'en') { ?>
+<h3>Ivan Boberskyi (1873–1947)</h3>
+<div class='colomns'>
+      <div class="text_carousel slide">
+              <div class="carousel-inner">
+                <div class="active item">
+            <img src="sokil-movement/ivan-boberskyi/img-1.jpg" alt="img" title="Ivan Boberskyi with “Canadian snowshoes” (Canada, 1921–1923)"/>
+              <p class="big-title">Ivan Boberskyi with “Canadian snowshoes” (Canada, 1921–1923)</p>
+                </div>            
+              </div>
+      </div>
+  <p>The success of the export of sports and gymnastics practices from Europe to the Ukrainian environment of Galicia was to a great extent due to one person: Ivan Boberskyi. One of the best teachers of German in Lviv, he dedicated the majority of his life to the popularization of sports games and gymnastics in Galicia. After completing courses of sports pedagogy in Vienna, Boberskyi traveled throughout Europe studying various athletics examples in various countries. For many Boberskyi was a «model person,» who had a harmonious union of spiritual and physical qualities, was open to new ideas, hungry for new impressions, and sought to actively change the world around him. </p>
+  <p>At the end of the 19th century Boberskyi tried to introduce seemingly-incomprehensible foreign sports to replace traditional Galician games, including the popular kichka. At first Boberskyi’s strange ideas provoked a strong negative reaction among conservative Galician Ukrainians. However, his continuous and thorough organizational work in the preparation of cadres, publication of handbooks, formation of sports terminology, translation of rules for popular games (football, hockey, tennis), the purchase of land for building a stadium («Ukrainian Town»), the founding of societies and clubs—all influenced the creation of an athletics and gymnastics movement and infrastructure in Galicia. For the Ukrainian community of poor and agrarian Galicia gymnastics and sports offered yet another possibility for social, national, and gender emancipation and modernization.</p>
+  <p>Boberskyi’s activity is also an example of the union of two models of modern sports—the British and the German-Swedish—in a local context. On the one hand, he popularized the principles of competition and records, which is part of the British model of competitive sports. On the other hand, however, for Boberskyi it was important to unite gymnastics exercises with paramilitary practices and patriotic rhetoric, which were the foundation of the German-Swedish model. From 1908-1914 he headed the sports society «Sokil-Batko» (Sokol-Father) and in 1915 he entered the Head Ukrainian Council—the political representation of Ukrainians of Galicia during World War I. Yet another example of the union of sports and national movements was the creation in 1911, on Boberskyi’s initiative, of the sports club «Ukraine.» Despite the growth of various kinds of sports, the important goal of this particular society was the public use of the word «Ukraine.»</p>
+  <h3>Ukrainian Sokol Groups</h3>
+      <div class="text_carousel slide">
+              <div class="carousel-inner">
+                <div class="active item">
+            <img src="sokil-movement/ivan-boberskyi/img-2.jpg" alt="img" title="Exercise – forming towers (the tower “Balance”) by participants of the “Sports Circle of Ukrainian Women” (SKUD). Lviv, 1927"/>
+              <p class="big-title">Exercise – forming towers (the tower “Balance”) by participants of the “Sports Circle of Ukrainian Women” (SKUD). Lviv, 1927</p>
+                </div>            
+              </div>
+      </div>
+  <p>“O Ukrainian Sokol Girl! Before you stands an enormous task. You must raise the new generation of the nation: healthy in body and strong in spirit. In order, however, to stay on top of this task, we must first reeducate you! You must create a new type of citizen-woman, who will, despite her social work, become a model mother, wife, sister, and hostess.» This was written in 1937 in Sokil News about the role of women in the society. «Sokil» was the Ukrainian variant of the Slavic Sokol groups.</p>
+  <p>Much attention was devoted to the inclusion of women and girls in the activities of sports and gymnastics societies. At the beginning of the 20th century Ivan Boberskyi gave a series of presentations in which he underscored the necessity of creating female gymnastics and gymnastics sections for girls in the Sokol organization. The participation of women in the gymnastics movement was widespread not only in the cities, but also in the villages. Many Galician Ukrainian villagers belonged to a gymnastics society called «Sich,» which was popular in the countryside. Women together with men took part in physical exercises and celebrations. For women there was a specially elaborated series of gymnastics exercises with kerchiefs, towels, and clubs.</p>
+  <p>By joining Sokol or Sich or other sports clubs, women moved outside the bounds of privacy associated exclusively with the family, and into the public sphere. However women’s primary goal was seen not as the achievement of great athletic results, but as developing qualities useful for society, such as patriotism and social work.</p>
+
+  <h3>Sport for Youth</h3>
+      <div class="text_carousel slide">
+              <div class="carousel-inner">
+                <div class="active item">
+            <img src="sokil-movement/ivan-boberskyi/img-3.jpg" alt="img" title="“Plast circle” under the organization “Sokil ІІІ” performs exercises with a rifle (Lviv, spring 1914 р.)"/>
+              <p class="big-title">“Plast circle” under the organization “Sokil ІІІ” performs exercises with a rifle (Lviv, spring 1914 р.)</p>
+                </div>            
+              </div>
+      </div>
+  <p>Athletic gymnastics organizations in Galicia were oriented on youth and adults. Children practiced sports in schools. At the beginning of the 20th century the idea of creating separate children’s groups arose. To a great extent children’s sports and gymnastics developed through the Polish scouting organization created at the beginning of the 20th century, “Związek Harcerstwa Polskiego” and the Ukrainian scouting organization «Plast.» In other Polish and Ukrainian gymnastics societies the issue of physical and patriotic education of the younger generation was also raised. For example, the Ukrainian sports-gymnastics association Sich began a campaign to start «Children’s Sich» in villages and cities of Galicia where adult societies already existed.</p>
+</div>
+
+
+<?php } else { ?>
+<h3>Іван Боберський (1873–1947)</h3>
+<div class='colomns'>
+      <div class="text_carousel slide">
+              <div class="carousel-inner">
+                <div class="active item">
+            <img src="sokil-movement/ivan-boberskyi/img-1.jpg" alt="img" title="Іван Боберський з «канадійськими сплетами» (снігоступами). Канада, 1921–1923"/>
+              <p class="big-title">Іван Боберський з «канадійськими сплетами» (снігоступами). Канада, 1921–1923</p>
+                </div>            
+              </div>
+      </div>
+  <p>«Експорт» спортивних і гімнастичних практик з Європи в українські середовища Галичини великою мірою є заслугою однієї людини – Івана Боберського. Будучи одним із найкращих серед українців вчителів німецької мови, більшу частину свого життя він присвятив популя­ризації спортивних ігор і гімнастики в Галичині. Після завершення курсів з викладання спорту у Відні, Боберський здійснив мандрівку європейськими країнами, вивчаючи різний спортивний досвід. Для багатьох він був взірцем «модерної людини», що мала гармонійно поєднувати духовні і фізичні якості, бути відкритою до нових ідей, спраглою нових вражень, здатною активно змінювати світ довкола.</p>
+  <p>Наприкінці ХІХ ст. Боберський намагався запровадити незрозумілий іноземний спорт замість тради­ційних галицьких ігор, зокрема популярної кічки (городків). Спочатку «дивакуваті» ідеї Боберського викликали спротив консервативно налаштованих галицьких українців. Однак постійна і послідовна ор­ганізаційна робота з підготовки кадрів, видання підручників, укладання спортивної термінології, пере­кладів правил популярних ігор (футболу, хокею, тенісу), купівлі землі для будівництва стадіону («Укра­їнського Городу»), заснування товариств і клубів вплинула на створення спортивного і гімнастичного руху й інфраструктури у Галичині. Для української спільноти небагатої аграрної Галичини гімнастика і спорт стали ще однією можливістю соціальної, національної й гендерної емансипації та модернізації.</p>
+  <p>Діяльність Боберського також є прикладом поєднання двох моделей модерного спорту – британської та німецько-шведської – на локальному ґрунті. З одного боку, він популяризував принципи суперни­цтва і рекордів, які є частиною британської моделі ігрового спорту. З іншого – для Боберського було важливо поєднувати гімнастичні вправи з парамілітарними практиками і патріотичною риторикою, які лежали в основі німецько-шведської моделі. З 1908 до 1914 р. він очолював спортивне товариство «Со­кіл-Батько», а 1915 р. увійшов у склад Головної української ради – політичної репрезентації українців Галичини під час Першої світової війни. Ще одним прикладом поєднання спорту і національного руху було створення 1911 р. за ініціативи Боберського Спортивного клубу «Україна». Окрім розвитку різних видів спорту, важливою метою товариства було публічне вживання слова «Україна».</p>
+
+  <h3>Українська сокілка</h3>
+      <div class="text_carousel slide">
+              <div class="carousel-inner">
+                <div class="active item">
+            <img src="sokil-movement/ivan-boberskyi/img-2.jpg" alt="img" title="Виступ – формування веж-образів (вежа «Рівновага») учасниць «Спортового кружка українських дівчат» (СКУД). Львів, 1927"/>
+              <p class="big-title">Виступ – формування веж-образів (вежа «Рівновага») учасниць «Спортового кружка українських дівчат» (СКУД). Львів, 1927</p>
+                </div>            
+              </div>
+      </div>
+  <p>«Українська Сокілко! Перед тобою велике завдання. Ти маєш виховати нове покоління нації: здорове тілом та сильне духом. Щоб одначе станути на висоті свого завдання, мусимо найперше Тебе перевиховати! Мусиш створити новий тип жінки-громадянки, що буде попри свою громадську працю взірцевою матір’ю, жінкою, сестрою та господинею», – писали у 1937 р. «Cокільські вісті» про роль жінок у товаристві.</p>
+  <p>Залученню дівчат і жінок у діяльність спортивно-гімнастичних товариств приділялася значна увага. На по­чатку ХХ ст. Іван Боберський виголосив низку рефератів, у яких підкреслював необхідність створення жіно­чих гімнастичних і спортивних секцій у «Соколах». Участь жінок у гімнастичному русі була поширеною не тільки у містах, але й у селах. Багато галицьких українських селянок належали до популярного у сільській місцевості гімнастичного товариства «Січ». Вони разом з чоловіками брали участь у фізичних вправах та святах. Для жінок спеціально розроблялися комплекси гімнастичних вправ з хустинами, рушниками, вінка­ми і булавами.</p>
+  <p>Вступаючи у «Соколи», «Січі» та спортивні клуби, жінки виходили за межу приватності, з якою асоціюва­лася сім’я, у громадську сферу. Однак їх головною метою було не досягнення високих спортивних резуль­татів, а виховання суспільно корисних якостей, таких як патріотизм та участь у громадській роботі.</p>
+  <h3>Спорт для молоді</h3>
+      <div class="text_carousel slide">
+              <div class="carousel-inner">
+                <div class="active item">
+            <img src="sokil-movement/ivan-boberskyi/img-3.jpg" alt="img" title="«Пластовий доріст» (пластовий гурток) при організації «Сокіл ІІІ» виконує вправи з крісом (рушницею). Львів, весна 1914 р."/>
+              <p class="big-title">«Пластовий доріст» (пластовий гурток) при організації «Сокіл ІІІ» виконує вправи з крісом (рушницею). Львів, весна 1914 р.</p>
+                </div>            
+              </div>
+      </div>
+  <p>Гімнастично-спортивні організації на Галичині були зорієнтовані на молодь і дорослих людей. Діти практи­кували спорт у школах. На початку ХХ ст. виникає ідея створення окремих дитячих гуртків. Великою мірою дитячий спорт і гімнастика розвивалися через створені на початку ХХ ст. скаутські організації – польський «Związek Harcerstwa Polskiego» («Союз польського харцерства») та український «Пласт». В інших польських та українських гімнастичних товариствах теж порушувалося питання про фізичне і патріотичне виховання молодого покоління. Наприклад, українські спортивно-гімнастичні товариства «Cіч» розпочали кампанію зі створення «Діточих Cічей» у селах і містечках Галичини, де вже існували осередки для дорослих.</p>
+</div>
+<?php } ?>
