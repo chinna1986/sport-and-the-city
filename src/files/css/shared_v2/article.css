@@ -92,6 +92,7 @@ article figure img
 
 article figure figcaption 
 {
+  line-height: 125%;
   position: absolute;
   left: 0px;
   bottom: 10px;

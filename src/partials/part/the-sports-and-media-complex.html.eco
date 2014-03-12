@@ -1,154 +1,87 @@
 <figure>
-  <ul id="about-slide" class="rslides">
-    <li><img src="/img/part/about/1.jpg" alt="img" title="img"/> </li>
-    <li><img src="/img/part/about/2.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/3.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/4.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/5.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/6.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/7.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/8.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/9.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/10.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/11.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/12.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/13.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/14.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/15.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/16.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/17.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/18.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/19.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/20.jpg" alt="img" title="Sport and the City"/></li>
-  </ul>
+<figcaption></figcaption>
 </figure>
 
 <% if @document.language == 'en': %>
 
-  <h3>«Sport and the City: People. Society. Ideology»</h3>
-  <p>Exhibition offers you an opportunity to learn more about the meaning of sports, besides competition, entertainment and spectacle. It traces the history of sports in Lviv (also known as Lwów and Lemberg) throughout the last 150 years: the beginnings of sports in Europe, and particularly in the city; how our ideas about sports have changed; how new types of sports emerged; the connections between sports and nationalism, sports and government, sports and commerce, sports and globalization. Particularly interesting in the context of EURO-2012 is the question of fan culture and the potential of sports mega-events for the city. This exposition shows different meanings connected with sports and allows to formulate own answers to the question, «What was sport, and what is sport today?»</p>
-  <p>The exhibition space, thematically divided into five sections, opens with the theme, «Sports as Social and Cultural Practice: History of Transformations.» This section presents the history of sports as a history of modern social and cultural practices. The next section, <a href="/sport-in-multiethnic-city/">«Sports in the Multi-ethnic City, 1861-1939»</a>, focuses attention on Lviv-Lwów-Lemberg itself. Local historical materials connected with the history of the city’s three communities - Ukrainian, Polish, and Jewish - show how sports were a factor and form in the search for new identities. The third section, <a href="/sport-and-of-total-war/">«Sport and War»</a>, examines sports in the conditions of military conflict - during the First and Second World Wars. The following section of the exhibition, <a href="/sportsin-soviet-cities-1939-1991/">«Sport in the Soviet City, 1944-1991»</a>, explores the notion of physical culture, the social status of Soviet athletes, and also how international sports competitions were used in Cold War political struggles, all on the example of Soviet Ukrainian Lviv. The exhibition concludes with the section <a href="/sport-in-global-city/">«Sports in the Global City»</a>, which is dedicated to athletic mega-events as impulses for infrastructure development.</p>
-  <p>In connection with the exhibition we will hold a series of lectures, round-tables, discussions, film presentations and an educational program for children. We invite you to follow upcoming announcements at www.lvivcenter.org</p>
-  <p>For more information, please contact Andrii Linik, the curator of exhibition projects at the Center for Urban History, tel. 275 17 34 or e-mail a.linik@lvivcenter.org.</p>
-  <p>The exhibition is open daily from Wednesdays through Sundays from 11.00 to 17.00. Closed Mondays and Tuesdays.</p>
+<figure>
+<img src="/img/part/the-sports-and-media-complex/img-1.jpg" alt="img" title="“Muscular Judaism”"/>
+<figcaption>Muscular Judaism</figcaption>
+</figure>
+
+<h3>The Sports and media complex</h3>
+
+<h4>«Printed» Everyday Sports</h4>
+
+<p>Even in the 19th century newspapers served as a consolation for those fans unable to attend sports events. Journalists narrated the matches in detail and, more importantly, developed «fan» culture, by acquainting fans with the larger athletic context. The regularity of sports announcements created in readers the habit of following sports and made sports a part of everyday life.</p>
+<h4>Radio – Fanship outside the Stadium</h4>
+
+<figure class="second">
+<img src="/img/part/the-sports-and-media-complex/img-2.jpg" alt="img" title="Газета «Діло», 9 червня, 1936 р."/>
+<figcaption>Газета «Діло», 9 червня, 1936 р.</figcaption>
+</figure>
+
+<p>The spread of radio at the beginning of the 1920s allowed the sports audience to reach a new level. By listening to radio broadcasts, many people could witness matches not only from afar, but at the same time as those who were attending the event in person. A radio ensured the joy of immediate fanship for everyone—regardless of where they were during the match.</p>
+
+<h4>The Television – A Rival to «Live Presence»</h4>
+
+<figure class="second">
+<img src="/img/part/the-sports-and-media-complex/img-3.jpg" alt="img" title="“Muscular Judaism”"/>
+<figcaption>“Muscular Judaism”</figcaption>
+</figure>
+
+<p>The television constituted the next revolution in presenting sports to a wide audience. The first television sets appeared in the 1930s. The real breakthrough in sports presentation, however, was in the 1970s with the appearance of small mobile video cameras. The perfect image of a match or competition that television offered could compete with live attendance at the event. Television could show everything that spectators might not catch at the stadium, or could follow the match from various perspectives, or slow-down or repeat important moments in the game. The sports event became above all a television event. Athletes began to care not only about the game, but about how they looked on screen in order to gain popularity among their audience.</p>
+
+<blockquote>«Sports that do not follow the desires of mass-media will slowly die.»</i><br>Fabien Canu (French judo star popular in the 1980s,two-time world champion)</blockquote>
+
+<figure class="second">
+<img src="/img/part/the-sports-and-media-complex/img-4.jpg" alt="img" title="Команда регбістів державного університету Арканзасу «Червоні вовки регбі» стала героєм спеціальної телепрограми"/>
+<figcaption>Команда регбістів державного університету Арканзасу «Червоні вовки регбі» стала героєм спеціальної телепрограми </figcaption>
+</figure>
+
+<p>A significant improvement in the television «picture» drew the attention of advertisers to sports. Already by the end of the 1980s sports as a mass-culture phenomenon lost its independent significance and became a part of the so-called «sports media complex.» This phenomenon is comprised of three mutually intertwined elements: sports, media, and advertising. The connection between them could be defined as symbiosis, or as parasitism. </p>
+<p>Television uses sports to attract a wide audience and advertising money. Sports use television to find sponsors. But the rules of the game are dictated first and foremost by television. Often this is true even in a literal sense—in order to create a better spectacle the rules of certain sports can be changed. For example, the rules of rugby have undergone 5 modifications over the last 10 years. All the significant changes, such as decreasing the number of penalties, or giving the referee the right to independently interpret the rules during a match, were directed at increasing the dynamism and speed of play.</p>
 
 <% else: %>
 
- <h3>«Спорт і Місто:  Людина. Суспільство. Ідеологія»</h3>
+<figure>
+<img src="/img/part/the-sports-and-media-complex/img-1.jpg" alt="img" title="«Мускулястий юдаїзм»"/>
+<figcaption>«Мускулястий юдаїзм»</figcaption>
+</figure>
 
-  <p>Виставка пропонує Вам дізнатися чим ще є спорт окрім змагання, розваги та видовища. Тут Ви побачите історію спорту у Львові (також знаному як Lwów та Lemberg) протягом останніх 150 років: якими були початки спорту в Європі та у місті зокрема, як змінювалися уявлення про спорт, як з’являлися нові види спорту, яким був зв’язок між спортом і націоналізмом, спортом і державою, спортом і комерцією, спортом та глобалізацією. Особливо цікавими в контексті «ЄВРО-2012» є питання про культуру вболівання та потенціал спортивних мегаподій для міста. Ця експозиція показує різні значення, пов’язані зі спортом та дозволить Вам сформувати власну відповідь на питання «Чим був і є спорт?»</p>
-  <p>Виставковий простір, тематично розділений на п’ять блоків, відкриває тема «Спорт як соціальна і культурна практика: історія змін.» У ній представлено історію спорту як модерної суспільної та культурної практики. Наступний блок <a href="/sport-in-multiethnic-city/">«Спорт у багатоетнічному місті. 1861-1939»</a> фокусує увагу на Львові та використовує локальні історичні матеріали, пов’язані з історією трьох спільнот у місті: української, польської та єврейської. Третій блок <a href="/sport-and-of-total-war/">«Спорт і війна»</a> розглядає спорт в умовах воєнного конфлікту – під час Першої та Другої світових воєн. Наступна частина виставки <a href="/sportsin-soviet-cities-1939-1991/">«Спорт у радянському місті. 1944-1991»</a> на прикладі Львова показує чим були фізична культура, соціальний статус спортсмена у радянській державі, а також як міжнародні спортивні змагання використовувалися у політичній боротьбі під час «холодної війни». Завершує виставку блок <a href="/sport-in-global-city/">«Спорт у глобальному місті»</a>, присвячений великим спортивним подіям як імпульсу для інфраструктурного розвитку.</p>
-  <p>В рамках виставки проводитимуться лекції, круглі столи, дискусії, кінопокази та освітня програма для дітей. Запрошуємо слідкувати за анонсами на сайті Центру міської історії www.lvivcenter.org</p>
-  <p>За детальнішою інформацією просимо звертатися до куратора виставкових проектів Центру Андрія Лініка за тел. 275 17 34 або е-поштою a.linik@lvivcenter.org</p>
-  <p>Виставка відкрита усі дні крім понеділка та вівторка від 11:00 до 17:30</p>
-
-<% end %>
-
-<script type="text/javascript">
-  init_rslides( jQuery('#about-slide') );
-</script>
-
-
-<?php if(isset($_GET['lang']) AND $_GET['lang'] == 'en') { ?>
-<h3>The Sports and media complex</h3>
-<div class='colomns'>
-    <h4>«Printed» Everyday Sports</h4>
-        <div class="text_carousel slide">
-            <div class="carousel-inner">
-              <div class="active item">
-              <img src="mass-audience/the-sports-and-media-complex/img-1.jpg" alt="img" title="“Muscular Judaism”"/>
-              <p class="big-title">Muscular Judaism</p>
-              </div>            
-            </div>
-        </div>
-     <p>Even in the 19th century newspapers served as a consolation for those fans unable to attend sports events. Journalists narrated the matches in detail and, more importantly, developed «fan» culture, by acquainting fans with the larger athletic context. The regularity of sports announcements created in readers the habit of following sports and made sports a part of everyday life.</p>
-    <h4>Radio – Fanship outside the Stadium</h4>
-        <div class="text_carousel slide">
-            <div class="carousel-inner">
-              <div class="active item">
-              <img src="mass-audience/the-sports-and-media-complex/img-2.jpg" alt="img" title="Газета «Діло», 9 червня, 1936 р."/>
-              <p class="big-title">Газета «Діло», 9 червня, 1936 р.</p>
-              </div>            
-            </div>
-        </div>
-     <p>The spread of radio at the beginning of the 1920s allowed the sports audience to reach a new level. By listening to radio broadcasts, many people could witness matches not only from afar, but at the same time as those who were attending the event in person. A radio ensured the joy of immediate fanship for everyone—regardless of where they were during the match.</p>
-
-    <h4>The Television – A Rival to «Live Presence»</h4>
-        <div class="text_carousel slide">
-            <div class="carousel-inner">
-              <div class="active item">
-               <img src="mass-audience/the-sports-and-media-complex/img-3.jpg" alt="img" title="???????? ???? “Muscular Judaism”"/>
-              <p class="big-title">“Muscular Judaism”</p>
-              </div>            
-            </div>
-        </div>
-    <p>The television constituted the next revolution in presenting sports to a wide audience. The first television sets appeared in the 1930s. The real breakthrough in sports presentation, however, was in the 1970s with the appearance of small mobile video cameras. The perfect image of a match or competition that television offered could compete with live attendance at the event. Television could show everything that spectators might not catch at the stadium, or could follow the match from various perspectives, or slow-down or repeat important moments in the game. The sports event became above all a television event. Athletes began to care not only about the game, but about how they looked on screen in order to gain popularity among their audience.</p>
-
-    <p><blockquote><i>«Sports that do not follow the desires of mass-media will slowly die.»</i><br>Fabien Canu (French judo star popular in the 1980s,two-time world champion)</blockquote></p>
-        <div class="text_carousel slide">
-            <div class="carousel-inner">
-              <div class="active item">
-               <img src="mass-audience/the-sports-and-media-complex/img-4.jpg" alt="img" title="Команда регбістів державного університету Арканзасу «Червоні вовки регбі» стала героєм спеціальної телепрограми"/>
-              <p class="big-title">???????????? ??????? Команда регбістів державного університету Арканзасу «Червоні вовки регбі» стала героєм спеціальної телепрограми </p>
-              </div>            
-            </div>
-        </div>  
-
-    <p>A significant improvement in the television «picture» drew the attention of advertisers to sports. Already by the end of the 1980s sports as a mass-culture phenomenon lost its independent significance and became a part of the so-called «sports media complex.» This phenomenon is comprised of three mutually intertwined elements: sports, media, and advertising. The connection between them could be defined as symbiosis, or as parasitism. </p>
-    <p>Television uses sports to attract a wide audience and advertising money. Sports use television to find sponsors. But the rules of the game are dictated first and foremost by television. Often this is true even in a literal sense—in order to create a better spectacle the rules of certain sports can be changed. For example, the rules of rugby have undergone 5 modifications over the last 10 years. All the significant changes, such as decreasing the number of penalties, or giving the referee the right to independently interpret the rules during a match, were directed at increasing the dynamism and speed of play.</p>
-
-<div>
-
-
-<?php } else { ?>
 <h3>Спортивно-медійний комплекс</h3>
-<div class='colomns'>
-    <h4>«Друкована» повсякденність спорту</h4>
-            <div class="text_carousel slide">
-            <div class="carousel-inner">
-              <div class="active item">
-              <img src="mass-audience/the-sports-and-media-complex/img-1.jpg" alt="img" title="«Мускулястий юдаїзм»"/>
-              <p class="big-title">«Мускулястий юдаїзм»</p>
-              </div>            
-            </div>
-        </div>
-    <p>Розрадою для тих уболівальників, які не були присутніми на подіях, ще з ХІХ століття слугували газети. Шпальти видань розповідали про подробиці змагань, і, що важливо, розвивали «вболівальницьку» культуру, знайомили з ширшим спортивним контекстом. Регулярність спортивних повідомлень виробляла у читачів звичку слідкувати за ними, перетворювала спорт на частину буденного життя.</p>
 
-    <h4>Радіо – вихід вболівання за межі стадіонів</h4>
-        <div class="text_carousel slide">
-            <div class="carousel-inner">
-              <div class="active item">
-              <img src="mass-audience/the-sports-and-media-complex/img-2.jpg" alt="img" title="Газета «Діло», 9 червня, 1936 р."/>
-              <p class="big-title">Газета «Діло», 9 червня, 1936 р.</p>
-              </div>            
-            </div>
-        </div>
-    <p>На новий рівень спортивна аудиторія вийшла на початку 20-х років з розповсю­дженням радіо. Велика кількість людей, слухаючи радіотрансляції, могла ставати свідком змагань не лише на відстані, а й одночасно з тими, хто перебував на місці події. Радіоприймач забезпечував радість безпосереднього уболівання усім, незалежно від місця перебування.</p>
+<h4>«Друкована» повсякденність спорту</h4>
 
-        <h4>Телевізор – конкурент «живій присутності»</h4>
-                <div class="text_carousel slide">
-            <div class="carousel-inner">
-              <div class="active item">
-               <img src="mass-audience/the-sports-and-media-complex/img-3.jpg" alt="img" title="???????? ???? «Мускулястий юдаїзм»"/>
-              <p class="big-title">???????? ???? «Мускулястий юдаїзм»</p>
-              </div>            
-            </div>
-        </div>
+<p>Розрадою для тих уболівальників, які не були присутніми на подіях, ще з ХІХ століття слугували газети. Шпальти видань розповідали про подробиці змагань, і, що важливо, розвивали «вболівальницьку» культуру, знайомили з ширшим спортивним контекстом. Регулярність спортивних повідомлень виробляла у читачів звичку слідкувати за ними, перетворювала спорт на частину буденного життя.</p>
 
-    <p>Чергова революція у презентуванні спорту широкій аудиторії пов’язанa з телебаченням. Перші телевізори з’явилися у 30-х роках минулого століття. Та справжній прорив у візуалізації спорту стався у 1970-х, з появою маленьких мобільних камер. Досконало поданий образ матчу чи змагання, який тепер давало телебачення, зміг конкурувати навіть з живою присутністю. У телевізорі можна було показати те, чого не побачиш, сидячи на стадіоні – різні плани та ракурси, сповільнення чи повтор важливих моментів. Спортивна подія стала насамперед телеподією. Спортсмени почали дбати не лише про гру, а й про свій вигляд на телеекрані, аби здобути популяр­ність в аудиторії.</p>
+<h4>Радіо – вихід вболівання за межі стадіонів</h4>
 
-<p><blockquote><i> «Спорт, який не слідуватиме за бажаннями мас-медіа, поступово помре».</i><br>Фабієн Кану (французька зірка дзюдо, популярний у 1980-х роках, дворазовий чемпіон світу)</blockquote></p>
-       
-          <div class="text_carousel slide">
-            <div class="carousel-inner">
-              <div class="active item">
-               <img src="mass-audience/the-sports-and-media-complex/img-4.jpg" alt="img" title="Команда регбістів державного університету Арканзасу «Червоні вовки регбі» стала героєм спеціальної телепрограми"/>
-              <p class="big-title">???????????? ??????? Команда регбістів державного університету Арканзасу «Червоні вовки регбі» стала героєм спеціальної телепрограми </p>
-              </div>            
-            </div>
-        </div>  
+<figure class="second">
+<img src="/img/part/the-sports-and-media-complex/img-2.jpg" alt="img" title="Газета «Діло», 9 червня, 1936 р."/>
+<figcaption>Газета «Діло», 9 червня, 1936 р.</figcaption>
+</figure>
+
+<p>На новий рівень спортивна аудиторія вийшла на початку 20-х років з розповсю­дженням радіо. Велика кількість людей, слухаючи радіотрансляції, могла ставати свідком змагань не лише на відстані, а й одночасно з тими, хто перебував на місці події. Радіоприймач забезпечував радість безпосереднього уболівання усім, незалежно від місця перебування.</p>
+
+<h4>Телевізор – конкурент «живій присутності»</h4>
+
+<figure class="second">
+<img src="/img/part/the-sports-and-media-complex/img-3.jpg" alt="img" title="«Мускулястий юдаїзм»"/>
+<figcaption>«Мускулястий юдаїзм»</figcaption>
+</figure>
+
+<p>Чергова революція у презентуванні спорту широкій аудиторії пов’язанa з телебаченням. Перші телевізори з’явилися у 30-х роках минулого століття. Та справжній прорив у візуалізації спорту стався у 1970-х, з появою маленьких мобільних камер. Досконало поданий образ матчу чи змагання, який тепер давало телебачення, зміг конкурувати навіть з живою присутністю. У телевізорі можна було показати те, чого не побачиш, сидячи на стадіоні – різні плани та ракурси, сповільнення чи повтор важливих моментів. Спортивна подія стала насамперед телеподією. Спортсмени почали дбати не лише про гру, а й про свій вигляд на телеекрані, аби здобути популяр­ність в аудиторії.</p>
+
+<blockquote>«Спорт, який не слідуватиме за бажаннями мас-медіа, поступово помре».<br>Фабієн Кану (французька зірка дзюдо, популярний у 1980-х роках, дворазовий чемпіон світу)</blockquote>
+
+<figure class="second">
+<img src="/img/part/the-sports-and-media-complex/img-4.jpg" alt="img" title="Команда регбістів державного університету Арканзасу «Червоні вовки регбі» стала героєм спеціальної телепрограми"/>
+<figcaption>Команда регбістів державного університету Арканзасу «Червоні вовки регбі» стала героєм спеціальної телепрограми </figcaption>
+</figure>
+
 <p>Значне покращення «картинки» привернуло до спорту увагу рекламодавців. Вже наприкінці 1980-х років спорт як явище мас-культури втрачає своє самостійне значення і стає частиною так званого спортивно-медійного комплексу. Це явище складається з трьох взаємно переплетених елементів: спорт, медіа та реклама. Зв’язок між ними можна окреслити і як симбіоз, і як паразитизм.</p>
 <p>Телебачення використовує спорт для привернення широкої аудиторії та реклам­них грошей. Спорт використовує телебачення для пошуків спонсорів. Однак пра­вила гри диктує насамперед телебачення. Часто навіть в буквальному сенсі – за­ради кращого видовища змінювалися правила деяких видів спорту. Наприклад, правила гри у регбі за останні 10 років зазнали 5 модифікацій. Усі головні зміни – такі як зменшення кількості пенальті чи право судді самостійно інтерпретувати правила під час матчу – були спрямовані на підвищення динамічності й темпу гри.</p>
-</div>
 
-<?php } ?>
+
+<% end %>
