@@ -1,5 +1,5 @@
 <figure>
-  <ul id="about-slide" class="rslides">
+  <ul class="rslides todo-init-rslides">
     <li><img src="/img/part/about/1.jpg" alt="img" title="img"/> </li>
     <li><img src="/img/part/about/2.jpg" alt="img" title="Sport and the City"/></li>
     <li><img src="/img/part/about/3.jpg" alt="img" title="Sport and the City"/></li>
@@ -43,7 +43,3 @@
   <p>Виставка відкрита усі дні крім понеділка та вівторка від 11:00 до 17:30</p>
 
 <% end %>
-
-<script type="text/javascript">
-  init_rslides( jQuery('#about-slide') );
-</script>
