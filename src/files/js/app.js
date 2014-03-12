@@ -23,7 +23,7 @@ jQuery.fn.modal.defaults.spinner = $.fn.modalmanager.defaults.spinner =
   '</div>';
 
 function init_rslides ($element) {
-  return ( $element || jQuery('.rslides') ).responsiveSlides({
+  var defaults = {
       "auto": true,             // Boolean: Animate automatically, true or false
       "speed": 500,             // Integer: Speed of the transition, in milliseconds
       "timeout": 4000,          // Integer: Time between slide transitions, in milliseconds
@@ -40,7 +40,14 @@ function init_rslides ($element) {
       "namespace": "rslides",   // String: change the default namespace used
       "before": $.noop,         // Function: Before callback
       "after": $.noop           // Function: After callback
-    });
+    };
+  var $elements = ( $element || jQuery('.rslides') );
+
+  return $elements.each(function () {
+    var $this = $(this);
+    var options = $.extend( $this.data(), defaults, {});
+    $this.responsiveSlides(options);
+  });
 }
 
 function reinit_slider() {

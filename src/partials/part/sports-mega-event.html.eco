@@ -1,49 +1,54 @@
-<figure>
-  <ul id="about-slide" class="rslides">
-    <li><img src="/img/part/about/1.jpg" alt="img" title="img"/> </li>
-    <li><img src="/img/part/about/2.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/3.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/4.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/5.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/6.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/7.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/8.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/9.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/10.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/11.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/12.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/13.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/14.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/15.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/16.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/17.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/18.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/19.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/20.jpg" alt="img" title="Sport and the City"/></li>
-  </ul>
-</figure>
-
 <% if @document.language == 'en': %>
 
-  <h3>«Sport and the City: People. Society. Ideology»</h3>
-  <p>Exhibition offers you an opportunity to learn more about the meaning of sports, besides competition, entertainment and spectacle. It traces the history of sports in Lviv (also known as Lwów and Lemberg) throughout the last 150 years: the beginnings of sports in Europe, and particularly in the city; how our ideas about sports have changed; how new types of sports emerged; the connections between sports and nationalism, sports and government, sports and commerce, sports and globalization. Particularly interesting in the context of EURO-2012 is the question of fan culture and the potential of sports mega-events for the city. This exposition shows different meanings connected with sports and allows to formulate own answers to the question, «What was sport, and what is sport today?»</p>
-  <p>The exhibition space, thematically divided into five sections, opens with the theme, «Sports as Social and Cultural Practice: History of Transformations.» This section presents the history of sports as a history of modern social and cultural practices. The next section, <a href="/sport-in-multiethnic-city/">«Sports in the Multi-ethnic City, 1861-1939»</a>, focuses attention on Lviv-Lwów-Lemberg itself. Local historical materials connected with the history of the city’s three communities - Ukrainian, Polish, and Jewish - show how sports were a factor and form in the search for new identities. The third section, <a href="/sport-and-of-total-war/">«Sport and War»</a>, examines sports in the conditions of military conflict - during the First and Second World Wars. The following section of the exhibition, <a href="/sportsin-soviet-cities-1939-1991/">«Sport in the Soviet City, 1944-1991»</a>, explores the notion of physical culture, the social status of Soviet athletes, and also how international sports competitions were used in Cold War political struggles, all on the example of Soviet Ukrainian Lviv. The exhibition concludes with the section <a href="/sport-in-global-city/">«Sports in the Global City»</a>, which is dedicated to athletic mega-events as impulses for infrastructure development.</p>
-  <p>In connection with the exhibition we will hold a series of lectures, round-tables, discussions, film presentations and an educational program for children. We invite you to follow upcoming announcements at www.lvivcenter.org</p>
-  <p>For more information, please contact Andrii Linik, the curator of exhibition projects at the Center for Urban History, tel. 275 17 34 or e-mail a.linik@lvivcenter.org.</p>
-  <p>The exhibition is open daily from Wednesdays through Sundays from 11.00 to 17.00. Closed Mondays and Tuesdays.</p>
+  <figure>
+    <img src="/img/part/sports-mega-event/img-1.jpg" alt="img" title=""/>
+  </figure>
+
+  <h3>Sports Mega-event</h3>
+
+  <p>Sports events on a worldwide scale, such as the Olympic Games, the World and European Football (Soccer) championships, are the primary mega-events in our contemporary life. Broadcasts create a global community of spectators, and the countries in which the events take place occupy the center of attention of a global public. In 2006 2 billion spectators watched the final match of the World Championships in Germany—almost one third of the earth’s population.</p>
+  <p>The 2008 Olympic Games in Beijing were the first to be simultaneously broadcast even on the internet. The status of the host country of the mega-event is recognized by the world community. Precisely because of that, and also with the hope of economic and social profit, countries strive for the right to host mega-events.</p>
+  <p>Comfortable stadiums, up-to-date equipment for filming, discussion in the press, television, internet—all of this brings the sports spectacle to the auditorium. The costs of television, to bring the event to the spectators, are only rising. For example, the right to broadcast the Olympic Games from 1996-2008 cost the American television network NBC 4 billion dollars.</p>
+
+  <h4>What does hosting a sports mega-event actually entail?</h4>
+
+  <figure class="second">
+    <img src="/img/part/sports-mega-event/img-2.jpg" alt="img" title=""/>
+  </figure>
+  <p>Countries who host international championships serve only as a platform for these events. Governments of the host-countries sign a series of legal-financial agreements, which protect the economic interests of the organizers. For each event the agreement is changed because it is the result of negotiations between both sides, the host countries and the organizers.</p>
+  <p>In the case of the EURO-2012 Ukraine and Poland signed an agreement with UEFA, which for the duration of the tournament changes property law, intellectual property law, broadcast and advertising rights. UEFA is an organization that supports the principle of monopoly. So it is the sole owner of rights to the symbol of the tournament and to its broadcast, which UEFA can then sell to partner companies. Although the UEFA is officially a nonprofit organization, then, it is anticipated that its profits from the tournament will reach 116 million Euros. In Ukraine these costs will not be taxed, and will only partially be taxed in Poland.  This limits the possibility that hosting mega-events would bring economic profit to the city, government or local industry. The role of the host, in many ways, could be reduced to simply providing services and ensuring order.</p>
+
+  <h4>Possibilities vs Risks</h4>
+
+  <p>Ineffective organization of the preparation process on the part of state authorities can have negative consequences, leading even to economic crisis. This is what happened in Greece, the host country of the 2004 Olympic Games. Irrational use of European union credits in preparation for the event caused (among other factors) economic crisis, with which the country is now struggling. Failed policies about the location of sports infrastructure led to the Olympic facilities sitting empty. The Olympic Village, for example, where the athletes lived, was supposed to become an elite region with a full social infrastructure: schools, shops, etc. But this did not happen. Effective organizing can have the positive long-term effect of enticing tourists, as was in the case with the 1992 Olympics in Barcelona, now on the list of cities most visited in the world.</p>
+
+  <h4>«Monopoly Ads»</h4>
+  <p>UEFA advertising is divided into thematic niches, each of which is reserved for one of the UEFA partner companies. These are: Adidas for sportswear, McDonald’s for food, Coca Cola for cold beverages, Castrol for motor oil, Hyundai for cars, etc. Products of competitor-companies will not be advertised at EURO-2012. So companies who are not partners with UEFA have essentially no possibility of receiving any profit from the event. Such limited market competition is a negative factor, especially for local business. For example, local brands of beer do not have the right to advertise, because this niche is reserved by UEFA only for the company Carlsberg.</p>
 
 <% else: %>
 
- <h3>«Спорт і Місто:  Людина. Суспільство. Ідеологія»</h3>
+  <h3>Спортивна мегаподія</h3>
 
-  <p>Виставка пропонує Вам дізнатися чим ще є спорт окрім змагання, розваги та видовища. Тут Ви побачите історію спорту у Львові (також знаному як Lwów та Lemberg) протягом останніх 150 років: якими були початки спорту в Європі та у місті зокрема, як змінювалися уявлення про спорт, як з’являлися нові види спорту, яким був зв’язок між спортом і націоналізмом, спортом і державою, спортом і комерцією, спортом та глобалізацією. Особливо цікавими в контексті «ЄВРО-2012» є питання про культуру вболівання та потенціал спортивних мегаподій для міста. Ця експозиція показує різні значення, пов’язані зі спортом та дозволить Вам сформувати власну відповідь на питання «Чим був і є спорт?»</p>
-  <p>Виставковий простір, тематично розділений на п’ять блоків, відкриває тема «Спорт як соціальна і культурна практика: історія змін.» У ній представлено історію спорту як модерної суспільної та культурної практики. Наступний блок <a href="/sport-in-multiethnic-city/">«Спорт у багатоетнічному місті. 1861-1939»</a> фокусує увагу на Львові та використовує локальні історичні матеріали, пов’язані з історією трьох спільнот у місті: української, польської та єврейської. Третій блок <a href="/sport-and-of-total-war/">«Спорт і війна»</a> розглядає спорт в умовах воєнного конфлікту – під час Першої та Другої світових воєн. Наступна частина виставки <a href="/sportsin-soviet-cities-1939-1991/">«Спорт у радянському місті. 1944-1991»</a> на прикладі Львова показує чим були фізична культура, соціальний статус спортсмена у радянській державі, а також як міжнародні спортивні змагання використовувалися у політичній боротьбі під час «холодної війни». Завершує виставку блок <a href="/sport-in-global-city/">«Спорт у глобальному місті»</a>, присвячений великим спортивним подіям як імпульсу для інфраструктурного розвитку.</p>
-  <p>В рамках виставки проводитимуться лекції, круглі столи, дискусії, кінопокази та освітня програма для дітей. Запрошуємо слідкувати за анонсами на сайті Центру міської історії www.lvivcenter.org</p>
-  <p>За детальнішою інформацією просимо звертатися до куратора виставкових проектів Центру Андрія Лініка за тел. 275 17 34 або е-поштою a.linik@lvivcenter.org</p>
-  <p>Виставка відкрита усі дні крім понеділка та вівторка від 11:00 до 17:30</p>
+  <figure>
+    <img src="/img/part/sports-mega-event/img-1.jpg" alt="img" title=""/>
+  </figure>
+  <p>Спортивні події світового масштабу, як-от Олімпійські ігри, світовий та європейський чемпіонати з футболу, є основними мегаподіями сучасності. Завдяки трансляціям твориться глобальна спільнота співглядачів, а країни, в яких вони проводяться, опиняються в центрі уваги світової громадськості. У 2006 році трансляцію фіналу Світового чемпіонату з футболу в Німеччині одночасно дивилося 2 мільярди глядачів, що складає майже третину всього населення Землі.</p>
+  <p>Олімпійські ігри в Пекіні 2008 року стали першими, які напряму транслювались і в Інтернет-мережі. Статус господаря турніру є визнанням країни світовою спільнотою. Саме тому, а також з надією на економічні та соціальні вигоди, країни змагаються за право приймати мегаподії.</p>
+  <p>Комфортні стадіони, сучасне обладнання для зйомки, обговорення в пресі, телебачення, Інтернет – все це наблизило спортивне видовище до аудиторії. Витрати телебачення, аби забезпечити глядачів видовищем, зростають. Наприклад, права трансляції Олімпійських ігор з 1996 по 2008 рік коштували американській телевізійній мережі NBC 4 мільярди доларів.</p>
 
+  <h4>Що означає бути господарем спортивної мегаподії?</h4>
+
+  <figure class="second">
+  <img src="/img/part/sports-mega-event/img-2.jpg" alt="img" title=""/>
+  </figure>
+  <p>Країни, що приймають міжнародні чемпіонати є лише платформою для проведення цих подій. Влада цих держав підписує низку правничо-фінансових угод, які оберігають економічні інтереси організаторів. Кожного разу умови змінюються, оскільки є результатом переговорів двох сторін – країни-господаря та організаторів.</p>
+  <p>У випадку ЄВРО-2012 Україна та Польща підписали з УЄФА домовленості, які змінюють на час проведення турніру податкове право, право інтелектуальної власності, телевізійні та рекламні права. УЄФА є організацією, що підтримує принцип монополії. Тим-то вона є єдиним власником прав на символіку турніру та його трансляцію, які продає компаніям-партнерам. Попри те, що УЄФА декларативно є неприбутковою організацією, очікується, що її доходи від проведення турніру сягнуть 116 мільйонів євро. В Україні ці кошти не оподатковуватимуться і лише частково оподатковуватимуться в Польщі. Такий стан речей обмежує використання мегаподії задля економічної вигоди міста, держави та місцевих підприємців. Роль господаря багато у чому зводиться до надання послуг гостинності та забезпечення порядку.</p>
+
+  <h4>Можливості проти ризику</h4>
+
+  <p>Неефективна організація процесу підготовки з боку влади може мати негативні наслідки, аж до економічної кризи. Так було у Греції, яка приймала Олімпійські ігри 2004 року. Нераціональне використання кредитів Євросоюзу у підготовці до події вказують як один з факторів економічної кризи, з якою тепер доводиться боротись країні. Невдала політика щодо розміщення спортивної інфраструктури призвела до того, що олімпійські об’єкти великою мірою пустують. Яскравим прикладом є Олімпійське містечко, де проживали атлети і яке після закінчення ігор мало перетворитись на елітний район з повноцінною соціальною інфраструктурою: школами, магазинами і т.д. Проте цього не сталось. Ефективна ж організація може мати позитивний довгостроковий ефект приваблення туристів, як було у випадку Олімпіади 1992 року у Барселоні, що вивело її в число найбільш відвідуваних міст світу.</p>
+
+  <h4>«Монопольна реклама»</h4>
+  <p>Рекламна пропозиція УЄФА ділиться на тематичні ніші, кожна з яких зарезервована для однієї з компаній – партнерів УЄФА. Основними з них є «Adidas» в індустрії спортивного одягу, «McDonald’s» – громадському харчуванні, «Coca-Cola» – охолоджувальних напоїв, «Castrol» – автомобільних мастил, Hyundai – автомобілів і т.д. Продукція конкурентів цих компаній не рекламується в контексті ЄВРО-2012. Отож компанії, що не є партнерами УЄФА, фактично позбавлені будь-якої можливості отримання додаткового прибутку від події. Таке обмеження ринкової конкуренції є негативним фактором, особливо для місцевого бізнесу. Наприклад, місцеві марки пива позбавлені права реклами, адже цю нішу УЄФА зарезервувала лише для пивного дому «Carlsberg».</p>
+  
 <% end %>
-
-<script type="text/javascript">
-  init_rslides( jQuery('#about-slide') );
-</script>

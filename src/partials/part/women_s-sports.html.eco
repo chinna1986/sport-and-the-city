@@ -1,49 +1,37 @@
 <figure>
-  <ul id="about-slide" class="rslides">
-    <li><img src="/img/part/about/1.jpg" alt="img" title="img"/> </li>
-    <li><img src="/img/part/about/2.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/3.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/4.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/5.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/6.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/7.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/8.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/9.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/10.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/11.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/12.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/13.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/14.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/15.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/16.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/17.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/18.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/19.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/20.jpg" alt="img" title="Sport and the City"/></li>
+  <ul class="rslides todo-init-rslides" data-auto="false">
+    <li><img src="/img/part/women_s-sports/img-1.jpg" alt="img" title=""/></li>
+    <li><img src="/img/part/women_s-sports/img-2.jpg" alt="img" title=""/></li>
+    <li><img src="/img/part/women_s-sports/img-3.jpg" alt="img" title=""/></li>
   </ul>
 </figure>
 
 <% if @document.language == 'en': %>
 
-  <h3>«Sport and the City: People. Society. Ideology»</h3>
-  <p>Exhibition offers you an opportunity to learn more about the meaning of sports, besides competition, entertainment and spectacle. It traces the history of sports in Lviv (also known as Lwów and Lemberg) throughout the last 150 years: the beginnings of sports in Europe, and particularly in the city; how our ideas about sports have changed; how new types of sports emerged; the connections between sports and nationalism, sports and government, sports and commerce, sports and globalization. Particularly interesting in the context of EURO-2012 is the question of fan culture and the potential of sports mega-events for the city. This exposition shows different meanings connected with sports and allows to formulate own answers to the question, «What was sport, and what is sport today?»</p>
-  <p>The exhibition space, thematically divided into five sections, opens with the theme, «Sports as Social and Cultural Practice: History of Transformations.» This section presents the history of sports as a history of modern social and cultural practices. The next section, <a href="/sport-in-multiethnic-city/">«Sports in the Multi-ethnic City, 1861-1939»</a>, focuses attention on Lviv-Lwów-Lemberg itself. Local historical materials connected with the history of the city’s three communities - Ukrainian, Polish, and Jewish - show how sports were a factor and form in the search for new identities. The third section, <a href="/sport-and-of-total-war/">«Sport and War»</a>, examines sports in the conditions of military conflict - during the First and Second World Wars. The following section of the exhibition, <a href="/sportsin-soviet-cities-1939-1991/">«Sport in the Soviet City, 1944-1991»</a>, explores the notion of physical culture, the social status of Soviet athletes, and also how international sports competitions were used in Cold War political struggles, all on the example of Soviet Ukrainian Lviv. The exhibition concludes with the section <a href="/sport-in-global-city/">«Sports in the Global City»</a>, which is dedicated to athletic mega-events as impulses for infrastructure development.</p>
-  <p>In connection with the exhibition we will hold a series of lectures, round-tables, discussions, film presentations and an educational program for children. We invite you to follow upcoming announcements at www.lvivcenter.org</p>
-  <p>For more information, please contact Andrii Linik, the curator of exhibition projects at the Center for Urban History, tel. 275 17 34 or e-mail a.linik@lvivcenter.org.</p>
-  <p>The exhibition is open daily from Wednesdays through Sundays from 11.00 to 17.00. Closed Mondays and Tuesdays.</p>
+  <h3>Women’s Sports</h3>
+
+  <h4>«The bicycle has done more to emancipate women than anything else in the world.» Susan B. Anthony, suffragette, 1896.</h4>
+
+  <p>The division of men’s and women’s sports is all relative. It is above all a product of social mentality: a certain vision of women’s social role and standards of femininity. Until the end of the 19th century excess movement and competition among women was considered a potential threat to women’s «calling»: the birth of children. Even on horseback women were supposed to ride in a special manner in order to conform to norms of etiquette. Increasing the number of women in sports became a factor in the movement for gender equality and emancipation of women throughout the world. The participation of women in athletic life is also a sign of the transformation of traditional society.</p>
+  
+  <h4>Overcoming Discrimination: Women and Olympics</h4>
+  <p>The Olympic Games best demonstrate the gradual process of drawing women into sports. In the first modern Olympics in 1896 women did not participate. In 1952 Olympic teams had only 10% female competitors; in 1980 representatives of the «second sex» had increased to 21%. But we should not over-emphasize this apparent success—still today the percentage of women participating in the Olympic Games has remained less than 30%. Gender inequality also strengthens the inequality in the representation of other countries and continents. Only in 1984, for example, was the first Olympic gold medal won by a representative of the Islamic world—the Moroccan Nawal El Moutawakel, and 1994 the Kenyan Tegla Loroupe became the first African to win the marathon.</p>
+  
+  <h4>“Femininity” and Sport: Double Standards, Double Expectations</h4>
+  <p>Certain kinds of sports, like weightlifting, American football, boxing, and auto racing are still considered «unfeminine» because of their high injury rate. Officially, female weightlifting appeared in 2000, and female boxing, despite lengthy criticism, will become an Olympic sport at the 2012 summer Olympics in London. In today’s sports world women have the right to participate in all kinds of athletics, they are organized in teams, participate in competitions, but still, the percentage of women competing in sports remains significantly lower compared with that of men. On the other hand, there are certain kinds of sports whose popularity is due precisely to female athletes. This is above all figure skating and rhythmic gymnastics, and also, to a certain extent, tennis. Social ideas about masculinity and femininity influence the image of the female athlete created in the media. Images highlighting athletic exceptionality and willpower are united with the sexuality of the female body. Women in sports are subject to a double standard: the image of the athlete with developed muscles does not always correlate with social attitudes about femininity. Femininity in sports is often expressed in clothing, such as in tennis, or in make-up, or other «feminine» attributes—for examples, manicures.</p>
 
 <% else: %>
 
- <h3>«Спорт і Місто:  Людина. Суспільство. Ідеологія»</h3>
+  <h3>Жіночий спорт</h3>
 
-  <p>Виставка пропонує Вам дізнатися чим ще є спорт окрім змагання, розваги та видовища. Тут Ви побачите історію спорту у Львові (також знаному як Lwów та Lemberg) протягом останніх 150 років: якими були початки спорту в Європі та у місті зокрема, як змінювалися уявлення про спорт, як з’являлися нові види спорту, яким був зв’язок між спортом і націоналізмом, спортом і державою, спортом і комерцією, спортом та глобалізацією. Особливо цікавими в контексті «ЄВРО-2012» є питання про культуру вболівання та потенціал спортивних мегаподій для міста. Ця експозиція показує різні значення, пов’язані зі спортом та дозволить Вам сформувати власну відповідь на питання «Чим був і є спорт?»</p>
-  <p>Виставковий простір, тематично розділений на п’ять блоків, відкриває тема «Спорт як соціальна і культурна практика: історія змін.» У ній представлено історію спорту як модерної суспільної та культурної практики. Наступний блок <a href="/sport-in-multiethnic-city/">«Спорт у багатоетнічному місті. 1861-1939»</a> фокусує увагу на Львові та використовує локальні історичні матеріали, пов’язані з історією трьох спільнот у місті: української, польської та єврейської. Третій блок <a href="/sport-and-of-total-war/">«Спорт і війна»</a> розглядає спорт в умовах воєнного конфлікту – під час Першої та Другої світових воєн. Наступна частина виставки <a href="/sportsin-soviet-cities-1939-1991/">«Спорт у радянському місті. 1944-1991»</a> на прикладі Львова показує чим були фізична культура, соціальний статус спортсмена у радянській державі, а також як міжнародні спортивні змагання використовувалися у політичній боротьбі під час «холодної війни». Завершує виставку блок <a href="/sport-in-global-city/">«Спорт у глобальному місті»</a>, присвячений великим спортивним подіям як імпульсу для інфраструктурного розвитку.</p>
-  <p>В рамках виставки проводитимуться лекції, круглі столи, дискусії, кінопокази та освітня програма для дітей. Запрошуємо слідкувати за анонсами на сайті Центру міської історії www.lvivcenter.org</p>
-  <p>За детальнішою інформацією просимо звертатися до куратора виставкових проектів Центру Андрія Лініка за тел. 275 17 34 або е-поштою a.linik@lvivcenter.org</p>
-  <p>Виставка відкрита усі дні крім понеділка та вівторка від 11:00 до 17:30</p>
+  <h4>«Ведосипед приклався до емансипації жінок більше, ніж будь-яка інша річ у світі». Сюзан Антоні, суфражистка, 1896 рік.</h4>
+
+  <p>Розподіл на чоловічі та жіночі види спорту умовний. Це насамперед продукт суспільного менталітету: бачення соціальної ролі жінки та стандартів жіночої тілесності. До кінця ХІХ століття надмірна рухливість і змагальництво серед жінок трактувалися як потенційна загроза основному «призначенню» жінки – народжуванню дітей. Навіть на конях жінки мали їздити в особливий спосіб, що було нормою етикету. Збільшення кількості жінок у спорті стало складовою частиною руху за гендерну рівність та емансипацію жінок по всьому світу. Участь жінок у спортивному житті є також показником трансформації традиційних суспільств.</p>
+  
+  <h4>Долаючи дискримінацію: жінки та Олімпійські ігри</h4> 
+  <p>Поступовий процес залучення жінок у спорт найкраще демонструють Олімпійські ігри. У перших модерних Олімпійських іграх 1896 року жінки не брали участі. Порівняно з 1952 роком, де у складі олімпійців загалом виступало 10% жінок, на 1980 рік кількість представниць «другої статі» збільшується до 21%. Але успіх не варто переоцінювати, адже на сьогодні ця частка залишається менше ніж 30%. Гендерна нерівність також підсилює нерівність у репрезентації різних країн та континентів. Скажімо, лише у 1984 році вперше золоту олімпійську медаль отримала представниця ісламського світу – мароканка Наваль Ель Моутавакель, а 1994 року кенійка Тегла Лороуп стала першою африканкою, яка виграла марафон.</p>
+  
+  <h4>«Жіночність» та спорт: подвійні стандарти, подвійне очікування</h4>
+  <p>Деякі види спорту, як-от важка атлетика, американський футбол, бокс, автоперегони, через високий травматизм ще й досі вважаються «нежіночою» справою. Офіційно жіноча важка атлетика появилась у 2000 році, а жіночий бокс, попри тривалу критику, стане олімпійським видом спорту вперше на літній Олімпіаді в Лондоні 2012 року. В сучасному світі спорту існує ситуація, коли жінки мають право брати участь у всіх видах спорту, організовуватися в команди, проводити змагання, але участь жінок у спорті порівняно з чоловіками залишається відчутно нижчою. З іншого боку, існуть такі види спорту, які свою популярність завдячують саме виступам жінок-атлеток. Це насамперед фігурне катання та художня гімнастика, а також частково теніс. Образ жінки-спортсменки в медіа формується під впливом суспільних уявлень про маскулінність та фемінність. Підкреслення винятковості та вольових якостей поєднується з сексуальністю жіночого тіла. Жінки у спорті трактуються за подвійними стандартами: образ спортсмена з розвиненою мускулатурою не завжди співвідноситься з суспільним уявленням про жіночність. Жіночність у спорті часто виражається добором костюмів, як-от у тенісі, або макіяжем чи іншими «жіночими» атрибутами – наприклад, манікюром.</p>
 
 <% end %>
-
-<script type="text/javascript">
-  init_rslides( jQuery('#about-slide') );
-</script>

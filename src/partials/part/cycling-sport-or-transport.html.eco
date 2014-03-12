@@ -1,49 +1,57 @@
+<% if @document.language == 'en': %>
+
 <figure>
-  <ul id="about-slide" class="rslides">
-    <li><img src="/img/part/about/1.jpg" alt="img" title="img"/> </li>
-    <li><img src="/img/part/about/2.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/3.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/4.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/5.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/6.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/7.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/8.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/9.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/10.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/11.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/12.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/13.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/14.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/15.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/16.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/17.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/18.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/19.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/20.jpg" alt="img" title="Sport and the City"/></li>
+  <ul class="rslides todo-init-rslides">
+    <li><img src="/img/part/cycling-sport-or-transport/img-1.jpg" alt="img" title=""/></li>
+    <li><img src="/img/part/cycling-sport-or-transport/img-2.jpg" alt="img" title=""/></li>
   </ul>
 </figure>
 
-<% if @document.language == 'en': %>
+<h3>CYCLING: SPORT OR Transport</h3>
 
-  <h3>«Sport and the City: People. Society. Ideology»</h3>
-  <p>Exhibition offers you an opportunity to learn more about the meaning of sports, besides competition, entertainment and spectacle. It traces the history of sports in Lviv (also known as Lwów and Lemberg) throughout the last 150 years: the beginnings of sports in Europe, and particularly in the city; how our ideas about sports have changed; how new types of sports emerged; the connections between sports and nationalism, sports and government, sports and commerce, sports and globalization. Particularly interesting in the context of EURO-2012 is the question of fan culture and the potential of sports mega-events for the city. This exposition shows different meanings connected with sports and allows to formulate own answers to the question, «What was sport, and what is sport today?»</p>
-  <p>The exhibition space, thematically divided into five sections, opens with the theme, «Sports as Social and Cultural Practice: History of Transformations.» This section presents the history of sports as a history of modern social and cultural practices. The next section, <a href="/sport-in-multiethnic-city/">«Sports in the Multi-ethnic City, 1861-1939»</a>, focuses attention on Lviv-Lwów-Lemberg itself. Local historical materials connected with the history of the city’s three communities - Ukrainian, Polish, and Jewish - show how sports were a factor and form in the search for new identities. The third section, <a href="/sport-and-of-total-war/">«Sport and War»</a>, examines sports in the conditions of military conflict - during the First and Second World Wars. The following section of the exhibition, <a href="/sportsin-soviet-cities-1939-1991/">«Sport in the Soviet City, 1944-1991»</a>, explores the notion of physical culture, the social status of Soviet athletes, and also how international sports competitions were used in Cold War political struggles, all on the example of Soviet Ukrainian Lviv. The exhibition concludes with the section <a href="/sport-in-global-city/">«Sports in the Global City»</a>, which is dedicated to athletic mega-events as impulses for infrastructure development.</p>
-  <p>In connection with the exhibition we will hold a series of lectures, round-tables, discussions, film presentations and an educational program for children. We invite you to follow upcoming announcements at www.lvivcenter.org</p>
-  <p>For more information, please contact Andrii Linik, the curator of exhibition projects at the Center for Urban History, tel. 275 17 34 or e-mail a.linik@lvivcenter.org.</p>
-  <p>The exhibition is open daily from Wednesdays through Sundays from 11.00 to 17.00. Closed Mondays and Tuesdays.</p>
+<p>Long ago the bicycle transformed from a piece of sports equipment into a method of transport. This was necessitated by changes in cities themselves, and in everyday life in cities. Throughout the 19th century cities grew sharply, and their inhabitants had to overcome greater and greater distances.</p>
+  <p>In 1867 Ernest Michaux patented his discovery at an exhibition in Paris: the bicycle. From the moment of the bicycle’s entry onto the market it provoked mad popularity—both for athletics and for transport. Already by 1869 Paris held the first cycling competition, for a distance of 123 kilometers from Paris to Rouen. We can also trace the great popularity of the bicycle by the luxurious advertising for such brands as Peugeot, Hermes, Gladiator, or Sirius, in the style of a European secession-style posters.</p>
+  <p>Today in poorer regions of the world the bicycle has remained an important method of moving around the city; in wealthier regions ecological awareness has led to an increased use of the bicycle. In Scandinavian countries the use of the bicycle as a method of urban transport has taken especial hold. For example, in Copenhagen 40% of city inhabitants use a bicycle as transport—and the number is constantly growing.</p>
+
+  <h4>Lviv and the Bicycle</h4>
+
+<figure class="second">
+  <ul class="rslides todo-init-rslides">
+    <li><img src="/img/part/cycling-sport-or-transport/img-3.jpg" alt="img" title=""/></li>
+    <li><img src="/img/part/cycling-sport-or-transport/img-4.jpg" alt="img" title=""/></li>
+  </ul>
+</figure>
+
+  <p>The bicycle first came to Lemberg (Lviv) in 1867 and immediately acquired great popularity among the population: the publication of a special journal called Das Velocipede (1869), the first cycling club and places to rent bicycles (1880). By the pre-World War I period Lemberg (Lviv) was producing 100 bicycles a day, and after the war the Lwów (Lviv) bicycle factory was one of the best known in the city.</p>
+  <p>Historic cities, with narrow streets and inadequate space for parking, have experienced the rise in automobiles especially profoundly. Pressing problems include traffic jams, car accidents, parking in pedestrian zones, and carbon dioxide in the environment.  For precisely this reason the appearance of cycling lanes and  proper arrangement of public space directly affects the quality of city life.</p>
+  <p>Lviv became the first Ukrainian city to comprehensively approach the question of developing urban cycling infrastructure. Combined initiatives have facilitated a quick start to the construction of the first urban cycling infrastructure in Ukraine.</p>
 
 <% else: %>
 
- <h3>«Спорт і Місто:  Людина. Суспільство. Ідеологія»</h3>
+<figure>
+  <ul class="rslides todo-init-rslides">
+    <li><img src="/img/part/cycling-sport-or-transport/img-1.jpg" alt="img" title=""/></li>
+    <li><img src="/img/part/cycling-sport-or-transport/img-2.jpg" alt="img" title=""/></li>
+  </ul>
+</figure>
 
-  <p>Виставка пропонує Вам дізнатися чим ще є спорт окрім змагання, розваги та видовища. Тут Ви побачите історію спорту у Львові (також знаному як Lwów та Lemberg) протягом останніх 150 років: якими були початки спорту в Європі та у місті зокрема, як змінювалися уявлення про спорт, як з’являлися нові види спорту, яким був зв’язок між спортом і націоналізмом, спортом і державою, спортом і комерцією, спортом та глобалізацією. Особливо цікавими в контексті «ЄВРО-2012» є питання про культуру вболівання та потенціал спортивних мегаподій для міста. Ця експозиція показує різні значення, пов’язані зі спортом та дозволить Вам сформувати власну відповідь на питання «Чим був і є спорт?»</p>
-  <p>Виставковий простір, тематично розділений на п’ять блоків, відкриває тема «Спорт як соціальна і культурна практика: історія змін.» У ній представлено історію спорту як модерної суспільної та культурної практики. Наступний блок <a href="/sport-in-multiethnic-city/">«Спорт у багатоетнічному місті. 1861-1939»</a> фокусує увагу на Львові та використовує локальні історичні матеріали, пов’язані з історією трьох спільнот у місті: української, польської та єврейської. Третій блок <a href="/sport-and-of-total-war/">«Спорт і війна»</a> розглядає спорт в умовах воєнного конфлікту – під час Першої та Другої світових воєн. Наступна частина виставки <a href="/sportsin-soviet-cities-1939-1991/">«Спорт у радянському місті. 1944-1991»</a> на прикладі Львова показує чим були фізична культура, соціальний статус спортсмена у радянській державі, а також як міжнародні спортивні змагання використовувалися у політичній боротьбі під час «холодної війни». Завершує виставку блок <a href="/sport-in-global-city/">«Спорт у глобальному місті»</a>, присвячений великим спортивним подіям як імпульсу для інфраструктурного розвитку.</p>
-  <p>В рамках виставки проводитимуться лекції, круглі столи, дискусії, кінопокази та освітня програма для дітей. Запрошуємо слідкувати за анонсами на сайті Центру міської історії www.lvivcenter.org</p>
-  <p>За детальнішою інформацією просимо звертатися до куратора виставкових проектів Центру Андрія Лініка за тел. 275 17 34 або е-поштою a.linik@lvivcenter.org</p>
-  <p>Виставка відкрита усі дні крім понеділка та вівторка від 11:00 до 17:30</p>
+<h3>Велосипед: вид спорту чи транспорту</h3>
 
+  <p>Велосипед вже давно перетворився з тільки спортивного інвентаря, ще й на транспортний засіб. Передумовою цьому стали зміни як самого міста, так і стилю життя в ньому.</p>
+  <p>В кінці 19 століття індустріалізація вперше зумовила активний ріст міста за межі колишніх захисних мурів. Мешканці таких видозмінених міст були змушені долати все більші відстані. Саме в цей час 1867 року Ернст Мішо патентує на виставці в Парижі свій винахід – велосипед. Вчасний момент виходу на ринок спричинив шалену популярність – і як спортивного, і як транспортного засобу. Вже 1869 в Парижі відбуваються перші велозмагання на відтинку 123 км від Парижа до Руена. Велику популярність велосипеда також можна прослідкувати за вишуканою рекламою таких марок велосипедів як “Peugeot”, “Hermes”, “Gladiator”, “Sirius” в стилі європейського сецесійного плакату.</p>
+  <p>На сьогодні в бідніших регіонах світу велосипед і надалі залишається важливим засобом пересування, а в багатших регіонах зростаюча екологічна свідомість спричинила все інтенсивніше використання велосипедів. Особливо сильно вкоренилась культура пересування велосипедом по місту в скандинавських країнах. До прикладу – в Копенгагені відсоток мешканців, що пересуваються по місту на велосипеді складає 40% і постійно зростає.</p>
+
+  <h4>Львів та Велосипед</h4>
+
+<figure class="second">
+  <ul class="rslides todo-init-rslides">
+    <li><img src="/img/part/cycling-sport-or-transport/img-3.jpg" alt="img" title=""/></li>
+    <li><img src="/img/part/cycling-sport-or-transport/img-4.jpg" alt="img" title=""/></li>
+  </ul>
+</figure>
+  <p>Вперше велосипед приїхав до Львова 1867 року і одразу ж набув великої популярності в населення: виходить спеціалізоване видання “Das Velocipede” (1869), створюється львівський клуб циклістів та пункти винайму (1880). В довоєнний час Львівський велосипедний завод налагоджує виробництво потужністю 100 велосипедів на добу. Таким чином велосипед має у Львові свою сильну традицію. Проте починаючи з 50-х років поступово зростає рівень моторизації Львова, особливий підйом можна прослідкувати починаючи з 90-х.</p>
+  <p>Історичні міста, з вузькими вуличками і недостатніми місцями для паркування особливо важко переживають зростаючу кількість автомобілів: нагальними проблемами стають корки на дорогах, вулика кількість ДТП запарковані пішохідні зони та великі викиди CO2. Саме тому наявність велосипедних доріжок, просторі тротуари та якісне облаштування громадського простору безпосередньо впливають на якість життя в місті. Так велосипедна інфраструктура є важливим важилем впливу на привабливість історичних середмість.</p>
+  <p>Львів став першим українським містом, яке комплексно підійшло до розвитку міського велосипедного транспорту. Активні спільні зусилля різних дійових сторін посприяли швидкому старту розбудови першої в Україні міської велосипедної інфраструктури.</p>
+
+  
 <% end %>
-
-<script type="text/javascript">
-  init_rslides( jQuery('#about-slide') );
-</script>
