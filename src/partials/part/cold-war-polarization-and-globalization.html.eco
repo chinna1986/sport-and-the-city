@@ -1,144 +1,52 @@
 <figure>
-  <ul id="about-slide" class="rslides">
-    <li><img src="/img/part/about/1.jpg" alt="img" title="img"/> </li>
-    <li><img src="/img/part/about/2.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/3.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/4.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/5.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/6.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/7.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/8.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/9.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/10.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/11.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/12.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/13.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/14.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/15.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/16.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/17.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/18.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/19.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/20.jpg" alt="img" title="Sport and the City"/></li>
-  </ul>
+  <img src="/img/part/cold-war-polarization-and-globalization/img-1.jpg" alt="img"/>
 </figure>
 
 <% if @document.language == 'en': %>
+  
+  <h3>Cold War: Polarization and Globalization</h3>
 
-  <h3>«Sport and the City: People. Society. Ideology»</h3>
-  <p>Exhibition offers you an opportunity to learn more about the meaning of sports, besides competition, entertainment and spectacle. It traces the history of sports in Lviv (also known as Lwów and Lemberg) throughout the last 150 years: the beginnings of sports in Europe, and particularly in the city; how our ideas about sports have changed; how new types of sports emerged; the connections between sports and nationalism, sports and government, sports and commerce, sports and globalization. Particularly interesting in the context of EURO-2012 is the question of fan culture and the potential of sports mega-events for the city. This exposition shows different meanings connected with sports and allows to formulate own answers to the question, «What was sport, and what is sport today?»</p>
-  <p>The exhibition space, thematically divided into five sections, opens with the theme, «Sports as Social and Cultural Practice: History of Transformations.» This section presents the history of sports as a history of modern social and cultural practices. The next section, <a href="/sport-in-multiethnic-city/">«Sports in the Multi-ethnic City, 1861-1939»</a>, focuses attention on Lviv-Lwów-Lemberg itself. Local historical materials connected with the history of the city’s three communities - Ukrainian, Polish, and Jewish - show how sports were a factor and form in the search for new identities. The third section, <a href="/sport-and-of-total-war/">«Sport and War»</a>, examines sports in the conditions of military conflict - during the First and Second World Wars. The following section of the exhibition, <a href="/sportsin-soviet-cities-1939-1991/">«Sport in the Soviet City, 1944-1991»</a>, explores the notion of physical culture, the social status of Soviet athletes, and also how international sports competitions were used in Cold War political struggles, all on the example of Soviet Ukrainian Lviv. The exhibition concludes with the section <a href="/sport-in-global-city/">«Sports in the Global City»</a>, which is dedicated to athletic mega-events as impulses for infrastructure development.</p>
-  <p>In connection with the exhibition we will hold a series of lectures, round-tables, discussions, film presentations and an educational program for children. We invite you to follow upcoming announcements at www.lvivcenter.org</p>
-  <p>For more information, please contact Andrii Linik, the curator of exhibition projects at the Center for Urban History, tel. 275 17 34 or e-mail a.linik@lvivcenter.org.</p>
-  <p>The exhibition is open daily from Wednesdays through Sundays from 11.00 to 17.00. Closed Mondays and Tuesdays.</p>
-
-<% else: %>
-
- <h3>«Спорт і Місто:  Людина. Суспільство. Ідеологія»</h3>
-
-  <p>Виставка пропонує Вам дізнатися чим ще є спорт окрім змагання, розваги та видовища. Тут Ви побачите історію спорту у Львові (також знаному як Lwów та Lemberg) протягом останніх 150 років: якими були початки спорту в Європі та у місті зокрема, як змінювалися уявлення про спорт, як з’являлися нові види спорту, яким був зв’язок між спортом і націоналізмом, спортом і державою, спортом і комерцією, спортом та глобалізацією. Особливо цікавими в контексті «ЄВРО-2012» є питання про культуру вболівання та потенціал спортивних мегаподій для міста. Ця експозиція показує різні значення, пов’язані зі спортом та дозволить Вам сформувати власну відповідь на питання «Чим був і є спорт?»</p>
-  <p>Виставковий простір, тематично розділений на п’ять блоків, відкриває тема «Спорт як соціальна і культурна практика: історія змін.» У ній представлено історію спорту як модерної суспільної та культурної практики. Наступний блок <a href="/sport-in-multiethnic-city/">«Спорт у багатоетнічному місті. 1861-1939»</a> фокусує увагу на Львові та використовує локальні історичні матеріали, пов’язані з історією трьох спільнот у місті: української, польської та єврейської. Третій блок <a href="/sport-and-of-total-war/">«Спорт і війна»</a> розглядає спорт в умовах воєнного конфлікту – під час Першої та Другої світових воєн. Наступна частина виставки <a href="/sportsin-soviet-cities-1939-1991/">«Спорт у радянському місті. 1944-1991»</a> на прикладі Львова показує чим були фізична культура, соціальний статус спортсмена у радянській державі, а також як міжнародні спортивні змагання використовувалися у політичній боротьбі під час «холодної війни». Завершує виставку блок <a href="/sport-in-global-city/">«Спорт у глобальному місті»</a>, присвячений великим спортивним подіям як імпульсу для інфраструктурного розвитку.</p>
-  <p>В рамках виставки проводитимуться лекції, круглі столи, дискусії, кінопокази та освітня програма для дітей. Запрошуємо слідкувати за анонсами на сайті Центру міської історії www.lvivcenter.org</p>
-  <p>За детальнішою інформацією просимо звертатися до куратора виставкових проектів Центру Андрія Лініка за тел. 275 17 34 або е-поштою a.linik@lvivcenter.org</p>
-  <p>Виставка відкрита усі дні крім понеділка та вівторка від 11:00 до 17:30</p>
-
-<% end %>
-
-<script type="text/javascript">
-  init_rslides( jQuery('#about-slide') );
-</script>
-
-
-<?php if(isset($_GET['lang']) AND $_GET['lang'] == 'en') { ?>
-<h3>Cold War: Polarization and Globalization</h3>
-<div class='colomns'>
   <h4>The Olympic Tradition Reborn</h4>
-        <div class="text_carousel slide">
-            <div class="carousel-inner">
-              <div class="active item">
-              <img src="/sportsin-soviet-cities-1939-1991/cold-war/the-olympic-radition-reborn/img-1.jpg" alt="img" title=""/>
-              <p class="big-title"></p>
-              </div>            
-            </div>
-    </div>
   <p>Western states, many of whom were colonial empires, initiated the «rebirth» of the Olympic tradition at the end of the 19th century. Creating an international competition at the global level was considered an important step towards encouraging global understanding and peace. The idea of the «renaissance» of the Olympic movement appeared as early as the middle of the 19th century, and the main proponent was Evangelis Zappa, a Greek-Romanian philanthropist. The idea was further developed by the French baron Pierre de Courbertain, who in 1894 initiated the creation of the International Olympic Committee. Italy, Greece, Great Britain, Russia, Austria-Hungary, France, Sweden and Norway, the USA, New Zealand and Argentina were the first to belong to this committee. The first «new» Olympic games were held in Athens in 1896 and united 14 states. The Olympics continued in this format until World War I. After the war, with the collapse of the two empires of Austria-Hungary and Russia, it was national states that competed in the Olympic games.</p>
 
   <h4>Spartakiad as an alternative to the Olympics</h4>
-          <div id="index-carousel" class="text_carousel slide">
-              <div class="carousel-inner">
-                <div class="active item">
-                  <img src="/sportsin-soviet-cities-1939-1991/cold-war/the-olympic-radition-reborn/img-2.jpg" alt="img" title=" "/>
-                  <p class="big-title"> </p>           
-                </div>         
-                <div class="item">
-                <img src="/sportsin-soviet-cities-1939-1991/cold-war/the-olympic-radition-reborn/img-3.jpg" alt="img" title=""/>
-                  <p class="big-title"></p>
-                </div>            
-              </div>
-              <a class="carousel-control left" href="#index-carousel" data-slide="prev">&lsaquo;</a>
-              <a class="carousel-control right" href="#index-carousel" data-slide="next">&rsaquo;</a>
-            </div>
+
+  <figure class="second">
+    <ul class="rslides todo-init-rslides">
+      <li><img src="/img/part/cold-war-polarization-and-globalization/img-2.jpg" alt="img"/></li>
+      <li><img src="/img/part/cold-war-polarization-and-globalization/img-3.jpg" alt="img"/></li>
+    </ul>
+  </figure>
   <p>The spread of socialist movements in Europe and the victory of the Bolshevik revolution in the Russian empire created a possibility for a different model of social development: communism. This included the rejection of older «imperial» practices, which were judged to be based on colonialism, racial stereotypes and segregation. In 1920 in Lucerne the social-democrats of Belgium, France and Germany created the «Workers Sports International,» which organized Workers Olympiads against bourgeois-ism. The first «Worker’s Olympiad» was held in 1925 in Frankfurt-am-Main.</p>
   <p>The Soviet Union, however, proposed a radical project. The «Red Sports International» appeared in 1921 on the initiative of the USSR and united workers’ sports organizations from Czechoslovakia, Estonia, France, Italy, Norway, Uruguay, the USA and the USSR. This organization proposed alternative athletic competitions: the Spartakiad. This title, like the Olympics, recalled ideals from antiquity, but proposed an «eternal class struggle» and so chose Spartak, the leader of the slave uprising, as its hero. The first Spartakiad was held in 1928: winter games in Oslo, summer games in Moscow. But this athletic movement did not enjoy widespread international success, and at the end of the 1930s the Spartakiad movement became associated more with professional unions, the army and students. The Spartakiad competitions between the peoples of the USSR took place throughout the Soviet period and generally occurred a year before each Olympic games.</p>
   <h4>Cold War Compromise: Confrontation and Engagement</h4>
-    <div class="text_carousel slide">
-            <div class="carousel-inner">
-              <div class="active item">
-              <img src="/sportsin-soviet-cities-1939-1991/cold-war/the-olympic-radition-reborn/img-4.jpg" alt="img" title=""/>
-              <p class="big-title"></p>
-              </div>            
-            </div>
-    </div>
+  <figure class="second">
+    <img src="/img/part/cold-war-polarization-and-globalization/img-4.jpg" alt="img"/>
+  </figure>
   <p>After World War II two processes shaped the world: decolonialization, that is, the collapse of colonial empires, and the Cold War. In the postwar decades the former colonies of the Middle East, Asia and Africa achieved independence. A significant number of these countries, as a result of seizures of power or revolutions, became communist. The world became polarized. The capitalist and the communist blocs faced each other in the arms race, the space race, and multiple political conflicts. But they also created a mutual space for competition: the Olympic games. In a time of «peaceful coexistence» between the capitalist and socialist systems the Olympic games became a kind of surrogate for the Cold War.</p>
+<% else: %>
+  <h3>Холодна війна: поляризація і глобалізація</h3>
 
-
-</div>
-
-
-<?php } else { ?>
-<h3>Холодна війна: поляризація і глобалізація</h3>
-
-<div class='colomns'>
   <h4>Олімпійська традиція відроджується</h4>
-        <div class="text_carousel slide">
-            <div class="carousel-inner">
-              <div class="active item">
-              <img src="/sportsin-soviet-cities-1939-1991/cold-war/the-olympic-radition-reborn/img-1.jpg" alt="img" title=""/>
-              <p class="big-title"></p>
-              </div>            
-            </div>
-    </div>
+
   <p>«Відродження» олімпійської традиції наприкінці ХІХ століття відбулося з ініціативи західних держав, частина з яких була колоніальними імперіями. Це спроба створення міжнародних змагань глобального формату, які сприяли б світовому порозумінню та миру, сигналізували його поступ. Ідея «відновлення» олімпійського руху з’являється ще в середині ХІХ століття, основним її адептом був Євангеліс Заппа — грецько-румунський філантроп. Пізніше цю ідею розвиває французький барон П’єр де Кубертен, ініціюючи створення Міжнародного олімпійського комітету в 1894 році. Спершу до цього комітету належали Італія, Греція, Великобританія, Росія, Австро-Угорщина, Франція, Швеція і Норвегія, Сполучені Штати Америки, Нова Зеландія та Аргентина. Перші відроджені Олімпійські ігри відбулися 1896 року в Афінах і об’єднали 14 держав. У такому форматі ці змагання проводились до Першої світової війни. Після війни, з розпадом двох імперій — Австро-Угорської та Російської, на олімпійську арену виходять національні держави.</p>
 
   <h4>Спартакіада як альтернатива Олімпіаді</h4>
-            <div id="index-carousel" class="text_carousel slide">
-              <div class="carousel-inner">
-                <div class="active item">
-                  <img src="/sportsin-soviet-cities-1939-1991/cold-war/the-olympic-radition-reborn/img-2.jpg" alt="img" title=" "/>
-                  <p class="big-title"> </p>           
-                </div>         
-                <div class="item">
-                <img src="/sportsin-soviet-cities-1939-1991/cold-war/the-olympic-radition-reborn/img-3.jpg" alt="img" title=" "/>
-                  <p class="big-title"> </p>
-                </div>            
-              </div>
-              <a class="carousel-control left" href="#index-carousel" data-slide="prev">&lsaquo;</a>
-              <a class="carousel-control right" href="#index-carousel" data-slide="next">&rsaquo;</a>
-            </div>
+  <figure class="second">
+    <ul class="rslides todo-init-rslides">
+      <li><img src="/img/part/cold-war-polarization-and-globalization/img-2.jpg" alt="img"/></li>
+      <li><img src="/img/part/cold-war-polarization-and-globalization/img-3.jpg" alt="img"/></li>
+    </ul>
+  </figure>
   <p>Поширення соціалістичних рухів у Європі та перемога «революції» в Російській імперії створює можливість втілення іншої моделі суспільного розвитку — комуністичної. Це передбачало відмову від старих «імперських» практик, заснованих на колоніалізмі, расових упередженнях і сегрегації. У 1920 році в Люцерні соціал-демократи Бельгії, Франції та Німеччини створюють Робітничий спортивний інтернаціонал, який проводить «Робітничі Олімпіади» напротивагу «буржуазним». Перша «Робітнича Олімпіада» проводиться 1925 року у Франкфурті-на-Майні.</p>
   <p>СРСР натомість пропонує радикальніший проект. За ініціативи Радянського Союзу в 1921 році виникає Червоний спортивний інтернаціонал, до якого входять робітничі спортивні організації Чехословаччини, Естонії, Франції, Італії, Норвегії, Уругваю, США та СРСР. Ця організація пропонує альтернативні спортивні змагання — Спартакіаду. Ця назва, як і Олімпіада, нав’язує до ідеалів античності, але наголошує на «постійній боротьбі класів», тим-то своїм героєм обирає провідника повстання рабів — Спартака. Перші Спартакіади відбулися 1928 року: зимова — в Осло, літня — у Москві. Але загалом цей спортивний рух не мав міжнародного успіху і в кінці 1930-их років переріс у профспілкові, армійські та студентські спартакіади. Спартакіади народів СРСР відбувались впродовж всього існування СРСР і проводились переважно за рік до Олімпіади.</p>
 
   <h4>Компроміс «холодної війни»: протистояння і залучення</h4>
-          <div class="text_carousel slide">
-            <div class="carousel-inner">
-              <div class="active item">
-              <img src="/sportsin-soviet-cities-1939-1991/cold-war/the-olympic-radition-reborn/img-4.jpg" alt="img" title=""/>
-              <p class="big-title"></p>
-              </div>            
-            </div>
-    </div>
+
+  <figure class="second">
+    <img src="/img/part/cold-war-polarization-and-globalization/img-4.jpg" alt="img"/>
+  </figure>
+
   <p>Після Другої світової війни світ формується під впливом двох процесів: продовження розпаду колоніальних імперій та «холодної війни». В повоєнні десятиліття отримують незалежність колонії Середнього Сходу, Азії та Африки. Значна частина цих країн внаслідок захоплення влади чи революцій стає комуністичними. Світ поляризується. Капіталістичний та комуністичний блоки протистоять в «гонці озброєнь», підкоренні Космосу, точкових конфліктах, але також творять спільний простір для змагання — Олімпійські ігри. В час «мирного співіснування» капіталістичної та соціалістичної систем Олімпійські ігри стають сурогатом «холодної війни».</p>
 
-
-</div>
-<?php } ?>
+<% end %>

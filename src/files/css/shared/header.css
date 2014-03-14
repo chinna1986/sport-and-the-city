@@ -4,22 +4,18 @@
   top: 0;
   left: 0;
   right: 0;
-  padding: 35px 40px 0px; /* Default padding */
-  -webkit-transition: padding linear 0.2s;
-   -moz-transition: padding linear 0.2s;
-     -o-transition: padding linear 0.2s;
-        transition: padding linear 0.2s;
+  padding: 35px 40px 0px;
 }
 
-.h320  #header {  padding: 10px 15px 0px;  }
-.h480  #header {  padding: 20px 30px 0px;  }
-.h768  #header {  padding: 35px 40px 0px;  }
-.h1080 #header {  }
-.h1600 #header {  }
+.sh-320  #header {  padding: 10px 15px 0px;  }
+.sh-480  #header {  padding: 20px 30px 0px;  }
+.sh-768  #header {  padding: 35px 40px 0px;  }
+.sh-1080 #header {  }
+.sh-1600 #header {  }
 
 #header-title
 {
-  display: block;
+  position: absolute;
   margin: 0;
   padding: 0;
   font-size: 24px;
@@ -28,21 +24,29 @@
   color: #fff;
 }
 
-.h320  #header-title {  font-size: 14px;  }
-.h480  #header-title {  font-size: 18px;  }
-.h768  #header-title {  font-size: 24px;  }
-.h1080 #header-title {  font-size: 24px;  }
-.h1600 #header-title {  font-size: 24px;  }
+.sh-320   #header-title {  font-size: 12px; position: static; }
+.sh-480   #header-title {  font-size: 18px;  }
+.sh-768   #header-title {  font-size: 24px;  }
+.sh-1080  #header-title {  font-size: 24px;  }
+.sh-1600  #header-title {  font-size: 24px;  }
 
 #header-subtitle
 {
-  display: block;
+  position: absolute;
+  top: 80%;
   margin: 0;
   padding: 0;
   font-size: 12px;
   font-weight: 700;
   color: #fff;
+  text-decoration: none;
 }
+
+.sh-320   #header-subtitle {  font-size: 12px; position: static; }
+.sh-480   #header-subtitle {  font-size: 18px;  }
+.sh-768   #header-subtitle {  font-size: 24px;  }
+.sh-1080  #header-subtitle {  font-size: 24px;  }
+.sh-1600  #header-subtitle {  font-size: 24px;  }
 
 #header-languages
 {
@@ -73,17 +77,13 @@
   padding: 12px;
   font-size: 14px;
   text-decoration: none;
-  -webkit-transition: padding ease-out 0.2s;
-     -moz-transition: padding ease-out 0.2s;
-       -o-transition: padding ease-out 0.2s;
-          transition: padding ease-out 0.2s;
 }
 
-.h320  #header-languages a {  font-size: 14px; padding: 7px;  }
-.h480  #header-languages a {  font-size: 14px; padding: 10px;  }
-.h768  #header-languages a {  font-size: 14px; padding: 12px;  }
-.h1080 #header-languages a {  font-size: 14px; padding: 15px;  }
-.h1600 #header-languages a {  font-size: 16px; padding: 18px;  }
+.sh-320  #header-languages a {  font-size: 14px; padding: 7px;  }
+.sh-480  #header-languages a {  font-size: 14px; padding: 10px;  }
+.sh-768  #header-languages a {  font-size: 14px; padding: 12px;  }
+.sh-1080 #header-languages a {  font-size: 14px; padding: 15px;  }
+.sh-1600 #header-languages a {  font-size: 16px; padding: 18px;  }
 
 #header-languages li.active a
 {

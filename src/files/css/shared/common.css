@@ -22,6 +22,12 @@ a {
   color: #fff;
 }
 
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 .disable-select-text p, .disable-select-text a, .disable-select-text span, .disable-select-text ul, #scroller-bar {
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -30,18 +36,19 @@ a {
   user-select: none;
 }
 
-.background
-{
+.background {
   position: fixed;
   top: 0;
   left: 0;
   height: 100%;
   width: 100%;
-  background: #000 center left;
+  background-color: #000;
+  background-repeat: repeat-x;
+  background-position: top right;
 }
 
-.h320   .background { background-image: url('/assets/img/main-bg/h320.png');  }
-.h480   .background { background-image: url('/assets/img/main-bg/h480.png');  }
-.h768   .background { background-image: url('/assets/img/main-bg/h768.png');  }
-.h1080  .background { background-image: url('/assets/img/main-bg/h1080.png'); }
-.h1600  .background { background-image: url('/assets/img/main-bg/h1600.png'); }
+.sh-320   .background { background-image: url('/img/main-bg/h320.png');  }
+.sh-480   .background { background-image: url('/img/main-bg/h480.png');  }
+.sh-768   .background { background-image: url('/img/main-bg/h768.png');  }
+.sh-1080  .background { background-image: url('/img/main-bg/h1080.png'); }
+.sh-1600  .background { background-image: url('/img/main-bg/h1600.png'); }

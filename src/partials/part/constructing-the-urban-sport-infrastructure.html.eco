@@ -1,49 +1,44 @@
+<% if @document.language == 'en': %>
 <figure>
-  <ul id="about-slide" class="rslides">
-    <li><img src="/img/part/about/1.jpg" alt="img" title="img"/> </li>
-    <li><img src="/img/part/about/2.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/3.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/4.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/5.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/6.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/7.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/8.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/9.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/10.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/11.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/12.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/13.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/14.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/15.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/16.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/17.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/18.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/19.jpg" alt="img" title="Sport and the City"/></li>
-    <li><img src="/img/part/about/20.jpg" alt="img" title="Sport and the City"/></li>
+  <ul class="rslides todo-init-rslides">
+    <li>
+      <img src="/img/part/constructing-the-urban-sport-infrastructure/img-1.jpg" alt="img" title="The Palace of Arts at the General Regional Exhibition in 1894. In Soviet times this building became the athletic complex for Lviv Polytechnic, which it still is today."/><figcaption>The Palace of Arts at the General Regional Exhibition in 1894. In Soviet times this building became the athletic complex for Lviv Polytechnic, which it still is today. </figcaption> </li>
+    <li><img src="/img/part/constructing-the-urban-sport-infrastructure/img-2.jpg" alt="img" title="The Palace of Sports «Labor Reserves» (today called «Hart,» or tempering). Designed by architect Stanislav Sokolov, the building was constructed on the place of a church begun before the war for the missionaries of St. Vincent de Paul."/>
+    <figcaption>The Palace of Sports «Labor Reserves» (today called «Hart,» or tempering). Designed by architect Stanislav Sokolov, the building was constructed on the place of a church begun before the war for the missionaries of St. Vincent de Paul. </figcaption> </li>
+    <li><img src="/img/part/constructing-the-urban-sport-infrastructure/img-3.jpg" alt="img" title="Swimming pool «Zalizna Woda» (Iron Water) on today’s Snopkivskii Street. This open swimming complex was built in 1933. Fresh water reached the pool from the local sources and was renewed every 8-10 days. In the pool designated for athletics there was a springboard for diving."/>
+    <figcaption>Swimming pool «Zalizna Woda» (Iron Water) on today’s Snopkivskii Street. This open swimming complex was built in 1933. Fresh water reached the pool from the local sources and was renewed every 8-10 days. In the pool designated for athletics there was a springboard for diving. </figcaption> </li>
+    <li><img src="/img/part/constructing-the-urban-sport-infrastructure/img-4.jpg" alt="img" title="Military-athletic celebration at the SKA stadium"/>
+    <figcaption>Military-athletic celebration at the SKA stadium </figcaption> </li>
   </ul>
 </figure>
+  <h3>Constructing the Urban Sport Infrastructure</h3>
 
-<% if @document.language == 'en': %>
-
-  <h3>«Sport and the City: People. Society. Ideology»</h3>
-  <p>Exhibition offers you an opportunity to learn more about the meaning of sports, besides competition, entertainment and spectacle. It traces the history of sports in Lviv (also known as Lwów and Lemberg) throughout the last 150 years: the beginnings of sports in Europe, and particularly in the city; how our ideas about sports have changed; how new types of sports emerged; the connections between sports and nationalism, sports and government, sports and commerce, sports and globalization. Particularly interesting in the context of EURO-2012 is the question of fan culture and the potential of sports mega-events for the city. This exposition shows different meanings connected with sports and allows to formulate own answers to the question, «What was sport, and what is sport today?»</p>
-  <p>The exhibition space, thematically divided into five sections, opens with the theme, «Sports as Social and Cultural Practice: History of Transformations.» This section presents the history of sports as a history of modern social and cultural practices. The next section, <a href="/sport-in-multiethnic-city/">«Sports in the Multi-ethnic City, 1861-1939»</a>, focuses attention on Lviv-Lwów-Lemberg itself. Local historical materials connected with the history of the city’s three communities - Ukrainian, Polish, and Jewish - show how sports were a factor and form in the search for new identities. The third section, <a href="/sport-and-of-total-war/">«Sport and War»</a>, examines sports in the conditions of military conflict - during the First and Second World Wars. The following section of the exhibition, <a href="/sportsin-soviet-cities-1939-1991/">«Sport in the Soviet City, 1944-1991»</a>, explores the notion of physical culture, the social status of Soviet athletes, and also how international sports competitions were used in Cold War political struggles, all on the example of Soviet Ukrainian Lviv. The exhibition concludes with the section <a href="/sport-in-global-city/">«Sports in the Global City»</a>, which is dedicated to athletic mega-events as impulses for infrastructure development.</p>
-  <p>In connection with the exhibition we will hold a series of lectures, round-tables, discussions, film presentations and an educational program for children. We invite you to follow upcoming announcements at www.lvivcenter.org</p>
-  <p>For more information, please contact Andrii Linik, the curator of exhibition projects at the Center for Urban History, tel. 275 17 34 or e-mail a.linik@lvivcenter.org.</p>
-  <p>The exhibition is open daily from Wednesdays through Sundays from 11.00 to 17.00. Closed Mondays and Tuesdays.</p>
-
+  <h4>Pragmatics of Decisions</h4>
+  <p>The urban infrastructure was supposed to embody the Soviet policy of sports development. On the background of consolidating new Soviet authority and developing industrialization, Soviet officials in Lviv concerned themselves with constructing and reconstructing spaces for practicing athletics.</p>
+  <p>In the postwar period Lviv athletics developed on the base of an infrastructure remaining from the interwar period. The Soviet authorities actively made use of the places formerly occupied by various athletic organizations, such as the interwar Polish “Sokol” organization, including the stadiums and the swimming pools. This gave Lviv athletics the opportunity to assert itself in the greater USSR sports landscape.</p>
+  <p>City authorities not only renovated pre-existing infrastructure, but also increased the number of athletic facilities by reconstructing objects that were not previously designed for sports. At that time the postwar budget provided funds only for renovation, and not construction. Often this was made possible through the method of “people’s construction”--by involving students.</p>
+  <p>The Sports Park dating from 1928 (in Polish, Park Sportowy) on Kleparov Street acquired a new swimming pool and a renovated stadium—and became the fitness complex for the Army Sports Club.</p>
+  <p>Religious buildings also became victims to the “demands of the time.” The synagogue Jankel Jantser Shul on Vuhilna Street was re-outfitted as a gymnasium for the Polygraphic Institute in the 1960s, and on the place of St. Vincent’s church, which was begun in 1937, a sports complex called “Labor Reserves” was built in 1972.</p>
+  <p>In the 1960s and 1970s new sports facilities were constructed, including the “Friendship” stadium in the Sknyliv region of the city, the Dynamo complex, and the Spartak Palace of Sport.</p>
 <% else: %>
-
- <h3>«Спорт і Місто:  Людина. Суспільство. Ідеологія»</h3>
-
-  <p>Виставка пропонує Вам дізнатися чим ще є спорт окрім змагання, розваги та видовища. Тут Ви побачите історію спорту у Львові (також знаному як Lwów та Lemberg) протягом останніх 150 років: якими були початки спорту в Європі та у місті зокрема, як змінювалися уявлення про спорт, як з’являлися нові види спорту, яким був зв’язок між спортом і націоналізмом, спортом і державою, спортом і комерцією, спортом та глобалізацією. Особливо цікавими в контексті «ЄВРО-2012» є питання про культуру вболівання та потенціал спортивних мегаподій для міста. Ця експозиція показує різні значення, пов’язані зі спортом та дозволить Вам сформувати власну відповідь на питання «Чим був і є спорт?»</p>
-  <p>Виставковий простір, тематично розділений на п’ять блоків, відкриває тема «Спорт як соціальна і культурна практика: історія змін.» У ній представлено історію спорту як модерної суспільної та культурної практики. Наступний блок <a href="/sport-in-multiethnic-city/">«Спорт у багатоетнічному місті. 1861-1939»</a> фокусує увагу на Львові та використовує локальні історичні матеріали, пов’язані з історією трьох спільнот у місті: української, польської та єврейської. Третій блок <a href="/sport-and-of-total-war/">«Спорт і війна»</a> розглядає спорт в умовах воєнного конфлікту – під час Першої та Другої світових воєн. Наступна частина виставки <a href="/sportsin-soviet-cities-1939-1991/">«Спорт у радянському місті. 1944-1991»</a> на прикладі Львова показує чим були фізична культура, соціальний статус спортсмена у радянській державі, а також як міжнародні спортивні змагання використовувалися у політичній боротьбі під час «холодної війни». Завершує виставку блок <a href="/sport-in-global-city/">«Спорт у глобальному місті»</a>, присвячений великим спортивним подіям як імпульсу для інфраструктурного розвитку.</p>
-  <p>В рамках виставки проводитимуться лекції, круглі столи, дискусії, кінопокази та освітня програма для дітей. Запрошуємо слідкувати за анонсами на сайті Центру міської історії www.lvivcenter.org</p>
-  <p>За детальнішою інформацією просимо звертатися до куратора виставкових проектів Центру Андрія Лініка за тел. 275 17 34 або е-поштою a.linik@lvivcenter.org</p>
-  <p>Виставка відкрита усі дні крім понеділка та вівторка від 11:00 до 17:30</p>
+<figure>
+  <ul class="rslides todo-init-rslides">
+    <li><img src="/img/part/constructing-the-urban-sport-infrastructure/img-1.jpg" alt="img" title="Палац Мистецтва на Крайовій виставці 1894 року. В радянський час тут розмістився спортивний корпус Львівської політехніки, що діє донині."/><figcaption>Палац Мистецтва на Крайовій виставці 1894 року. В радянський час тут розмістився спортивний корпус Львівської політехніки, що діє донині. </figcaption> </li>
+    <li><img src="/img/part/constructing-the-urban-sport-infrastructure/img-2.jpg" alt="img" title="Палац спорту «Трудові резерви» (тепер палац спорту «Гарт»). Збудований у 1972 році за проектом арх. Станіслава Соколова на місці розпочатої перед війною будови костелу оо. місіонарів Св. Вінсента де Поля."/>
+    <figcaption>Палац спорту «Трудові резерви» (тепер палац спорту «Гарт»). Збудований у 1972 році за проектом арх. Станіслава Соколова на місці розпочатої перед війною будови костелу оо. місіонарів Св. Вінсента де Поля. </figcaption> </li>
+    <li><img src="/img/part/constructing-the-urban-sport-infrastructure/img-3.jpg" alt="img" title="Swimming pool «Zalizna Woda» (Iron Water) on today’s Snopkivskii Street. This open swimming complex was built in 1933. Fresh water reached the pool from the local sources and was renewed every 8-10 days. In the pool designated for athletics there was a springboard for diving."/>
+    <figcaption>Плавальний басейн «Залізна Вода» на теперішній вул. Снопківській. Відкритий басейний комплекс споруджено в 1933 році. Свіжа вода надходила до басейну зі снопківських джерел та відновлювалася кожних 8-10 днів. У спортивному басейні був розташований трамплін для стрибків у воду. </figcaption> </li>
+    <li><img src="/img/part/constructing-the-urban-sport-infrastructure/img-4.jpg" alt="img" title="Military-athletic celebration at the SKA stadium"/>
+    <figcaption>Військово-спортивне свято на стадіоні СКА </figcaption> </li>
+  </ul>
+</figure>
+  <h3>Облаштування міської спортивної інфраструктури</h3>
+  <h4>Прагматика рішень</h4>
+  <p>Міська інфраструктура повинна була втілювати радянську політику розвитку спорту. На тлі утвердження нової влади і зростання Львова в процесі індустріалізації, в місті переймаються, реконструюються та будуються нові місця для занять спортом.</p>
+  <p>У повоєнний час львівський спорт розвивається на базі інфраструктури, що існувала тут у міжвоєнний період. Радянська влада активно використовувала вережу об’єктів спортивних товариств «Сокіл» та інших, зокрема стадіони та басейни. Це дало можливість львівському спорту заявити про себе в СРСР.</p>
+  <p>Влада міста не тільки переймає і відновлює вже чинну інфраструктуру, але збільшує кількість спортивних об’єктів екстенсивно: реконструюючи об’єкти, що в своєму плануванні не були призначені для спорту. В той час повоєнний бюджет передбачає кошти лише на ремонт, а не на будівництво. Часто це здійснюється методом «народного будівництва» із залученням студентів.</p>
+  <p>Зокрема давній палац мистецтва Загальної крайової виставки 1894 року у теперішньому Стрийському парку стає у 1954 Палацом фізкультури Політехнічного інституту. А павільйон, де розміщувалась знаменита Рацлавіцька панорама, яку демонтували 1945 року й перевезли до Вроцлава, обладнали під кафедру фізичного виховання Політехніки.</p>
+  <p>Культові споруди теж стають жертвами «вимог часу». Синагогу «Янкель Янцер Шуль» на вул. Вугільній у 1960-х обладнують під спортзал Поліграфічного інституту, а на місці розпочатого в 1937 році костелу Вінсента у 1972 році споруджується комплекс «Трудові резерви». Спортивний парк (Park Sportowy) з 1928 року на Клепарові після реконструкції стадіону та появи критого басейну стає відомим комплексом Спортивного Клубу Армії.</p>
+  <p>На 1960-1970-ті роки припадає будівництво нових спортивних об’єктів. Зокрема, стадіону «Дружба» на Скнилові, комплексу «Динамо», палацу спорту «Спартак».</p>
 
 <% end %>
-
-<script type="text/javascript">
-  init_rslides( jQuery('#about-slide') );
-</script>

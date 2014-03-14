@@ -1,6 +1,7 @@
 var port = process.env.PORT || 5000;
 
 var docpadInstanceConfiguration = {
+  standalone: true,
   templateData: {
     site: {
       title : "Main page",
