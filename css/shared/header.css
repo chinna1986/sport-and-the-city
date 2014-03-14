@@ -1,0 +1,93 @@
+#header 
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 35px 40px 0px;
+}
+
+.sh-320  #header {  padding: 10px 15px 0px;  }
+.sh-480  #header {  padding: 20px 30px 0px;  }
+.sh-768  #header {  padding: 35px 40px 0px;  }
+.sh-1080 #header {  }
+.sh-1600 #header {  }
+
+#header-title
+{
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  font-weight: 300;
+  text-decoration: none;
+  color: #fff;
+}
+
+.sh-320   #header-title {  font-size: 12px; position: static; }
+.sh-480   #header-title {  font-size: 18px;  }
+.sh-768   #header-title {  font-size: 24px;  }
+.sh-1080  #header-title {  font-size: 24px;  }
+.sh-1600  #header-title {  font-size: 24px;  }
+
+#header-subtitle
+{
+  position: absolute;
+  top: 80%;
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+}
+
+.sh-320   #header-subtitle {  font-size: 12px; position: static; }
+.sh-480   #header-subtitle {  font-size: 18px;  }
+.sh-768   #header-subtitle {  font-size: 24px;  }
+.sh-1080  #header-subtitle {  font-size: 24px;  }
+.sh-1600  #header-subtitle {  font-size: 24px;  }
+
+#header-languages
+{
+  float: right;
+  list-style: none;
+  list-style-image: none;
+}
+
+#header-languages li
+{
+  float: left;
+  background: #11768B;
+}
+
+#header-languages li.active, #header-languages li:hover, #header-languages li:active {
+  background: #04687D;
+}
+
+#header-languages li.active
+{
+  -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+#header-languages a
+{
+  cursor: pointer;
+  display: inline-block;
+  padding: 12px;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.sh-320  #header-languages a {  font-size: 14px; padding: 7px;  }
+.sh-480  #header-languages a {  font-size: 14px; padding: 10px;  }
+.sh-768  #header-languages a {  font-size: 14px; padding: 12px;  }
+.sh-1080 #header-languages a {  font-size: 14px; padding: 15px;  }
+.sh-1600 #header-languages a {  font-size: 16px; padding: 18px;  }
+
+#header-languages li.active a
+{
+  color: #D6D6D6;
+}

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="/img/favicon/favicon-default.ico" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <title>Welcome! | Sport and the City</title>
+
+    <!-- Shims: IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]><script async src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+    <link  rel="stylesheet" href="/css/default.css" />
+  </head>
+  <body class="default-theme">
+
+    <!-- Background -->
+    <div class="background"></div>
+
+    <!-- Header -->
+    <div id="header" class="header">
+      <ul id="header-languages" data-language="en">
+        <!-- <li><a href="#">HOME</a> -->
+        <!-- <li class="separator"><span></span> -->
+        <li class="active"><a href="/en/index.html">EN</a>
+        <li class=""><a href="/ua/index.html">UA</a>
+      </ul>
+      <a id="header-title" href="/en/index.html">SPORT AND THE CITY</a>
+      <a id="header-subtitle" href="/en/index.html">PEOPLE. SOCIETY. IDEOLOGY.</a>
+    </div>
+
+    <!-- Grid -->
+    <div id="grid-wrapper" class="grid-wrapper">
+      <div id="grid-scroll-wrapper" class="grid-scroll-wrapper">
+        <ul id="grid" class="grid"><!-- Big slider -->
+<li class="gr-box showGridItem animated">
+  <!-- <div class="gr-label">Sport in Soviet City 1939-1991</div> -->
+
+  <div class="gr-item large">
+    <ul class="rslides">
+      <li>
+        <img src="/img/soviet-city/title-main-page.jpg" />
+        <div class="gr-label">Sport in Soviet City</div>
+        <a class="gr-link" href="/en/sport-in-soviet-city/"></a>
+      </li>
+      <li>
+        <img src="/img/total-war/title-main-page.jpg" />
+        <div class="gr-label">Sport and Total War</div>
+        <a class="gr-link" href="/en/sport-and-of-total-war/"></a>
+      </li>
+      <li>
+        <img src="/img/multiethnic-city/title-main-page.jpg" />
+        <div class="gr-label">Sport in Multiethnic City</div>
+        <a class="gr-link" href="/en/sport-in-multiethnic-city/"></a>
+      </li>
+      <li>
+        <img src="/img/global-city/title-main-page.jpg" />
+        <div class="gr-label">Sport in Global City</div>
+        <a class="gr-link" href="/en/sport-in-global-city/"></a>
+      </li>
+    </ul>
+    
+  </div>
+</li>
+<!-- END Big slider -->
+
+<!-- Main menu blocks -->
+<li class="gr-box showGridItem animated">
+  <div class="gr-title">Themes</div>
+
+  <div class="gr-item half space-right space-bottom no-space-bottom-320">
+    <img src="/img/thumbs/thumb-1.jpg" alt="Thumb 1" />
+    <div class="desc">Sport in Multiethnic City</div>
+    <a class="gr-link" href="/en/sport-in-multiethnic-city/"></a>
+  </div>
+
+  <div class="gr-item half space-bottom space-right-320 no-space-bottom-320">
+    <img src="/img/thumbs/thumb-2.jpg" alt="Thumb 2" />
+    <div class="desc">Sport and Total War</div>
+    <a class="gr-link" href="/en/sport-and-of-total-war/"></a>
+  </div>
+
+  <div class="gr-item half eol no-eol-320 space-right">
+    <img src="/img/thumbs/thumb-3.jpg" alt="Thumb 3" />
+    <div class="desc">Sport in Soviet City</div>
+    <a class="gr-link" href="/en/sport-in-soviet-city/"></a>
+  </div>
+
+  <div class="gr-item half">
+    <img src="/img/thumbs/thumb-4.jpg" alt="Thumb 4" />
+    <div class="desc">Sport in Global City</div>
+    <a class="gr-link" href="/en/sport-in-global-city/"></a>
+  </div>
+
+</li>
+<!-- END Main menu blocks -->
+
+<!-- About block -->
+<li class="gr-box showGridItem animated">
+  <!-- <div class="gr-title">About</div> -->
+
+  <div class="gr-item third space-bottom no-space-bottom-320">
+    <div class="desc">About Exhibition</div>
+    <a class="gr-link" href="/en/part/about.html" onclick="nav.modal(this.href, event);"></a>
+  </div>
+
+  <!-- <div class="gr-item third space-bottom no-space-bottom-320 space-right-320">
+    <div class="desc">Educational Programs</div>
+  </div> -->
+
+  <div class="gr-item third eol no-eol-320 space-bottom space-right-320">
+    <div class="desc">Partners</div>
+    <a class="gr-link" href="/en/part/partners.html" onclick="nav.modal(this.href, event);"></a>
+  </div>
+
+  <div class="gr-item third eol no-eol-320">
+    <div class="desc">Authors</div>
+    <a class="gr-link" href="/en/part/created-by.html" onclick="nav.modal(this.href, event);"></a>
+  </div>
+
+</li>
+<!-- END About block -->
+</ul>
+      </div>
+    </div>
+
+    <!-- Nav button -->
+    <div id="nav-prev"></div>
+    <div id="nav-next"></div>
+
+    <!-- Template for ajax modal -->
+    <div id="show-modal" class="modal hide fade" tabindex="-1" data-loading="true" data-show="false">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true" tabindex="1">×</button>
+      </div>
+      <div class="modal-body" id="show-modal-body"><h1>Loading...</h1></div>
+    </div>
+
+    <!-- Scripts -->
+    <script defer="defer"  src="/js/vendor/jquery-2.0.0.js"></script><script defer="defer"  src="/js/vendor/jquery.nicescroll.js"></script><script defer="defer"  src="/js/vendor/bootstrap-modal.js"></script><script defer="defer"  src="/js/vendor/bootstrap-modalmanager.js"></script><script defer="defer"  src="/js/vendor/ResponsiveSlides.js"></script><script defer="defer"  src="/js/vendor/history.js"></script><script defer="defer"  src="/js/lib/util.js"></script><script defer="defer"  src="/js/lib/resizer.js"></script><script defer="defer"  src="/js/lib/scroller.js"></script><script defer="defer"  src="/js/lib/nav.js"></script><script defer="defer"  src="/js/app.js"></script>
+  </body>
+</html>
