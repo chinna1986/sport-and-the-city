@@ -21,6 +21,8 @@
     <!-- Header -->
     <div id="header" class="header">
       <ul id="header-languages" data-language="<%= @document.language %>">
+        <!-- <li><a href="#">HOME</a> -->
+        <!-- <li class="separator"><span></span> -->
         <li class="<%= 'active' if @document.language is 'en' %>"><a href="<%= @normalizeURL(@document.url, 'en') %>">EN</a>
         <li class="<%= 'active' if @document.language is 'ua' %>"><a href="<%= @normalizeURL(@document.url, 'ua') %>">UA</a>
       </ul>

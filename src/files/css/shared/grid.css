@@ -39,6 +39,7 @@
   padding: 0px;
   padding-top: 40px;
   padding-right: 40px;
+  opacity: 0;
 }
 
 .sh-320  .gr-box { padding: 18px 20px 0px 0px; }
@@ -53,11 +54,6 @@
 .loading-state .gr-box
 {
   opacity: 0;
-}
-
-.ready-state .gr-box
-{
-  opacity: 1;
 }
 
 .gr-title

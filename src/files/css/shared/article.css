@@ -111,3 +111,8 @@ article figure.second
   margin: 2% 10% 0;
   padding: 0 0%;
 }
+
+article figure.second figcaption 
+{
+  font-style: italic;
+}

@@ -51,11 +51,13 @@
 #header-languages
 {
   float: right;
+  list-style: none;
+  list-style-image: none;
 }
 
 #header-languages li
 {
-  display: inline-block;
+  float: left;
   background: #11768B;
 }
 
