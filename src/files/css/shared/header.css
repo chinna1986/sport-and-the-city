@@ -58,18 +58,6 @@
 #header-languages li
 {
   float: left;
-  background: #11768B;
-}
-
-#header-languages li.active, #header-languages li:hover, #header-languages li:active {
-  background: #04687D;
-}
-
-#header-languages li.active
-{
-  -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
-  -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
-  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
 }
 
 #header-languages a
@@ -79,13 +67,33 @@
   padding: 12px;
   font-size: 14px;
   text-decoration: none;
+  background: #11768B;
 }
 
-.sh-320  #header-languages a {  font-size: 14px; padding: 7px;  }
-.sh-480  #header-languages a {  font-size: 14px; padding: 10px;  }
-.sh-768  #header-languages a {  font-size: 14px; padding: 12px;  }
-.sh-1080 #header-languages a {  font-size: 14px; padding: 15px;  }
-.sh-1600 #header-languages a {  font-size: 16px; padding: 18px;  }
+#header-languages .separator
+{
+  padding: 12px 0px;
+  border-left: 1px solid #237E9B;
+}
+
+#header-languages .active a,
+#header-languages a:hover 
+{
+  background: #04687D;
+}
+
+#header-languages a:active
+{
+  -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.sh-320  #header-languages a, .sh-320  #header-languages .separator {  font-size: 14px; padding: 7px;  }
+.sh-480  #header-languages a, .sh-480  #header-languages .separator {  font-size: 14px; padding: 10px;  }
+.sh-768  #header-languages a, .sh-768  #header-languages .separator {  font-size: 14px; padding: 12px;  }
+.sh-1080 #header-languages a, .sh-1080 #header-languages .separator {  font-size: 14px; padding: 15px;  }
+.sh-1600 #header-languages a, .sh-1600 #header-languages .separator {  font-size: 16px; padding: 18px;  }
 
 #header-languages li.active a
 {
