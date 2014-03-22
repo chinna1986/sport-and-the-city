@@ -5,7 +5,7 @@
   <div class="gr-item large">
     <ul class="rslides">
       <li>
-        <img src="/img/soviet-city/title-main-page.jpg" />
+        <img src="<%= @baseUrl('img/soviet-city/title-main-page.jpg') %>" />
         <div class="gr-label"><%= @document.Sport_in_Soviet_City %></div>
         <a class="gr-link" href="<%= @normalizeURL('/sport-in-soviet-city/') %>"></a>
       </li>

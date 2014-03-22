@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="<%= @document.language %>">
+<html lang="<%= @document.language %>" class="sh-768">
   <head>
     <meta charset="utf-8">
     <link rel="shortcut icon" href="/img/favicon/<%= 'favicon-default.ico' %>" />

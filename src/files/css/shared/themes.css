@@ -9,6 +9,7 @@
 .default-theme .modal .close:hover, .default-theme .modal .close:active { background-color: #04687D; }
 .default-theme .rslides_nav:hover { background-color: #11768B; }
 .default-theme article blockquote { border-left: 2px solid #11768B; }
+.default-theme #header-languages .separator { border-left-color: #256774; }
 
 
 .khaki-theme {}
@@ -21,6 +22,7 @@
 .khaki-theme .modal .close:hover, .khaki-theme .modal .close:active { background-color: #6D6D45; }
 .khaki-theme .rslides_nav:hover { background-color: #8F8F63; }
 .khaki-theme article blockquote { border-left: 2px solid #8F8F63; }
+.khaki-theme #header-languages .separator { border-left-color: #5C5C30; }
 
 
 .greey-theme {}
@@ -33,6 +35,7 @@
 .greey-theme .modal .close:hover, .greey-theme .modal .close:active { background-color: #0F1113; }
 .greey-theme .rslides_nav:hover { background-color: #34373B; }
 .greey-theme article blockquote { border-left: 2px solid #34373B; }
+.greey-theme #header-languages .separator { border-left-color: #151A21; }
 
 .red-theme {}
 
@@ -45,6 +48,7 @@
 .red-theme .modal .close:hover, .red-theme .modal .close:active { background-color: #8A1A13; }
 .red-theme .rslides_nav:hover { background-color: #A92F27; }
 .red-theme article blockquote { border-left: 2px solid #A92F27; }
+.red-theme #header-languages .separator { border-left-color: #992119; }
 
 .green-theme {}
 
@@ -57,3 +61,4 @@
 .green-theme .modal .close:hover, .green-theme .modal .close:active { background-color: #2A9471; }
 .green-theme .rslides_nav:hover { background-color: #60C2A2; }
 .green-theme article blockquote { border-left: 2px solid #60C2A2; }
+.green-theme #header-languages .separator { border-left-color: #409177; }

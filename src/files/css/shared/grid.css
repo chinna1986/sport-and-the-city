@@ -204,8 +204,8 @@
   white-space: normal; /* Break text in paragraph */
 }
 
-.sh-320  .gr-item.text-wrapper {  }
-.sh-480  .gr-item.text-wrapper {  }
-.sh-768  .gr-item.text-wrapper {  }
-.sh-1080 .gr-item.text-wrapper {  }
-.sh-1600 .gr-item.text-wrapper {  }
+.sh-320  .gr-item.text-wrapper { width: 350px; }
+.sh-480  .gr-item.text-wrapper { width: 350px; }
+.sh-768  .gr-item.text-wrapper { width: 350px; }
+.sh-1080 .gr-item.text-wrapper { width: 350px; }
+.sh-1600 .gr-item.text-wrapper { width: 350px; }

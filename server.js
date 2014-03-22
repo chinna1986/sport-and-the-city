@@ -50,36 +50,25 @@ var docpadInstanceConfiguration = {
       return _url;
     },
 
-    mapStylePath: function (styles) {
-      var url = this.document.url;
-      var level = trim(url, ' /').split('/').length - 1;
+    baseUrl: function (url) {
+      var level = this.document.url.replace(/^\s+|^\/|\/$|\s+$/g, '').split('/').length - 1;
       var base = './';
-
+      
       for(; level > 0; level--) {
         base += '../';
       }
-      
-      styles = styles.map(function (value) { return base + value; });
 
-      styles = styles.map(function (value) { return '<link  rel="stylesheet" href="' + value + '" />'; });
+      return base + url.replace(/^\//, '');
+    },
 
-      return styles;
+    mapStylePath: function (styles) {
+      var that = this;
+      return styles.map(function (value) { return '<link  rel="stylesheet" href="' + that.baseUrl(value) + '" />'; });
     },
 
     mapScriptPath: function (scripts) {
-      var url = this.document.url;
-      var level = trim(url, ' /').split('/').length - 1;
-      var base = './';
-
-      for(; level > 0; level--) {
-        base += '../';
-      }
-      
-      scripts = scripts.map(function (value) { return base + value; });
-
-      scripts = scripts.map(function (value) { return '<script defer="defer"  src="'+value+'"></script>'; });
-
-      return scripts;
+      var that = this;
+      return scripts.map(function (value) { return '<script defer="defer"  src="' + that.baseUrl(value) + '"></script>'; });
     }
   }
 };
