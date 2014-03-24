@@ -80,7 +80,7 @@
 .sh-320  #header-languages .separator {  padding: 17px 0;  }
 .sh-480  #header-languages .separator {  padding: 20px 0;  }
 .sh-768  #header-languages .separator {  padding: 22px 0;  }
-.sh-1080 #header-languages .separator {  padding: 25px 0;  }
+.sh-1080 #header-languages .separator {  padding: 21px 0 28px;  }
 .sh-1600 #header-languages .separator {  padding: 28px 0;  }
 
 #header-languages .active a,

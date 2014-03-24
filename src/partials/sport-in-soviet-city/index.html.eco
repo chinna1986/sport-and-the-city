@@ -101,7 +101,7 @@
 
   <div class="gr-item half">
     <div class="desc"><%= @document['VIDEO GALLERY'] %></div>
-    <a class="gr-link" href="<%= @normalizeURL('/sport-in-multiethnic-city/') %>"></a>
+    <a class="gr-link" href="/video-gallery/index.html"></a>
   </div>
 
 </li>
