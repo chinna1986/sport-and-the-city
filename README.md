@@ -1,4 +1,8 @@
-To run server:
-  docpad watch server
-To deplyon on gh-pages
-  docpad deploy-ghpages --env static
+Sport and the City: People. Society. Ideology
+=============================================
+
+Website for historical exhibition
+
+## Run local
+
+	$ npm install && node server.js
