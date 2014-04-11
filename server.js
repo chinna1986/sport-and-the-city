@@ -23,7 +23,7 @@ var docpadInstanceConfiguration = {
         'js/vendor/history.js',
         'js/lib/util.js',
         'js/lib/resizer.js',
-        'js/lib/scroller.js',
+        'js/lib/grid.js',
         'js/lib/nav.js',
         'js/app.js'
       ]

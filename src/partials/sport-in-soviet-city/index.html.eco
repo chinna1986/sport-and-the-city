@@ -1,5 +1,5 @@
 <!-- Big slider -->
-<li class="gr-box">
+<li class="gr-box animated">
 
   <div class="gr-label"><%= @document.SPORT_IN_SOVIET_CITY %></div>
   <div class="gr-item large">
@@ -10,7 +10,7 @@
 <!-- END Big slider -->
 
 <!-- FITNESS, OR PHYSICAL CULTURE block -->
-<li class="gr-box">
+<li class="gr-box animated">
   <div class="gr-title"><%= @document['FITNESS, OR PHYSICAL CULTURE'] %></div>
 
   <div class="gr-item half space-right space-bottom no-space-bottom-320">
@@ -34,7 +34,7 @@
 <!-- END FITNESS, OR PHYSICAL CULTURE block -->
 
 <!-- WHO’S WHO IN SOVIET SPORTS block -->
-<li class="gr-box">
+<li class="gr-box animated">
   <div class="gr-title"><%= @document['WHO’S WHO IN SOVIET SPORTS'] %></div>
 
   <div class="gr-item half space-right space-bottom no-space-bottom-320">
@@ -58,7 +58,7 @@
 <!-- END WHO’S WHO IN SOVIET SPORTS block -->
 
 <!-- SOCIAL STATUS OF THE SOVIET ATHLETE blocks -->
-<li class="gr-box">
+<li class="gr-box animated">
   <div class="gr-title"><%= @document['SOCIAL STATUS OF THE SOVIET ATHLETE'] %></div>
 
   <div class="gr-item half space-right-320 space-bottom no-space-bottom-320">
@@ -77,7 +77,7 @@
 <!-- END SOCIAL STATUS OF THE SOVIET ATHLETE blocks -->
 
 <!-- COLD WAR: POLARIZATION AND GLOBALIZATION blocks -->
-<li class="gr-box">
+<li class="gr-box animated">
   <div class="gr-title"><%= @document['COLD WAR: POLARIZATION AND GLOBALIZATION'] %></div>
 
   <div class="gr-item half space-right-320 space-bottom no-space-bottom-320">
@@ -96,7 +96,7 @@
 <!-- END COLD WAR: POLARIZATION AND GLOBALIZATION blocks -->
 
 <!-- VIDEO GALLERY block -->
-<li class="gr-box">
+<li class="gr-box animated">
   <div class="gr-title"><%= @document['VIDEO GALLERY'] %></div>
 
   <div class="gr-item half">

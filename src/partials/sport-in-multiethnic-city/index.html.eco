@@ -1,5 +1,5 @@
 <!-- Big slider -->
-<li class="gr-box">
+<li class="gr-box animated">
   <div class="gr-label">
     <%= @document.Sport_In_Multiethnic_City %>
   </div>
@@ -10,7 +10,7 @@
 <!-- END Big slider -->
 
 <!-- Text block -->
-<li class="gr-box">
+<li class="gr-box animated">
   <div class="gr-item text-wrapper">
     <p><%= @document.header_title_text %></p>
   </div>
@@ -18,7 +18,7 @@
 <!-- END Text block -->
 
 <!-- Main menu blocks -->
-<li class="gr-box">
+<li class="gr-box animated">
   <div class="gr-title">
     <%= @document.Origins_of_Modern_Sport %>
   </div>
@@ -45,7 +45,7 @@
 <!-- END Main menu blocks -->
 
 <!-- Sokil Movement blocks -->
-<li class="gr-box">
+<li class="gr-box animated">
   <div class="gr-title"><%= @document.Sokil_Movement %></div>
 
   <div class="gr-item half space-right space-bottom no-space-bottom-320">
@@ -70,7 +70,7 @@
 <!-- END Sokil Movement blocks -->
 
 <!-- Football blocks -->
-<li class="gr-box">
+<li class="gr-box animated">
   <div class="gr-title"><%= @document.Football %></div>
 
   <div class="gr-item half space-right-320 space-bottom no-space-bottom-320">
@@ -90,7 +90,7 @@
 
 
 <!-- Mass Audience blocks -->
-<li class="gr-box">
+<li class="gr-box animated">
   <div class="gr-title"><%= @document.Mass_Audience %></div>
 
   <div class="gr-item half space-bottom space-right-320 no-space-bottom-320">

@@ -21,15 +21,15 @@
 
     <!-- Header -->
     <div id="header" class="header">
-      <ul id="header-languages" data-language="<%= @document.language %>">
+      <ul id="header-languages" class="animated" data-language="<%= @document.language %>">
         <!-- <li><a href="#"> &#8226; &#8226; &#8226;</a> -->
-        <li><a href="<%= @normalizeURL() %>">HOME</a>
+        <li><a href="<%= @normalizeURL() %>" data-ajax="true">HOME</a>
         <li class="separator">
         <li class="<%= 'active' if @document.language is 'en' %>"><a href="<%= @normalizeURL(@document.url, 'en') %>">EN</a>
         <li class="<%= 'active' if @document.language is 'ua' %>"><a href="<%= @normalizeURL(@document.url, 'ua') %>">UA</a>
       </ul>
-      <a id="header-title" href="<%= @normalizeURL('/index.html') %>"><%= @document.SPORT_AND_THE_CITY %></a>
-      <a id="header-subtitle" href="<%= @normalizeURL('/index.html') %>"><%= @document.PEOPLE_SOCIETY_IDEOLOGY %></a>
+      <a id="header-title" href="<%= @normalizeURL('/index.html') %>" data-ajax="true"><%= @document.SPORT_AND_THE_CITY %></a>
+      <a id="header-subtitle" href="<%= @normalizeURL('/index.html') %>" data-ajax="true"><%= @document.PEOPLE_SOCIETY_IDEOLOGY %></a>
     </div>
 
     <!-- Grid -->

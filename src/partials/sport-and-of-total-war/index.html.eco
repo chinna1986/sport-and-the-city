@@ -1,5 +1,5 @@
 <!-- Big slider -->
-<li class="gr-box">
+<li class="gr-box animated">
   <div class="gr-label">
     <%= @document.SPORT_AND_TOTAL_WAR %>
   </div>
@@ -10,7 +10,7 @@
 <!-- END Big slider -->
 
 <!-- GREAT WAR: 1914-1918 block -->
-<li class="gr-box">
+<li class="gr-box animated">
   <div class="gr-title"><%= @document['Great War: 1914-1918'] %></div>
 
   <div class="gr-item half">
@@ -23,7 +23,7 @@
 <!-- END GREAT WAR: 1914-1918 block -->
 
 <!-- Football blocks -->
-<li class="gr-box">
+<li class="gr-box animated">
   <div class="gr-title"><%= @document['SECOND WORLD WAR'] %></div>
 
   <div class="gr-item half space-right-320 space-bottom no-space-bottom-320">

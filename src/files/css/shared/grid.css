@@ -87,7 +87,10 @@
   display: inline-block;
   float: left;
   margin: 0px 0px 0px 0px;
-
+  /*-webkit-transition: width 250ms ease, height 250ms ease;*/
+  /*-moz-transition: width 250ms ease, height 250ms ease;*/
+  /*-o-transition: width 250ms ease, height 250ms ease;*/
+  /*transition: width 250ms ease, height 250ms ease;*/
 }
 
 .gr-item img

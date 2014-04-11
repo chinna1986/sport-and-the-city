@@ -1,76 +1,81 @@
 .animated {
-  -webkit-animation-duration: 0.5s;
-  animation-duration: 0.5s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
+	-webkit-animation-duration: 500ms;
+	animation-duration: 500ms;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
 }
 
-@-webkit-keyframes showGridItem {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateX(100px);
-    transform: translateX(100px);
-  }
+@-webkit-keyframes showEffectKeyFrame {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateX(100px);
+		transform: translateX(100px);
+	}
 
-  100% {
-    opacity: 1;
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-  }
+	100% {
+		opacity: 1;
+		-webkit-transform: translateX(0);
+		transform: translateX(0);
+	}
 }
 
-@keyframes showGridItem {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateX(100px);
-    -ms-transform: translateX(100px);
-    transform: translateX(100px);
-  }
+@keyframes showEffectKeyFrame {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateX(100px);
+		-ms-transform: translateX(100px);
+		transform: translateX(100px);
+	}
 
-  100% {
-    opacity: 1;
-    -webkit-transform: translateX(0);
-    -ms-transform: translateX(0);
-    transform: translateX(0);
-  }
+	100% {
+		opacity: 1;
+		-webkit-transform: translateX(0);
+		-ms-transform: translateX(0);
+		transform: translateX(0);
+	}
 }
 
-.showGridItem {
-  -webkit-animation-name: showGridItem;
-  animation-name: showGridItem;
+.showEffect {
+	-webkit-animation-name: showEffectKeyFrame;
+	-moz-animation-name: showEffectKeyFrame;
+	-o-animation-name: showEffectKeyFrame;
+	animation-name: showEffectKeyFrame;
 }
 
-@-webkit-keyframes showLanguageControl {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateX(200px);
-    transform: translateX(200px);
-  }
+@-webkit-keyframes hideEffectKeyFrame {
+	0% {
+		opacity: 1;
+		-webkit-transform: translateX(0);
+		transform: translateX(0);
+	}
 
-  100% {
-    opacity: 1;
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-  }
+	100% {
+		opacity: 0;
+		-webkit-transform: translateX(100px);
+		transform: translateX(100px);
+	}
 }
 
-@keyframes showLanguageControl {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateX(200px);
-    -ms-transform: translateX(200px);
-    transform: translateX(200px);
-  }
+@keyframes hideEffectKeyFrame {
 
-  100% {
-    opacity: 1;
-    -webkit-transform: translateX(0);
-    -ms-transform: translateX(0);
-    transform: translateX(0);
-  }
+	0% {
+		opacity: 1;
+		-webkit-transform: translateX(0);
+		-ms-transform: translateX(0);
+		transform: translateX(0);
+	}
+
+	100% {
+		opacity: 0;
+		-webkit-transform: translateX(100px);
+		-ms-transform: translateX(100px);
+		transform: translateX(100px);
+	}
 }
 
-.showLanguageControl {
-  -webkit-animation-name: showLanguageControl;
-  animation-name: showLanguageControl;
+.hideEffect {
+	-webkit-animation-name: hideEffectKeyFrame;
+	-moz-animation-name: hideEffectKeyFrame;
+	-o-animation-name: hideEffectKeyFrame;
+	animation-name: hideEffectKeyFrame;
 }

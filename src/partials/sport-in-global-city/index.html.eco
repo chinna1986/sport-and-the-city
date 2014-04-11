@@ -1,5 +1,5 @@
 <!-- Big slider -->
-<li class="gr-box">
+<li class="gr-box animated">
   <div class="gr-label"><%= @document['SPORT IN GLOBAL CITY'] %></div>
 
   <div class="gr-item large">
@@ -9,7 +9,7 @@
 <!-- END Big slider -->
 
 <!-- GLOBAL SPORTS FOR A GLOBALIZED WORLD blocks -->
-<li class="gr-box">
+<li class="gr-box animated">
   <div class="gr-title"><%= @document['GLOBAL SPORTS FOR A GLOBALIZED WORLD'] %></div>
 
   <div class="gr-item half space-right space-bottom">
