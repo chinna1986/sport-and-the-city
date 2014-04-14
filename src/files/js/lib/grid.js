@@ -2,7 +2,6 @@ var grid = {
 
   init: function() {
     this.timeoutId = null;
-
     this.cacheElements();
     this.bindHandler();
     this.updateGridWidth();
@@ -19,6 +18,7 @@ var grid = {
   bindHandler: function() {
     jQuery(window).on('resize', this.windowResize.bind(this));
     jQuery(document).on('click', 'a[data-ajax]', this.loadPage.bind(this));
+    History.Adapter.bind(window, 'statechange', this.statechange.bind(this));
   },
 
   updateGridWidth: function() {
@@ -70,37 +70,54 @@ var grid = {
   loadPage: function(event) {
     var $this = jQuery(event.target);
     var url = $this.attr('href');
-    var animIsEnd = false;
-    var response = null;
-    var render = this.renderContent.bind(this);
 
     event.preventDefault();
+    if (url === location.href) return;
+    History.pushState({target: 'page'}, null, url);
+  },
+
+  renderContent: function(text) {
+    if (!text) return;
+
+    var html = jQuery('<html/>').html(text);
+    var title = html.find('title').text();
+    var bodyClassName = text.match(/<body[^<]*class=\"([^<]*)\"[^<]*>/);
+
+    // Change page theme
+    if (bodyClassName && bodyClassName[1]) document.body.className = bodyClassName[1];
+    
+    // update page title
+    if (title) document.title = title;
+
+    // Update grid and their width
+    this.$grid.html(html.find(grid.$grid.selector).html());
+
+    // Update top menu
+    this.$topMenu.html(html.find(grid.$topMenu.selector).html());
+
+    // Animation
+    this.showAnimated( this.updateGridWidth.bind(this) );
+  },
+
+  statechange: function(event) {
+    var state = History.getState();
+    var animationIsEnd = false;
+    var response = null;
+    var renderContent = this.renderContent.bind(this);
 
     this.hideAnimated(function() { 
       animIsEnd = true;
-      render(response);
+      renderContent(response);
     });
 
-    jQuery.get(url, function(text) {
-      response = jQuery('<html/>').html(text);
-      if (animIsEnd) render(response); 
+    jQuery.get(state.cleanUrl, function(text) {
+      response = text;
+
+      if (animIsEnd) render(response);
     }, 'text');
-  },
-
-  renderContent: function(html) {
-    if (!html) return;
-
-    html = jQuery('<html/>').html(html);
-
-    this.$grid.html(html.find(grid.$grid.selector).html());
-    this.$topMenu.html(html.find(grid.$topMenu.selector).html());
-    this.updateGridWidth();
-    this.showAnimated();
   }
 
 };
 
 
-jQuery(function() {
-  grid.init();
-});
+jQuery(function() {  grid.init();  });
