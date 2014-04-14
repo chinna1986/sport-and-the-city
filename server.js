@@ -24,7 +24,6 @@ var docpadInstanceConfiguration = {
         'js/lib/util.js',
         'js/lib/resizer.js',
         'js/lib/grid.js',
-        'js/lib/nav.js',
         'js/app.js'
       ]
     },

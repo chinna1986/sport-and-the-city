@@ -7,22 +7,22 @@
       <li>
         <img src="<%= @baseUrl('img/soviet-city/title-main-page.jpg') %>" />
         <div class="gr-label"><%= @document.Sport_in_Soviet_City %></div>
-        <a class="gr-link" data-ajax href="<%= @normalizeURL('/sport-in-soviet-city/') %>"></a>
+        <a class="gr-link" data-ajax="page" href="<%= @normalizeURL('/sport-in-soviet-city/') %>"></a>
       </li>
       <li>
         <img src="/img/total-war/title-main-page.jpg" />
         <div class="gr-label"><%= @document.Sport_and_Total_War %></div>
-        <a class="gr-link" data-ajax href="<%= @normalizeURL('/sport-and-of-total-war/') %>"></a>
+        <a class="gr-link" data-ajax="page" href="<%= @normalizeURL('/sport-and-of-total-war/') %>"></a>
       </li>
       <li>
         <img src="/img/multiethnic-city/title-main-page.jpg" />
         <div class="gr-label"><%= @document.Sport_In_Multiethnic_City %></div>
-        <a class="gr-link" data-ajax href="<%= @normalizeURL('/sport-in-multiethnic-city/') %>"></a>
+        <a class="gr-link" data-ajax="page" href="<%= @normalizeURL('/sport-in-multiethnic-city/') %>"></a>
       </li>
       <li>
         <img src="/img/global-city/title-main-page.jpg" />
         <div class="gr-label"><%= @document.Sport_in_Global_City %></div>
-        <a class="gr-link" data-ajax href="<%= @normalizeURL('/sport-in-global-city/') %>"></a>
+        <a class="gr-link" data-ajax="page" href="<%= @normalizeURL('/sport-in-global-city/') %>"></a>
       </li>
     </ul>
     
@@ -37,25 +37,25 @@
   <div class="gr-item half space-right space-bottom no-space-bottom-320">
     <img src="/img/thumbs/thumb-1.jpg" alt="Thumb 1" />
     <div class="desc"><%= @document.Sport_In_Multiethnic_City %></div>
-    <a class="gr-link" data-ajax href="<%= @normalizeURL('/sport-in-multiethnic-city/') %>"></a>
+    <a class="gr-link" data-ajax="page" href="<%= @normalizeURL('/sport-in-multiethnic-city/') %>"></a>
   </div>
 
   <div class="gr-item half space-bottom space-right-320 no-space-bottom-320">
     <img src="/img/thumbs/thumb-2.jpg" alt="Thumb 2" />
     <div class="desc"><%= @document.Sport_and_Total_War %></div>
-    <a class="gr-link" data-ajax href="<%= @normalizeURL('/sport-and-of-total-war/') %>"></a>
+    <a class="gr-link" data-ajax="page" href="<%= @normalizeURL('/sport-and-of-total-war/') %>"></a>
   </div>
 
   <div class="gr-item half eol no-eol-320 space-right">
     <img src="/img/thumbs/thumb-3.jpg" alt="Thumb 3" />
     <div class="desc"><%= @document.Sport_in_Soviet_City %></div>
-    <a class="gr-link" data-ajax href="<%= @normalizeURL('/sport-in-soviet-city/') %>"></a>
+    <a class="gr-link" data-ajax="page" href="<%= @normalizeURL('/sport-in-soviet-city/') %>"></a>
   </div>
 
   <div class="gr-item half">
     <img src="/img/thumbs/thumb-4.jpg" alt="Thumb 4" />
     <div class="desc"><%= @document.Sport_in_Global_City %></div>
-    <a class="gr-link" data-ajax href="<%= @normalizeURL('/sport-in-global-city/') %>"></a>
+    <a class="gr-link" data-ajax="page" href="<%= @normalizeURL('/sport-in-global-city/') %>"></a>
   </div>
 
 </li>
@@ -67,7 +67,7 @@
 
   <div class="gr-item third space-bottom no-space-bottom-320">
     <div class="desc"><%= @document.About_Exhibition %></div>
-    <a class="gr-link" href="<%= @normalizeURL('/part/about.html') %>" onclick="nav.modal(this.href, event);"></a>
+    <a class="gr-link" href="<%= @normalizeURL('/part/about.html') %>" data-ajax="modal" onclick="nav.modal(this.href, event);"></a>
   </div>
 
   <!-- <div class="gr-item third space-bottom no-space-bottom-320 space-right-320">
@@ -76,12 +76,12 @@
 
   <div class="gr-item third eol no-eol-320 space-bottom space-right-320">
     <div class="desc"><%= @document.Partners %></div>
-    <a class="gr-link" href="<%= @normalizeURL('/part/partners.html') %>" onclick="nav.modal(this.href, event);"></a>
+    <a class="gr-link" href="<%= @normalizeURL('/part/partners.html') %>" data-ajax="modal"></a>
   </div>
 
   <div class="gr-item third eol no-eol-320">
     <div class="desc"><%= @document.Authors %></div>
-    <a class="gr-link" href="<%= @normalizeURL('/part/created-by.html') %>" onclick="nav.modal(this.href, event);"></a>
+    <a class="gr-link" href="<%= @normalizeURL('/part/created-by.html') %>" data-ajax="modal"></a>
   </div>
 
 </li>

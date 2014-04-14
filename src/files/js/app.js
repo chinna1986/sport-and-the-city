@@ -15,13 +15,6 @@ jQuery( document ).ready( function () {
   init_rslides();
 });
 
-jQuery.fn.modal.defaults.spinner = $.fn.modalmanager.defaults.spinner = 
-  '<div class="loading-spinner">' +
-    '<div class="loader-wrapper">' +
-      '<div class="loader-image"></div>' +
-    '</div>' +
-  '</div>';
-
 function init_rslides ($element) {
   var defaults = {
       "auto": true,             // Boolean: Animate automatically, true or false
@@ -51,6 +44,5 @@ function init_rslides ($element) {
 }
 
 function reinit_slider() {
-  console.log('init_rslides');
   return init_rslides( jQuery('.todo-init-rslides') ).removeClass('todo-init-rslides');
 }

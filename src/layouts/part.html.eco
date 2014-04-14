@@ -11,7 +11,7 @@
     <!-- Shims: IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]><script async src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 
-    <%- @getBlock('styles').add(@site.styles).toHTML() %>
+    <%- @mapStylePath(@site.styles).join('') %>
   </head>
   <body>
     <div class="background"></div>
@@ -26,6 +26,6 @@
     </div>
 
     <!-- Scripts -->
-    <%- @getBlock('scripts').add(@site.scripts).toHTML() %>
+    <%- @mapScriptPath(@site.scripts).join('') %>
   </body>
 </html>

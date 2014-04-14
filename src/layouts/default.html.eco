@@ -12,7 +12,6 @@
     <!--[if lt IE 9]><script async src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 
     <%- @mapStylePath(@site.styles).join('') %>
-    <!-- <%- @getBlock('styles').add(@site.styles).toHTML() %> -->
   </head>
   <body class="<%= @document.theme or 'default-theme' %>">
 
@@ -23,13 +22,15 @@
     <div id="header" class="header">
       <ul id="header-languages" class="animated" data-language="<%= @document.language %>">
         <!-- <li><a href="#"> &#8226; &#8226; &#8226;</a> -->
-        <li><a href="<%= @normalizeURL('/index.html') %>" data-ajax="true">HOME</a>
+        <li><a href="<%= @normalizeURL('/index.html') %>" data-ajax="page">HOME</a>
         <li class="separator">
-        <li class="<%= 'active' if @document.language is 'en' %>"><a href="<%= @normalizeURL(@document.url, 'en') %>" data-ajax="true">EN</a>
-        <li class="<%= 'active' if @document.language is 'ua' %>"><a href="<%= @normalizeURL(@document.url, 'ua') %>" data-ajax="true">UA</a>
+        <li class="<%= 'active' if @document.language is 'en' %>"><a href="<%= @normalizeURL(@document.url, 'en') %>" data-ajax="page">EN</a>
+        <li class="<%= 'active' if @document.language is 'ua' %>"><a href="<%= @normalizeURL(@document.url, 'ua') %>" data-ajax="page">UA</a>
       </ul>
-      <a id="header-title" href="<%= @normalizeURL('/index.html') %>" data-ajax="true"><%= @document.SPORT_AND_THE_CITY %></a>
-      <a id="header-subtitle" href="<%= @normalizeURL('/index.html') %>" data-ajax="true"><%= @document.PEOPLE_SOCIETY_IDEOLOGY %></a>
+      <span id="header-topics">
+        <a id="header-title" href="<%= @normalizeURL('/index.html') %>" data-ajax="page"><%= @document.SPORT_AND_THE_CITY %></a>
+        <a id="header-subtitle" href="<%= @normalizeURL('/index.html') %>" data-ajax="page"><%= @document.PEOPLE_SOCIETY_IDEOLOGY %></a>
+      </span>
     </div>
 
     <!-- Grid -->
@@ -44,9 +45,9 @@
     <div id="nav-next"></div>
 
     <!-- Template for ajax modal -->
-    <div id="show-modal" class="modal hide fade" tabindex="-1" data-loading="true" data-show="false">
+    <div id="show-modal" class="modal hide fade" tabindex="-1" data-loading="false" data-show="false">
       <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true" tabindex="1">×</button>
+        <button type="button" class="close" onclick="history.back();" aria-hidden="true" tabindex="1">×</button>
       </div>
       <div class="modal-body" id="show-modal-body"><h1>Loading...</h1></div>
     </div>
