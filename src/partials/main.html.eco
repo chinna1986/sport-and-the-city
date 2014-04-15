@@ -67,7 +67,7 @@
 
   <div class="gr-item third space-bottom no-space-bottom-320">
     <div class="desc"><%= @document.About_Exhibition %></div>
-    <a class="gr-link" href="<%= @normalizeURL('/part/about.html') %>" data-ajax="modal" onclick="nav.modal(this.href, event);"></a>
+    <a class="gr-link" href="<%= @normalizeURL('/part/about.html') %>" data-ajax="modal"></a>
   </div>
 
   <!-- <div class="gr-item third space-bottom no-space-bottom-320 space-right-320">

@@ -16,19 +16,19 @@
   <div class="gr-item half space-right space-bottom no-space-bottom-320">
     <img src="/img/soviet-city/thumbs/thumb-1.jpg" alt="Thumb 1" />
     <div class="desc"><%= @document['Fitness, or Physical Culture: Sport for Everyone, and for Society'] %></div>
-    <a class="gr-link" href="<%= @normalizeURL('/part/sport-for-everyone-and-for-society.html') %>" onclick="nav.modal(this.href, event);"></a>
+    <a class="gr-link" href="<%= @normalizeURL('/part/sport-for-everyone-and-for-society.html') %>" data-ajax="modal"></a>
   </div>
 
   <div class="gr-item half space-right-320">
     <img src="/img/soviet-city/thumbs/thumb-2.jpg" alt="Thumb 2" />
     <div class="desc"><%= @document['Sport as Decoration'] %></div>
-    <a class="gr-link" href="<%= @normalizeURL('/part/sport-as-decoration.html') %>" onclick="nav.modal(this.href, event);"></a>
+    <a class="gr-link" href="<%= @normalizeURL('/part/sport-as-decoration.html') %>" data-ajax="modal"></a>
   </div>
 
   <div class="gr-item half eol no-eol-320">
     <img src="/img/soviet-city/thumbs/thumb-3.jpg" alt="Thumb 3" />
     <div class="desc"><%= @document['Constructing the Urban Sport Infrastructure'] %></div>
-    <a class="gr-link" href="<%= @normalizeURL('/part/constructing-the-urban-sport-infrastructure.html') %>" onclick="nav.modal(this.href, event);"></a>
+    <a class="gr-link" href="<%= @normalizeURL('/part/constructing-the-urban-sport-infrastructure.html') %>" data-ajax="modal"></a>
   </div>
 </li>
 <!-- END FITNESS, OR PHYSICAL CULTURE block -->
@@ -40,19 +40,19 @@
   <div class="gr-item half space-right space-bottom no-space-bottom-320">
     <img src="/img/soviet-city/thumbs/thumb-4.jpg" alt="Thumb 1" />
     <div class="desc"><%= @document['Who’s Who in Soviet Sports: The System of Sports Associations'] %></div>
-    <a class="gr-link" href="<%= @normalizeURL('/part/the-system-of-sports-associations.html') %>" onclick="nav.modal(this.href, event);"></a>
+    <a class="gr-link" href="<%= @normalizeURL('/part/the-system-of-sports-associations.html') %>" data-ajax="modal"></a>
   </div>
 
   <div class="gr-item half space-right-320">
     <img src="/img/soviet-city/thumbs/thumb-5.jpg" alt="Thumb 2" />
     <div class="desc"><%= @document['«Dynamo» (Kyiv) – «Spartak» (Moscow): Rivalry and Fans'] %></div>
-    <a class="gr-link" href="<%= @normalizeURL('/part/dynamo-spartak.html') %>" onclick="nav.modal(this.href, event);"></a>
+    <a class="gr-link" href="<%= @normalizeURL('/part/dynamo-spartak.html') %>" data-ajax="modal"></a>
   </div>
 
   <div class="gr-item half eol no-eol-320">
     <img src="/img/soviet-city/thumbs/thumb-6.jpg" alt="Thumb 3" />
     <div class="desc"><%= @document['«Karpaty» and the USSR Cup'] %></div>
-    <a class="gr-link" href="<%= @normalizeURL('/part/karpaty-and-the-ussr-cup.html') %>" onclick="nav.modal(this.href, event);"></a>
+    <a class="gr-link" href="<%= @normalizeURL('/part/karpaty-and-the-ussr-cup.html') %>" data-ajax="modal"></a>
   </div>
 </li>
 <!-- END WHO’S WHO IN SOVIET SPORTS block -->
@@ -64,13 +64,13 @@
   <div class="gr-item half space-right-320 space-bottom no-space-bottom-320">
     <img src="/img/soviet-city/thumbs/thumb-7.jpg" alt="<%= @document['Sport and the Second World War'] %>" />
     <div class="desc"><%= @document['Social Status of the Soviet Athlete'] %></div>
-    <a class="gr-link" href="<%= @normalizeURL('/part/social-status-of-the-soviet-athlete.html') %>" onclick="nav.modal(this.href, event);"></a>
+    <a class="gr-link" href="<%= @normalizeURL('/part/social-status-of-the-soviet-athlete.html') %>" data-ajax="modal"></a>
   </div>
 
   <div class="gr-item half eol no-eol-320">
     <img src="/img/soviet-city/thumbs/thumb-8.jpg" alt="<%= @document['Sport in the Camps: Escape from War'] %>" />
     <div class="desc"><%= @document['«Viktor Chukarin: The Image Concealing Reality'] %></div>
-    <a class="gr-link" href="<%= @normalizeURL('/part/viktor-chukarin.html') %>" onclick="nav.modal(this.href, event);"></a>
+    <a class="gr-link" href="<%= @normalizeURL('/part/viktor-chukarin.html') %>" data-ajax="modal"></a>
   </div>
 
 </li>
@@ -83,13 +83,13 @@
   <div class="gr-item half space-right-320 space-bottom no-space-bottom-320">
     <img src="/img/soviet-city/thumbs/thumb-9.jpg" alt="<%= @document['Sport and the Second World War'] %>" />
     <div class="desc"><%= @document['Cold War: Polarization and Globalization'] %></div>
-    <a class="gr-link" href="<%= @normalizeURL('/part/cold-war-polarization-and-globalization.html') %>" onclick="nav.modal(this.href, event);"></a>
+    <a class="gr-link" href="<%= @normalizeURL('/part/cold-war-polarization-and-globalization.html') %>" data-ajax="modal"></a>
   </div>
 
   <div class="gr-item half eol no-eol-320">
     <img src="/img/soviet-city/thumbs/thumb-10.jpg" alt="<%= @document['Sport in the Camps: Escape from War'] %>" />
     <div class="desc"><%= @document['USSR: «Begins and Wins»'] %></div>
-    <a class="gr-link" href="<%= @normalizeURL('/part/ussr-begins-and-wins.html') %>" onclick="nav.modal(this.href, event);"></a>
+    <a class="gr-link" href="<%= @normalizeURL('/part/ussr-begins-and-wins.html') %>" data-ajax="modal"></a>
   </div>
 
 </li>
