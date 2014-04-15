@@ -7,10 +7,10 @@ var grid = {
 
     this.cacheElements();
     this.bindHandler();
-    this.updateGridWidth();
     this.initNiceScroll();
-    this.showAnimated();
+    this.showAnimated(this.updateGridWidth.bind(this));
   },
+
 
   cacheElements: function() {
     this.$grid = jQuery('#grid');
@@ -20,6 +20,7 @@ var grid = {
     this.$gridScrollWrapper = jQuery('#grid-scroll-wrapper');
   },
 
+
   bindHandler: function() {
     this.$modal.on('hidden', this.onHideModal.bind(this));
     this.$modal.on('show', this.onShowModal.bind(this));
@@ -27,6 +28,7 @@ var grid = {
     jQuery(document).on('click', 'a[data-ajax]', this.loadPage.bind(this));
     History.Adapter.bind(window, 'statechange', this.onStateChange.bind(this));
   },
+
 
   updateGridWidth: function() {
     var gridWidth = 0;
@@ -37,6 +39,7 @@ var grid = {
 
     this.$grid.width(gridWidth);
   },
+
 
   initNiceScroll: function () {
     this.$gridScrollWrapper.niceScroll({
@@ -50,6 +53,7 @@ var grid = {
     });
   },
 
+
   windowResize: function (event) {
 
     if (this.timeoutId) {
@@ -57,9 +61,8 @@ var grid = {
     }
 
     this.timeoutId = setTimeout(this.updateGridWidth.bind(this), 40);
-
-    this.$grid.css({width: ''});
   },
+
 
   showAnimated: function(callback) {
     var runCallback = function() { 
@@ -71,17 +74,21 @@ var grid = {
     if (this.isAnimating) return;
 
     this.isAnimating = true;
-    // this.$grid.css({width: ''});
+
+    this.$grid.css({width: ''});
+
     this.$grid.children().addClass('showEffect').removeClass('hideEffect');
     this.$topMenu.addClass('showEffect').removeClass('hideEffect');
     setTimeout(runCallback.bind(this), 500);
   },
+
 
   hideAnimated: function(callback) {
     this.$grid.children().addClass('hideEffect').removeClass('showEffect');
     this.$topMenu.addClass('hideEffect').removeClass('showEffect');
     setTimeout(callback, 500);
   },
+
 
   loadPage: function(event) {
     var $this = jQuery(event.target);
@@ -92,6 +99,7 @@ var grid = {
     if (url === location.href) return;
     History.pushState({target: target}, document.title, url);
   },
+
 
   onStateChange: function(event) {
     var state = History.getState();
@@ -135,6 +143,7 @@ var grid = {
     jQuery.get(state.cleanUrl, responseCallback);
   },
 
+
   renderModal: function(text) {
     var html = jQuery('<html/>').html(text);
     var title = html.find('title').text();
@@ -150,6 +159,7 @@ var grid = {
 
     this.$modal.modal('show');
   },
+
 
   renderContent: function(text) {
     if (!text) return;
@@ -175,6 +185,9 @@ var grid = {
 
     // Update top menu
     this.$topMenu.html(html.find(grid.$topMenu.selector).html());
+
+    // Scroll left
+    this.$gridScrollWrapper.getNiceScroll(0).scrollLeft(0);
 
     // Update width
     this.updateGridWidth();
