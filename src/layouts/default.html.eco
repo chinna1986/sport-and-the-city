@@ -25,6 +25,7 @@
         <li class="top-nav">
           <a href="#">&#9679;&#9679;&#9679;</a>
           <ul class="top-nav-menu">
+            <li class="top-nav-arrow"></li>
             <li>
               <img class="top-nav-img" src="/img/thumbs/thumb-1.jpg">
               <a class="top-nav-item" href="#"><%= @document.Sport_In_Multiethnic_City %></a>

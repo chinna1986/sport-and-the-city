@@ -114,13 +114,15 @@
 
 .top-nav-menu {
   position: absolute;
-  left: -200px;
+  left: -306px;
   top: 49px;
-  width: 400px;
+  width: 460px;
+  padding: 10px 10px 0px 10px;
+  background: #2E2E2E;
   list-style-image: none;
   list-style-type: none;
-  display: none;
-  opacity: 0;
+  /*display: none;*/
+  /*opacity: 0;*/
 }
 
 .top-nav:hover .top-nav-menu{
@@ -129,13 +131,20 @@
 }
 
 .top-nav-menu li {
-  float: left;
-  width: 50%;
-  z-index: 2;
+  position: relative;
+  width: 200px;
+  height: 128px;
+  margin: 10px;
+}
+
+.top-nav-arrow {
+  
 }
 
 .top-nav-item {
-  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 .top-nav-img {
