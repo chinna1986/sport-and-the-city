@@ -22,7 +22,27 @@
     <div id="header" class="header">
       <ul id="header-languages" class="animated" data-language="<%= @document.language %>">
         <!-- <li><a href="#"> &#8226; &#8226; &#8226;</a> -->
-        <li><a href="<%= @normalizeURL('/index.html') %>" data-ajax="page">HOME</a>
+        <li class="top-nav">
+          <a href="#">&#9679;&#9679;&#9679;</a>
+          <ul class="top-nav-menu">
+            <li>
+              <img class="top-nav-img" src="/img/thumbs/thumb-1.jpg">
+              <a class="top-nav-item" href="#"><%= @document.Sport_In_Multiethnic_City %></a>
+            </li>
+            <li>
+              <img class="top-nav-img" src="/img/thumbs/thumb-2.jpg">
+              <a class="top-nav-item" href="#"><%= @document.Sport_and_Total_War %></a>
+            </li>
+            <li>
+              <img class="top-nav-img" src="/img/thumbs/thumb-3.jpg">
+              <a class="top-nav-item" href="#"><%= @document.Sport_in_Soviet_City %></a>
+            </li>
+            <li>
+              <img class="top-nav-img" src="/img/thumbs/thumb-4.jpg">
+              <a class="top-nav-item" href="#"><%= @document.Sport_in_Global_City %></a>
+            </li>
+          </ul>
+        </li>
         <li class="separator">
         <li class="<%= 'active' if @document.language is 'en' %>"><a href="<%= @normalizeURL(@document.url, 'en') %>" data-ajax="page">EN</a>
         <li class="<%= 'active' if @document.language is 'ua' %>"><a href="<%= @normalizeURL(@document.url, 'ua') %>" data-ajax="page">UA</a>

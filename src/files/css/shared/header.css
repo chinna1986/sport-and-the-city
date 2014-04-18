@@ -5,6 +5,7 @@
   left: 0;
   right: 0;
   padding: 35px 40px 0px;
+  z-index: 1;
 }
 
 .sh-320  #header {  padding: 10px 15px 0px;  }
@@ -105,4 +106,38 @@
 #header-languages li.active a
 {
   color: #D6D6D6;
+}
+
+.top-nav {
+  position: relative;
+}
+
+.top-nav-menu {
+  position: absolute;
+  left: -200px;
+  top: 49px;
+  width: 400px;
+  list-style-image: none;
+  list-style-type: none;
+  display: none;
+  opacity: 0;
+}
+
+.top-nav:hover .top-nav-menu{
+  display: block;
+  opacity: 1;
+}
+
+.top-nav-menu li {
+  float: left;
+  width: 50%;
+  z-index: 2;
+}
+
+.top-nav-item {
+  display: block;
+}
+
+.top-nav-img {
+  width: 100%;
 }
