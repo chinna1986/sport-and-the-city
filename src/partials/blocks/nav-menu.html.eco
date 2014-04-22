@@ -7,22 +7,22 @@
     <li>
       <img class="top-nav-img" src="/img/thumbs/thumb-1.jpg">
       <span class="top-nav-label"><%= if @document.language == 'ua' then 'Спорт у багатоетнічному місті' else 'Sport in Multiethnic City' %></span>
-      <a class="top-nav-link" href="<%= @normalizeURL('/sport-in-multiethnic-city/') %>" data-ajax="page"></a>
+      <a class="top-nav-link" href="<%= @normalizeURL('/sport-in-multiethnic-city/index.html') %>" data-ajax="page"></a>
     </li>
     <li>
       <img class="top-nav-img" src="/img/thumbs/thumb-2.jpg">
       <span class="top-nav-label"><%= if @document.language == 'ua' then 'Спорт і тотальна війна' else 'Sport and Total War' %></span>
-      <a class="top-nav-link" href="<%= @normalizeURL('/sport-and-of-total-war/') %>" data-ajax="page"></a>
+      <a class="top-nav-link" href="<%= @normalizeURL('/sport-and-of-total-war/index.html') %>" data-ajax="page"></a>
     </li>
     <li>
       <img class="top-nav-img" src="/img/thumbs/thumb-3.jpg">
       <span class="top-nav-label"><%= if @document.language == 'ua' then 'Спорт у рядянському місті' else 'Sport in Soviet City' %></span>
-      <a class="top-nav-link" href="<%= @normalizeURL('/sport-in-soviet-city/') %>" data-ajax="page"></a>
+      <a class="top-nav-link" href="<%= @normalizeURL('/sport-in-soviet-city/index.html') %>" data-ajax="page"></a>
     </li>
     <li>
       <img class="top-nav-img" src="/img/thumbs/thumb-4.jpg">
       <span class="top-nav-label"><%= if @document.language == 'ua' then 'Спорт у глобальному місті' else 'Sport in Global City' %></span>
-      <a class="top-nav-link" href="<%= @normalizeURL('/sport-in-global-city/') %>" data-ajax="page"></a>
+      <a class="top-nav-link" href="<%= @normalizeURL('/sport-in-global-city/index.html') %>" data-ajax="page"></a>
     </li>
   </ul>
   <!-- END Nav Menu -->
