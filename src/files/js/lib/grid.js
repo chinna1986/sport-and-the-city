@@ -16,6 +16,7 @@ var grid = {
     this.$grid = jQuery('#grid');
     this.$modal = jQuery('#show-modal');
     this.$topMenu = jQuery('#header-languages');
+    this.$topNavMenu = jQuery('#top-nav');
     this.$headerTopics = jQuery('#header-topics');
     this.$gridScrollWrapper = jQuery('#grid-scroll-wrapper');
   },
@@ -26,6 +27,8 @@ var grid = {
     this.$modal.on('show', this.onShowModal.bind(this));
     jQuery(window).on('resize', this.windowResize.bind(this));
     jQuery(document).on('click', 'a[data-ajax]', this.loadPage.bind(this));
+    jQuery(document).on('click', this.$topNavMenu.selector, this.toggleNavMenu.bind(this));
+    jQuery(document).on('click', this.hideNavMenu.bind(this));
     History.Adapter.bind(window, 'statechange', this.onStateChange.bind(this));
   },
 
@@ -205,6 +208,18 @@ var grid = {
     // Reinit sleder
     // TODO: refactore
     reinit_slider();
+  },
+
+
+  toggleNavMenu: function(event) {
+    event.preventDefault();
+    event.stopPropagation();
+    jQuery(this.$topNavMenu.selector).toggleClass('active');
+  },
+
+
+  hideNavMenu: function(event) {
+    jQuery(this.$topNavMenu.selector).removeClass('active');
   },
 
   _getBodyClassParse: function(text) {
