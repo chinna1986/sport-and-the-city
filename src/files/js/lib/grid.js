@@ -8,7 +8,7 @@ var grid = {
     this.cacheElements();
     this.bindHandler();
     this.initNiceScroll();
-    // this.showAnimated().done( this.updateGridWidth.bind(this);
+    this.showAnimated().done( this.updateGridWidth.bind(this) );
     // this.showAnimated(this.updateGridWidth.bind(this));
   },
 
@@ -68,44 +68,20 @@ var grid = {
   },
 
   showAnimated: function() {
-    this.$grid.children().removeClass('showEffect').removeClass('hideEffect');
-    
-    this.$grid.children().css({
-      opacity: 0,
-      transform: 'translateX(100px)'
-    });
-
-    this.$grid.children().animate({
-      opacity: 0,
-      transform: 'translateX(100px)'
-    }, 500);
-
-    return this.$grid.children().promise();
-  },
-
-  showAnimatedOLD: function(callback) {
-    var runCallback = function() { 
-      this.isAnimating = false;
-      return jQuery.isFunction(callback) ? callback.apply(this) : null;
-    };
-
-    // We cant run more that one animation in one time
-    if (this.isAnimating) return;
-
-    this.isAnimating = true;
-
-    this.$grid.css({width: ''});
-
-    this.$grid.children().addClass('showEffect').removeClass('hideEffect');
-    this.$topMenu.addClass('showEffect').removeClass('hideEffect');
-    setTimeout(runCallback.bind(this), 500);
+    return this.$grid
+      .children()
+      .css({ opacity: 0, transform: 'translateX(100px)' })
+      .animate({opacity: 1, transform: 'translateX(0px)' }, 500)
+      .promise();
   },
 
 
   hideAnimated: function(callback) {
-    this.$grid.children().addClass('hideEffect').removeClass('showEffect');
-    this.$topMenu.addClass('hideEffect').removeClass('showEffect');
-    setTimeout(callback, 500);
+    return this.$grid
+      .children()
+      .css({ opacity: 1, transform: 'translateX(0px)' })
+      .animate({opacity: 0, transform: 'translateX(100px)' }, 500)
+      .promise();
   },
 
 
@@ -115,53 +91,38 @@ var grid = {
     var target = $this.data('ajax') || 'page';
 
     event.preventDefault();
-    if (url === location.href) return;
-    History.pushState({target: target}, document.title, url);
+
+    if (url === location.href) {
+      return;
+    }
+    else {
+      History.pushState({target: target}, document.title, url);
+    }
   },
 
 
   onStateChange: function(event) {
     var state = History.getState();
     var target = (state && state.data.target) || 'page';
-    var response = null;
-    var renderResponse, complitedCallback, responseCallback;
-
-    renderResponse = (target == 'modal') ? this.renderModal.bind(this) : this.renderContent.bind(this);
-
-    complitedCallback = function() {
-      if (!this.isAnimating) renderResponse(response);
-    };
-
-    responseCallback = function(text) {
-      response = text;
-      complitedCallback();
-    };
 
     // Close modal, if that is open
     if (target == 'page' && this.$modal.data('modal') && this.$modal.data('modal').isShown) {
       this.$modal.modal('hide');
     }
 
-    // Maybe we don't need any more action now. 
-    // @TODO: Refactore this hook
-    if (this._preventStateChange) {
-      this._preventStateChange = false;
-      return;
+    $.when( $.get(state.cleanUrl, 'text'), this.hideAnimated() ).done(render.bind(this));
+
+    function render(response) {
+      var responseText = response && response[0];
+
+      if (target == 'modal') {
+        this.renderModal(responseText);
+      }
+      else {
+        this.renderContent(responseText);
+      }
     }
-
-    // Next page target in current page
-    if (target == 'page') {
-
-      // Close modal, if that is open
-      if (this.$modal.data('modal') && this.$modal.data('modal').isShown) this.$modal.modal('hide');
-
-      this.hideAnimated( renderResponse );
-      
-    }
-
-    jQuery.get(state.cleanUrl, responseCallback);
   },
-
 
   renderModal: function(text) {
     var html = jQuery('<html/>').html(text);
@@ -173,9 +134,6 @@ var grid = {
     // Update modal content
     this.$modal.find('.modal-body').html( html.find('article') );
 
-    // Preventing change after close modal
-    this._preventStateChange = true;
-
     this.$modal.modal('show');
   },
 
@@ -186,9 +144,6 @@ var grid = {
     var html = jQuery('<html/>').html(text);
     var title = html.find('title').text();
     var bodyClassName = this._getBodyClassParse(text);
-
-    // Reset preventing control of stateChange
-    this._preventStateChange = false;
 
     // Change page theme
     if (bodyClassName) document.body.className = bodyClassName;
@@ -243,6 +198,5 @@ var grid = {
   }
 
 };
-
 
 jQuery(function() {  grid.init();  });
