@@ -1,15 +1,14 @@
 /*jslint browser: true, sloppy: true, vars: true, plusplus: true, indent: 2 */
 
 var grid = {
+
   init: function() {
     this.timeoutId = null;
-    this.isAnimating = false;
     this._preventStateChange = false;
-
     this.cacheElements();
     this.bindHandler();
     this.initNiceScroll();
-    // jQuery.when( this.showAnimated() ).done( this.updateGridWidth.bind(this) );
+    // this.showAnimated().done( this.updateGridWidth.bind(this);
     // this.showAnimated(this.updateGridWidth.bind(this));
   },
 
@@ -25,8 +24,7 @@ var grid = {
 
 
   bindHandler: function() {
-    this.$modal.on('hidden', this.onHideModal.bind(this));
-    this.$modal.on('show', this.onShowModal.bind(this));
+    this.$modal.on('show', reinit_slider);
     jQuery(window).on('resize', this.windowResize.bind(this));
     jQuery(document).on('click', 'a[data-ajax]', this.loadPage.bind(this));
     jQuery(document).on('click', this.$topNavMenu.selector, this.toggleNavMenu.bind(this));
@@ -216,18 +214,6 @@ var grid = {
     // Animation
     this.showAnimated( this.updateGridWidth.bind(this) );
   },
-
-  onHideModal: function() {
-    // some action in future ))
-  },
-
-  onShowModal: function() {
-
-    // Reinit sleder
-    // TODO: refactore
-    reinit_slider();
-  },
-
 
   toggleNavMenu: function(event) {
     event.preventDefault();
