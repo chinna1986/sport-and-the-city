@@ -8,7 +8,8 @@ var grid = {
     this.cacheElements();
     this.bindHandler();
     this.initNiceScroll();
-    this.showAnimated(this.updateGridWidth.bind(this));
+    // jQuery.when( this.showAnimated() ).done( this.updateGridWidth.bind(this) );
+    // this.showAnimated(this.updateGridWidth.bind(this));
   },
 
 
@@ -63,8 +64,23 @@ var grid = {
     this.timeoutId = setTimeout(this.updateGridWidth.bind(this), 40);
   },
 
+  showAnimated: function() {
+    this.$grid.children().removeClass('showEffect').removeClass('hideEffect');
+    
+    this.$grid.children().css({
+      opacity: 0,
+      transform: 'translateX(100px)'
+    });
 
-  showAnimated: function(callback) {
+    this.$grid.children().animate({
+      opacity: 0,
+      transform: 'translateX(100px)'
+    }, 500);
+
+    return this.$grid.children().promise();
+  },
+
+  showAnimatedOLD: function(callback) {
     var runCallback = function() { 
       this.isAnimating = false;
       return jQuery.isFunction(callback) ? callback.apply(this) : null;

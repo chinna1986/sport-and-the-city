@@ -16,6 +16,7 @@ var docpadInstanceConfiguration = {
 
       scripts: [
         'js/vendor/jquery-2.0.0.js',
+        'js/vendor/jquery.transform2d.js',
         'js/vendor/jquery.nicescroll.js',
         'js/vendor/bootstrap-modal.js',
         'js/vendor/bootstrap-modalmanager.js',
