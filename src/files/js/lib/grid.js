@@ -92,12 +92,9 @@ var grid = {
 
     event.preventDefault();
 
-    if (url === location.href) {
-      return;
-    }
-    else {
-      History.pushState({target: target}, document.title, url);
-    }
+    if (url === location.href) return;
+    
+    History.pushState({target: target}, document.title, url);
   },
 
 
