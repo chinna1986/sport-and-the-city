@@ -163,11 +163,11 @@ var grid = {
     // Scroll left
     this.$gridScrollWrapper.getNiceScroll(0).scrollLeft(0);
 
-    // Update width
-    this.updateGridWidth();
+    // Reset width
+    this.$grid.css({width: ''});
 
     // Animation
-    this.showAnimated( this.updateGridWidth.bind(this) );
+    this.showAnimated().done(this.updateGridWidth.bind(this));
   },
 
   toggleNavMenu: function(event) {
