@@ -79,3 +79,46 @@
 	-o-animation-name: hideEffectKeyFrame;
 	animation-name: hideEffectKeyFrame;
 }
+
+@-webkit-keyframes slideDownFrame {
+	0% {
+        display:none; 
+        opacity: 0;
+    }
+
+    1% {
+        display: block !important; 
+        opacity: 0;
+    }
+
+    100% {
+        display: block !important; 
+        opacity: 1;
+    }
+}
+
+@keyframes slideDownFrame {
+
+	0% {
+        display:none; 
+        opacity: 0;
+    }
+
+    1% {
+        display: block !important; 
+        opacity: 0;
+    }
+
+    100% {
+        display: block !important; 
+        opacity: 1;
+    }
+
+}
+
+.slideDown {
+	-webkit-animation-name: slideDownFrame;
+	-moz-animation-name: slideDownFrame;
+	-o-animation-name: slideDownFrame;
+	animation-name: slideDownFrame;
+}

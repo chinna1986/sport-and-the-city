@@ -1,0 +1,15 @@
+{
+  "name": "Sport and the city",
+  "description": "People. Society. Ideology.",
+  "manifest_version": 2,
+  "version": "0.0.1",
+  "permissions": [
+    "font-src 'self' data: chrome-extension-resource: http://themes.googleusercontent.com/"
+  ],
+  "app": {
+    "background": {
+      "scripts": ["js/background.js"]
+    }
+  },
+  "icons": { "16": "img/icons/icon-16.png", "128": "img/icons/icon-128.png" }
+}

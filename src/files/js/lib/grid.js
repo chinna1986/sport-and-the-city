@@ -1,5 +1,6 @@
-var grid = {
+/*jslint browser: true, sloppy: true, vars: true, plusplus: true, indent: 2 */
 
+var grid = {
   init: function() {
     this.timeoutId = null;
     this.isAnimating = false;
@@ -17,6 +18,7 @@ var grid = {
     this.$grid = jQuery('#grid');
     this.$modal = jQuery('#show-modal');
     this.$topMenu = jQuery('#header-languages');
+    this.$topNavMenu = jQuery('#top-nav');
     this.$headerTopics = jQuery('#header-topics');
     this.$gridScrollWrapper = jQuery('#grid-scroll-wrapper');
   },
@@ -27,6 +29,9 @@ var grid = {
     this.$modal.on('show', this.onShowModal.bind(this));
     jQuery(window).on('resize', this.windowResize.bind(this));
     jQuery(document).on('click', 'a[data-ajax]', this.loadPage.bind(this));
+    jQuery(document).on('click', this.$topNavMenu.selector, this.toggleNavMenu.bind(this));
+    jQuery(document).on('click', this.hideNavMenu.bind(this));
+    jQuery(document).on('click', '[data-history-action]', this.goBack.bind(this));
     History.Adapter.bind(window, 'statechange', this.onStateChange.bind(this));
   },
 
@@ -197,7 +202,7 @@ var grid = {
     this.$grid.html(html.find(grid.$grid.selector).html());
 
     // Update header title
-    this.$headerTopics.html(html.find(grid.$headerTopics.selector).html())
+    this.$headerTopics.html(html.find(grid.$headerTopics.selector).html());
 
     // Update top menu
     this.$topMenu.html(html.find(grid.$topMenu.selector).html());
@@ -221,6 +226,29 @@ var grid = {
     // Reinit sleder
     // TODO: refactore
     reinit_slider();
+  },
+
+
+  toggleNavMenu: function(event) {
+    event.preventDefault();
+    event.stopPropagation();
+    jQuery(this.$topNavMenu.selector).toggleClass('active');
+  },
+
+
+  hideNavMenu: function(event) {
+    if (jQuery(this.$topNavMenu.selector).hasClass('active')) {
+      event.preventDefault();
+      event.stopPropagation();
+    }
+
+    jQuery(this.$topNavMenu.selector).removeClass('active');
+  },
+
+
+  goBack: function(event) {
+    event.preventDefault();
+    History.back();
   },
 
   _getBodyClassParse: function(text) {
